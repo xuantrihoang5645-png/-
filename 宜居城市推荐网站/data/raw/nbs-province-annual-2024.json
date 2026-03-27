@@ -1,0 +1,2206 @@
+﻿{
+    "generatedAt":  "2026-03-27",
+    "period":  "2024",
+    "sourceId":  "nbs-api-province-annual-2024",
+    "scope":  "31-mainland-provinces-plus-hmt-stubs",
+    "indicators":  [
+                       {
+                           "label":  "Resident population",
+                           "key":  "population",
+                           "cid":  "1b8b3021a931466d99b65cac34d89ee3",
+                           "id":  "4810ad6e9ddc41fc804a66134afe587f",
+                           "unit":  "10k persons"
+                       },
+                       {
+                           "label":  "Disposable income per capita",
+                           "key":  "disposableIncome",
+                           "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23",
+                           "id":  "bda568266e4c445b867d25626e1f6b8a",
+                           "unit":  "CNY"
+                       },
+                       {
+                           "label":  "Consumption expenditure per capita",
+                           "key":  "consumption",
+                           "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23",
+                           "id":  "462f6c41041b4721b78e50397b358af8",
+                           "unit":  "CNY"
+                       },
+                       {
+                           "label":  "Park green area per capita",
+                           "key":  "parkGreenPerCapita",
+                           "cid":  "425718c96f084a4ab57e95936eeaad68",
+                           "id":  "e1ade4f905b8478c8aff53ec62f11c09",
+                           "unit":  "sqm/person"
+                       },
+                       {
+                           "label":  "Urban gas coverage",
+                           "key":  "gasCoverage",
+                           "cid":  "956f3900294044aabf32f831d255f93b",
+                           "id":  "9a4e5d533e2f469ca2caab68e911f83b",
+                           "unit":  "%"
+                       },
+                       {
+                           "label":  "Railway length",
+                           "key":  "railwayLength",
+                           "cid":  "d180695e985243c994eef6a7c3e58090",
+                           "id":  "6191622eacb64d2eb5a34dd85659a1fb",
+                           "unit":  "10k km"
+                       },
+                       {
+                           "label":  "Highway length",
+                           "key":  "highwayLength",
+                           "cid":  "d180695e985243c994eef6a7c3e58090",
+                           "id":  "e56b0012f8c94a00bc16b040310561b0",
+                           "unit":  "10k km"
+                       }
+                   ],
+    "provinces":  [
+                      {
+                          "code":  "110000000000",
+                          "name":  "北京市",
+                          "metrics":  {
+                                          "population":  {
+                                                             "label":  "Resident population",
+                                                             "value":  2183,
+                                                             "unit":  "万人",
+                                                             "dt":  "2024YY",
+                                                             "indicatorId":  "4810ad6e9ddc41fc804a66134afe587f",
+                                                             "cid":  "1b8b3021a931466d99b65cac34d89ee3"
+                                                         },
+                                          "disposableIncome":  {
+                                                                   "label":  "Disposable income per capita",
+                                                                   "value":  85415,
+                                                                   "unit":  "元",
+                                                                   "dt":  "2024YY",
+                                                                   "indicatorId":  "bda568266e4c445b867d25626e1f6b8a",
+                                                                   "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                               },
+                                          "consumption":  {
+                                                              "label":  "Consumption expenditure per capita",
+                                                              "value":  49748,
+                                                              "unit":  "元",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "462f6c41041b4721b78e50397b358af8",
+                                                              "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                          },
+                                          "parkGreenPerCapita":  {
+                                                                     "label":  "Park green area per capita",
+                                                                     "value":  17.09,
+                                                                     "unit":  "平方米/人",
+                                                                     "dt":  "2024YY",
+                                                                     "indicatorId":  "e1ade4f905b8478c8aff53ec62f11c09",
+                                                                     "cid":  "425718c96f084a4ab57e95936eeaad68"
+                                                                 },
+                                          "gasCoverage":  {
+                                                              "label":  "Urban gas coverage",
+                                                              "value":  100,
+                                                              "unit":  "%",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "9a4e5d533e2f469ca2caab68e911f83b",
+                                                              "cid":  "956f3900294044aabf32f831d255f93b"
+                                                          },
+                                          "railwayLength":  {
+                                                                "label":  "Railway length",
+                                                                "value":  0.16,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "6191622eacb64d2eb5a34dd85659a1fb",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            },
+                                          "highwayLength":  {
+                                                                "label":  "Highway length",
+                                                                "value":  2.26,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "e56b0012f8c94a00bc16b040310561b0",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            }
+                                      },
+                          "sourceRefs":  [
+                                             "nbs-api-province-annual-2024"
+                                         ],
+                          "qualityFlags":  [
+
+                                           ]
+                      },
+                      {
+                          "code":  "120000000000",
+                          "name":  "天津市",
+                          "metrics":  {
+                                          "population":  {
+                                                             "label":  "Resident population",
+                                                             "value":  1364,
+                                                             "unit":  "万人",
+                                                             "dt":  "2024YY",
+                                                             "indicatorId":  "4810ad6e9ddc41fc804a66134afe587f",
+                                                             "cid":  "1b8b3021a931466d99b65cac34d89ee3"
+                                                         },
+                                          "disposableIncome":  {
+                                                                   "label":  "Disposable income per capita",
+                                                                   "value":  53581,
+                                                                   "unit":  "元",
+                                                                   "dt":  "2024YY",
+                                                                   "indicatorId":  "bda568266e4c445b867d25626e1f6b8a",
+                                                                   "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                               },
+                                          "consumption":  {
+                                                              "label":  "Consumption expenditure per capita",
+                                                              "value":  35804,
+                                                              "unit":  "元",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "462f6c41041b4721b78e50397b358af8",
+                                                              "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                          },
+                                          "parkGreenPerCapita":  {
+                                                                     "label":  "Park green area per capita",
+                                                                     "value":  10.02,
+                                                                     "unit":  "平方米/人",
+                                                                     "dt":  "2024YY",
+                                                                     "indicatorId":  "e1ade4f905b8478c8aff53ec62f11c09",
+                                                                     "cid":  "425718c96f084a4ab57e95936eeaad68"
+                                                                 },
+                                          "gasCoverage":  {
+                                                              "label":  "Urban gas coverage",
+                                                              "value":  99.98,
+                                                              "unit":  "%",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "9a4e5d533e2f469ca2caab68e911f83b",
+                                                              "cid":  "956f3900294044aabf32f831d255f93b"
+                                                          },
+                                          "railwayLength":  {
+                                                                "label":  "Railway length",
+                                                                "value":  0.13,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "6191622eacb64d2eb5a34dd85659a1fb",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            },
+                                          "highwayLength":  {
+                                                                "label":  "Highway length",
+                                                                "value":  1.5,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "e56b0012f8c94a00bc16b040310561b0",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            }
+                                      },
+                          "sourceRefs":  [
+                                             "nbs-api-province-annual-2024"
+                                         ],
+                          "qualityFlags":  [
+
+                                           ]
+                      },
+                      {
+                          "code":  "130000000000",
+                          "name":  "河北省",
+                          "metrics":  {
+                                          "population":  {
+                                                             "label":  "Resident population",
+                                                             "value":  7378,
+                                                             "unit":  "万人",
+                                                             "dt":  "2024YY",
+                                                             "indicatorId":  "4810ad6e9ddc41fc804a66134afe587f",
+                                                             "cid":  "1b8b3021a931466d99b65cac34d89ee3"
+                                                         },
+                                          "disposableIncome":  {
+                                                                   "label":  "Disposable income per capita",
+                                                                   "value":  34665,
+                                                                   "unit":  "元",
+                                                                   "dt":  "2024YY",
+                                                                   "indicatorId":  "bda568266e4c445b867d25626e1f6b8a",
+                                                                   "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                               },
+                                          "consumption":  {
+                                                              "label":  "Consumption expenditure per capita",
+                                                              "value":  24253,
+                                                              "unit":  "元",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "462f6c41041b4721b78e50397b358af8",
+                                                              "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                          },
+                                          "parkGreenPerCapita":  {
+                                                                     "label":  "Park green area per capita",
+                                                                     "value":  14.74,
+                                                                     "unit":  "平方米/人",
+                                                                     "dt":  "2024YY",
+                                                                     "indicatorId":  "e1ade4f905b8478c8aff53ec62f11c09",
+                                                                     "cid":  "425718c96f084a4ab57e95936eeaad68"
+                                                                 },
+                                          "gasCoverage":  {
+                                                              "label":  "Urban gas coverage",
+                                                              "value":  99.67,
+                                                              "unit":  "%",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "9a4e5d533e2f469ca2caab68e911f83b",
+                                                              "cid":  "956f3900294044aabf32f831d255f93b"
+                                                          },
+                                          "railwayLength":  {
+                                                                "label":  "Railway length",
+                                                                "value":  0.85,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "6191622eacb64d2eb5a34dd85659a1fb",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            },
+                                          "highwayLength":  {
+                                                                "label":  "Highway length",
+                                                                "value":  21.52,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "e56b0012f8c94a00bc16b040310561b0",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            }
+                                      },
+                          "sourceRefs":  [
+                                             "nbs-api-province-annual-2024"
+                                         ],
+                          "qualityFlags":  [
+
+                                           ]
+                      },
+                      {
+                          "code":  "140000000000",
+                          "name":  "山西省",
+                          "metrics":  {
+                                          "population":  {
+                                                             "label":  "Resident population",
+                                                             "value":  3446,
+                                                             "unit":  "万人",
+                                                             "dt":  "2024YY",
+                                                             "indicatorId":  "4810ad6e9ddc41fc804a66134afe587f",
+                                                             "cid":  "1b8b3021a931466d99b65cac34d89ee3"
+                                                         },
+                                          "disposableIncome":  {
+                                                                   "label":  "Disposable income per capita",
+                                                                   "value":  32441,
+                                                                   "unit":  "元",
+                                                                   "dt":  "2024YY",
+                                                                   "indicatorId":  "bda568266e4c445b867d25626e1f6b8a",
+                                                                   "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                               },
+                                          "consumption":  {
+                                                              "label":  "Consumption expenditure per capita",
+                                                              "value":  21090,
+                                                              "unit":  "元",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "462f6c41041b4721b78e50397b358af8",
+                                                              "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                          },
+                                          "parkGreenPerCapita":  {
+                                                                     "label":  "Park green area per capita",
+                                                                     "value":  14.24,
+                                                                     "unit":  "平方米/人",
+                                                                     "dt":  "2024YY",
+                                                                     "indicatorId":  "e1ade4f905b8478c8aff53ec62f11c09",
+                                                                     "cid":  "425718c96f084a4ab57e95936eeaad68"
+                                                                 },
+                                          "gasCoverage":  {
+                                                              "label":  "Urban gas coverage",
+                                                              "value":  98.34,
+                                                              "unit":  "%",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "9a4e5d533e2f469ca2caab68e911f83b",
+                                                              "cid":  "956f3900294044aabf32f831d255f93b"
+                                                          },
+                                          "railwayLength":  {
+                                                                "label":  "Railway length",
+                                                                "value":  0.65,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "6191622eacb64d2eb5a34dd85659a1fb",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            },
+                                          "highwayLength":  {
+                                                                "label":  "Highway length",
+                                                                "value":  14.77,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "e56b0012f8c94a00bc16b040310561b0",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            }
+                                      },
+                          "sourceRefs":  [
+                                             "nbs-api-province-annual-2024"
+                                         ],
+                          "qualityFlags":  [
+
+                                           ]
+                      },
+                      {
+                          "code":  "150000000000",
+                          "name":  "内蒙古自治区",
+                          "metrics":  {
+                                          "population":  {
+                                                             "label":  "Resident population",
+                                                             "value":  2388,
+                                                             "unit":  "万人",
+                                                             "dt":  "2024YY",
+                                                             "indicatorId":  "4810ad6e9ddc41fc804a66134afe587f",
+                                                             "cid":  "1b8b3021a931466d99b65cac34d89ee3"
+                                                         },
+                                          "disposableIncome":  {
+                                                                   "label":  "Disposable income per capita",
+                                                                   "value":  40077,
+                                                                   "unit":  "元",
+                                                                   "dt":  "2024YY",
+                                                                   "indicatorId":  "bda568266e4c445b867d25626e1f6b8a",
+                                                                   "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                               },
+                                          "consumption":  {
+                                                              "label":  "Consumption expenditure per capita",
+                                                              "value":  28113,
+                                                              "unit":  "元",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "462f6c41041b4721b78e50397b358af8",
+                                                              "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                          },
+                                          "parkGreenPerCapita":  {
+                                                                     "label":  "Park green area per capita",
+                                                                     "value":  20.04,
+                                                                     "unit":  "平方米/人",
+                                                                     "dt":  "2024YY",
+                                                                     "indicatorId":  "e1ade4f905b8478c8aff53ec62f11c09",
+                                                                     "cid":  "425718c96f084a4ab57e95936eeaad68"
+                                                                 },
+                                          "gasCoverage":  {
+                                                              "label":  "Urban gas coverage",
+                                                              "value":  98.31,
+                                                              "unit":  "%",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "9a4e5d533e2f469ca2caab68e911f83b",
+                                                              "cid":  "956f3900294044aabf32f831d255f93b"
+                                                          },
+                                          "railwayLength":  {
+                                                                "label":  "Railway length",
+                                                                "value":  1.43,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "6191622eacb64d2eb5a34dd85659a1fb",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            },
+                                          "highwayLength":  {
+                                                                "label":  "Highway length",
+                                                                "value":  22.27,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "e56b0012f8c94a00bc16b040310561b0",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            }
+                                      },
+                          "sourceRefs":  [
+                                             "nbs-api-province-annual-2024"
+                                         ],
+                          "qualityFlags":  [
+
+                                           ]
+                      },
+                      {
+                          "code":  "210000000000",
+                          "name":  "辽宁省",
+                          "metrics":  {
+                                          "population":  {
+                                                             "label":  "Resident population",
+                                                             "value":  4155,
+                                                             "unit":  "万人",
+                                                             "dt":  "2024YY",
+                                                             "indicatorId":  "4810ad6e9ddc41fc804a66134afe587f",
+                                                             "cid":  "1b8b3021a931466d99b65cac34d89ee3"
+                                                         },
+                                          "disposableIncome":  {
+                                                                   "label":  "Disposable income per capita",
+                                                                   "value":  39844,
+                                                                   "unit":  "元",
+                                                                   "dt":  "2024YY",
+                                                                   "indicatorId":  "bda568266e4c445b867d25626e1f6b8a",
+                                                                   "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                               },
+                                          "consumption":  {
+                                                              "label":  "Consumption expenditure per capita",
+                                                              "value":  25963,
+                                                              "unit":  "元",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "462f6c41041b4721b78e50397b358af8",
+                                                              "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                          },
+                                          "parkGreenPerCapita":  {
+                                                                     "label":  "Park green area per capita",
+                                                                     "value":  14.56,
+                                                                     "unit":  "平方米/人",
+                                                                     "dt":  "2024YY",
+                                                                     "indicatorId":  "e1ade4f905b8478c8aff53ec62f11c09",
+                                                                     "cid":  "425718c96f084a4ab57e95936eeaad68"
+                                                                 },
+                                          "gasCoverage":  {
+                                                              "label":  "Urban gas coverage",
+                                                              "value":  98.74,
+                                                              "unit":  "%",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "9a4e5d533e2f469ca2caab68e911f83b",
+                                                              "cid":  "956f3900294044aabf32f831d255f93b"
+                                                          },
+                                          "railwayLength":  {
+                                                                "label":  "Railway length",
+                                                                "value":  0.69,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "6191622eacb64d2eb5a34dd85659a1fb",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            },
+                                          "highwayLength":  {
+                                                                "label":  "Highway length",
+                                                                "value":  13.24,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "e56b0012f8c94a00bc16b040310561b0",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            }
+                                      },
+                          "sourceRefs":  [
+                                             "nbs-api-province-annual-2024"
+                                         ],
+                          "qualityFlags":  [
+
+                                           ]
+                      },
+                      {
+                          "code":  "220000000000",
+                          "name":  "吉林省",
+                          "metrics":  {
+                                          "population":  {
+                                                             "label":  "Resident population",
+                                                             "value":  2317,
+                                                             "unit":  "万人",
+                                                             "dt":  "2024YY",
+                                                             "indicatorId":  "4810ad6e9ddc41fc804a66134afe587f",
+                                                             "cid":  "1b8b3021a931466d99b65cac34d89ee3"
+                                                         },
+                                          "disposableIncome":  {
+                                                                   "label":  "Disposable income per capita",
+                                                                   "value":  31318,
+                                                                   "unit":  "元",
+                                                                   "dt":  "2024YY",
+                                                                   "indicatorId":  "bda568266e4c445b867d25626e1f6b8a",
+                                                                   "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                               },
+                                          "consumption":  {
+                                                              "label":  "Consumption expenditure per capita",
+                                                              "value":  23118,
+                                                              "unit":  "元",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "462f6c41041b4721b78e50397b358af8",
+                                                              "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                          },
+                                          "parkGreenPerCapita":  {
+                                                                     "label":  "Park green area per capita",
+                                                                     "value":  15.04,
+                                                                     "unit":  "平方米/人",
+                                                                     "dt":  "2024YY",
+                                                                     "indicatorId":  "e1ade4f905b8478c8aff53ec62f11c09",
+                                                                     "cid":  "425718c96f084a4ab57e95936eeaad68"
+                                                                 },
+                                          "gasCoverage":  {
+                                                              "label":  "Urban gas coverage",
+                                                              "value":  96.84,
+                                                              "unit":  "%",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "9a4e5d533e2f469ca2caab68e911f83b",
+                                                              "cid":  "956f3900294044aabf32f831d255f93b"
+                                                          },
+                                          "railwayLength":  {
+                                                                "label":  "Railway length",
+                                                                "value":  0.52,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "6191622eacb64d2eb5a34dd85659a1fb",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            },
+                                          "highwayLength":  {
+                                                                "label":  "Highway length",
+                                                                "value":  11.15,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "e56b0012f8c94a00bc16b040310561b0",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            }
+                                      },
+                          "sourceRefs":  [
+                                             "nbs-api-province-annual-2024"
+                                         ],
+                          "qualityFlags":  [
+
+                                           ]
+                      },
+                      {
+                          "code":  "230000000000",
+                          "name":  "黑龙江省",
+                          "metrics":  {
+                                          "population":  {
+                                                             "label":  "Resident population",
+                                                             "value":  3029,
+                                                             "unit":  "万人",
+                                                             "dt":  "2024YY",
+                                                             "indicatorId":  "4810ad6e9ddc41fc804a66134afe587f",
+                                                             "cid":  "1b8b3021a931466d99b65cac34d89ee3"
+                                                         },
+                                          "disposableIncome":  {
+                                                                   "label":  "Disposable income per capita",
+                                                                   "value":  31269,
+                                                                   "unit":  "元",
+                                                                   "dt":  "2024YY",
+                                                                   "indicatorId":  "bda568266e4c445b867d25626e1f6b8a",
+                                                                   "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                               },
+                                          "consumption":  {
+                                                              "label":  "Consumption expenditure per capita",
+                                                              "value":  23467,
+                                                              "unit":  "元",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "462f6c41041b4721b78e50397b358af8",
+                                                              "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                          },
+                                          "parkGreenPerCapita":  {
+                                                                     "label":  "Park green area per capita",
+                                                                     "value":  15.54,
+                                                                     "unit":  "平方米/人",
+                                                                     "dt":  "2024YY",
+                                                                     "indicatorId":  "e1ade4f905b8478c8aff53ec62f11c09",
+                                                                     "cid":  "425718c96f084a4ab57e95936eeaad68"
+                                                                 },
+                                          "gasCoverage":  {
+                                                              "label":  "Urban gas coverage",
+                                                              "value":  95.81,
+                                                              "unit":  "%",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "9a4e5d533e2f469ca2caab68e911f83b",
+                                                              "cid":  "956f3900294044aabf32f831d255f93b"
+                                                          },
+                                          "railwayLength":  {
+                                                                "label":  "Railway length",
+                                                                "value":  0.72,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "6191622eacb64d2eb5a34dd85659a1fb",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            },
+                                          "highwayLength":  {
+                                                                "label":  "Highway length",
+                                                                "value":  16.93,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "e56b0012f8c94a00bc16b040310561b0",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            }
+                                      },
+                          "sourceRefs":  [
+                                             "nbs-api-province-annual-2024"
+                                         ],
+                          "qualityFlags":  [
+
+                                           ]
+                      },
+                      {
+                          "code":  "310000000000",
+                          "name":  "上海市",
+                          "metrics":  {
+                                          "population":  {
+                                                             "label":  "Resident population",
+                                                             "value":  2480,
+                                                             "unit":  "万人",
+                                                             "dt":  "2024YY",
+                                                             "indicatorId":  "4810ad6e9ddc41fc804a66134afe587f",
+                                                             "cid":  "1b8b3021a931466d99b65cac34d89ee3"
+                                                         },
+                                          "disposableIncome":  {
+                                                                   "label":  "Disposable income per capita",
+                                                                   "value":  88366,
+                                                                   "unit":  "元",
+                                                                   "dt":  "2024YY",
+                                                                   "indicatorId":  "bda568266e4c445b867d25626e1f6b8a",
+                                                                   "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                               },
+                                          "consumption":  {
+                                                              "label":  "Consumption expenditure per capita",
+                                                              "value":  52722,
+                                                              "unit":  "元",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "462f6c41041b4721b78e50397b358af8",
+                                                              "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                          },
+                                          "parkGreenPerCapita":  {
+                                                                     "label":  "Park green area per capita",
+                                                                     "value":  9.68,
+                                                                     "unit":  "平方米/人",
+                                                                     "dt":  "2024YY",
+                                                                     "indicatorId":  "e1ade4f905b8478c8aff53ec62f11c09",
+                                                                     "cid":  "425718c96f084a4ab57e95936eeaad68"
+                                                                 },
+                                          "gasCoverage":  {
+                                                              "label":  "Urban gas coverage",
+                                                              "value":  100,
+                                                              "unit":  "%",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "9a4e5d533e2f469ca2caab68e911f83b",
+                                                              "cid":  "956f3900294044aabf32f831d255f93b"
+                                                          },
+                                          "railwayLength":  {
+                                                                "label":  "Railway length",
+                                                                "value":  0.06,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "6191622eacb64d2eb5a34dd85659a1fb",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            },
+                                          "highwayLength":  {
+                                                                "label":  "Highway length",
+                                                                "value":  1.3,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "e56b0012f8c94a00bc16b040310561b0",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            }
+                                      },
+                          "sourceRefs":  [
+                                             "nbs-api-province-annual-2024"
+                                         ],
+                          "qualityFlags":  [
+
+                                           ]
+                      },
+                      {
+                          "code":  "320000000000",
+                          "name":  "江苏省",
+                          "metrics":  {
+                                          "population":  {
+                                                             "label":  "Resident population",
+                                                             "value":  8526,
+                                                             "unit":  "万人",
+                                                             "dt":  "2024YY",
+                                                             "indicatorId":  "4810ad6e9ddc41fc804a66134afe587f",
+                                                             "cid":  "1b8b3021a931466d99b65cac34d89ee3"
+                                                         },
+                                          "disposableIncome":  {
+                                                                   "label":  "Disposable income per capita",
+                                                                   "value":  55415,
+                                                                   "unit":  "元",
+                                                                   "dt":  "2024YY",
+                                                                   "indicatorId":  "bda568266e4c445b867d25626e1f6b8a",
+                                                                   "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                               },
+                                          "consumption":  {
+                                                              "label":  "Consumption expenditure per capita",
+                                                              "value":  37346,
+                                                              "unit":  "元",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "462f6c41041b4721b78e50397b358af8",
+                                                              "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                          },
+                                          "parkGreenPerCapita":  {
+                                                                     "label":  "Park green area per capita",
+                                                                     "value":  16.43,
+                                                                     "unit":  "平方米/人",
+                                                                     "dt":  "2024YY",
+                                                                     "indicatorId":  "e1ade4f905b8478c8aff53ec62f11c09",
+                                                                     "cid":  "425718c96f084a4ab57e95936eeaad68"
+                                                                 },
+                                          "gasCoverage":  {
+                                                              "label":  "Urban gas coverage",
+                                                              "value":  100,
+                                                              "unit":  "%",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "9a4e5d533e2f469ca2caab68e911f83b",
+                                                              "cid":  "956f3900294044aabf32f831d255f93b"
+                                                          },
+                                          "railwayLength":  {
+                                                                "label":  "Railway length",
+                                                                "value":  0.48,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "6191622eacb64d2eb5a34dd85659a1fb",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            },
+                                          "highwayLength":  {
+                                                                "label":  "Highway length",
+                                                                "value":  15.88,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "e56b0012f8c94a00bc16b040310561b0",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            }
+                                      },
+                          "sourceRefs":  [
+                                             "nbs-api-province-annual-2024"
+                                         ],
+                          "qualityFlags":  [
+
+                                           ]
+                      },
+                      {
+                          "code":  "330000000000",
+                          "name":  "浙江省",
+                          "metrics":  {
+                                          "population":  {
+                                                             "label":  "Resident population",
+                                                             "value":  6670,
+                                                             "unit":  "万人",
+                                                             "dt":  "2024YY",
+                                                             "indicatorId":  "4810ad6e9ddc41fc804a66134afe587f",
+                                                             "cid":  "1b8b3021a931466d99b65cac34d89ee3"
+                                                         },
+                                          "disposableIncome":  {
+                                                                   "label":  "Disposable income per capita",
+                                                                   "value":  67013,
+                                                                   "unit":  "元",
+                                                                   "dt":  "2024YY",
+                                                                   "indicatorId":  "bda568266e4c445b867d25626e1f6b8a",
+                                                                   "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                               },
+                                          "consumption":  {
+                                                              "label":  "Consumption expenditure per capita",
+                                                              "value":  45107,
+                                                              "unit":  "元",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "462f6c41041b4721b78e50397b358af8",
+                                                              "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                          },
+                                          "parkGreenPerCapita":  {
+                                                                     "label":  "Park green area per capita",
+                                                                     "value":  15.51,
+                                                                     "unit":  "平方米/人",
+                                                                     "dt":  "2024YY",
+                                                                     "indicatorId":  "e1ade4f905b8478c8aff53ec62f11c09",
+                                                                     "cid":  "425718c96f084a4ab57e95936eeaad68"
+                                                                 },
+                                          "gasCoverage":  {
+                                                              "label":  "Urban gas coverage",
+                                                              "value":  100,
+                                                              "unit":  "%",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "9a4e5d533e2f469ca2caab68e911f83b",
+                                                              "cid":  "956f3900294044aabf32f831d255f93b"
+                                                          },
+                                          "railwayLength":  {
+                                                                "label":  "Railway length",
+                                                                "value":  0.42,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "6191622eacb64d2eb5a34dd85659a1fb",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            },
+                                          "highwayLength":  {
+                                                                "label":  "Highway length",
+                                                                "value":  12.14,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "e56b0012f8c94a00bc16b040310561b0",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            }
+                                      },
+                          "sourceRefs":  [
+                                             "nbs-api-province-annual-2024"
+                                         ],
+                          "qualityFlags":  [
+
+                                           ]
+                      },
+                      {
+                          "code":  "340000000000",
+                          "name":  "安徽省",
+                          "metrics":  {
+                                          "population":  {
+                                                             "label":  "Resident population",
+                                                             "value":  6123,
+                                                             "unit":  "万人",
+                                                             "dt":  "2024YY",
+                                                             "indicatorId":  "4810ad6e9ddc41fc804a66134afe587f",
+                                                             "cid":  "1b8b3021a931466d99b65cac34d89ee3"
+                                                         },
+                                          "disposableIncome":  {
+                                                                   "label":  "Disposable income per capita",
+                                                                   "value":  36782,
+                                                                   "unit":  "元",
+                                                                   "dt":  "2024YY",
+                                                                   "indicatorId":  "bda568266e4c445b867d25626e1f6b8a",
+                                                                   "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                               },
+                                          "consumption":  {
+                                                              "label":  "Consumption expenditure per capita",
+                                                              "value":  24996,
+                                                              "unit":  "元",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "462f6c41041b4721b78e50397b358af8",
+                                                              "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                          },
+                                          "parkGreenPerCapita":  {
+                                                                     "label":  "Park green area per capita",
+                                                                     "value":  17.74,
+                                                                     "unit":  "平方米/人",
+                                                                     "dt":  "2024YY",
+                                                                     "indicatorId":  "e1ade4f905b8478c8aff53ec62f11c09",
+                                                                     "cid":  "425718c96f084a4ab57e95936eeaad68"
+                                                                 },
+                                          "gasCoverage":  {
+                                                              "label":  "Urban gas coverage",
+                                                              "value":  99.95,
+                                                              "unit":  "%",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "9a4e5d533e2f469ca2caab68e911f83b",
+                                                              "cid":  "956f3900294044aabf32f831d255f93b"
+                                                          },
+                                          "railwayLength":  {
+                                                                "label":  "Railway length",
+                                                                "value":  0.58,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "6191622eacb64d2eb5a34dd85659a1fb",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            },
+                                          "highwayLength":  {
+                                                                "label":  "Highway length",
+                                                                "value":  24.05,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "e56b0012f8c94a00bc16b040310561b0",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            }
+                                      },
+                          "sourceRefs":  [
+                                             "nbs-api-province-annual-2024"
+                                         ],
+                          "qualityFlags":  [
+
+                                           ]
+                      },
+                      {
+                          "code":  "350000000000",
+                          "name":  "福建省",
+                          "metrics":  {
+                                          "population":  {
+                                                             "label":  "Resident population",
+                                                             "value":  4193,
+                                                             "unit":  "万人",
+                                                             "dt":  "2024YY",
+                                                             "indicatorId":  "4810ad6e9ddc41fc804a66134afe587f",
+                                                             "cid":  "1b8b3021a931466d99b65cac34d89ee3"
+                                                         },
+                                          "disposableIncome":  {
+                                                                   "label":  "Disposable income per capita",
+                                                                   "value":  47857,
+                                                                   "unit":  "元",
+                                                                   "dt":  "2024YY",
+                                                                   "indicatorId":  "bda568266e4c445b867d25626e1f6b8a",
+                                                                   "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                               },
+                                          "consumption":  {
+                                                              "label":  "Consumption expenditure per capita",
+                                                              "value":  33876,
+                                                              "unit":  "元",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "462f6c41041b4721b78e50397b358af8",
+                                                              "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                          },
+                                          "parkGreenPerCapita":  {
+                                                                     "label":  "Park green area per capita",
+                                                                     "value":  16.03,
+                                                                     "unit":  "平方米/人",
+                                                                     "dt":  "2024YY",
+                                                                     "indicatorId":  "e1ade4f905b8478c8aff53ec62f11c09",
+                                                                     "cid":  "425718c96f084a4ab57e95936eeaad68"
+                                                                 },
+                                          "gasCoverage":  {
+                                                              "label":  "Urban gas coverage",
+                                                              "value":  99.85,
+                                                              "unit":  "%",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "9a4e5d533e2f469ca2caab68e911f83b",
+                                                              "cid":  "956f3900294044aabf32f831d255f93b"
+                                                          },
+                                          "railwayLength":  {
+                                                                "label":  "Railway length",
+                                                                "value":  0.46,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "6191622eacb64d2eb5a34dd85659a1fb",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            },
+                                          "highwayLength":  {
+                                                                "label":  "Highway length",
+                                                                "value":  11.64,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "e56b0012f8c94a00bc16b040310561b0",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            }
+                                      },
+                          "sourceRefs":  [
+                                             "nbs-api-province-annual-2024"
+                                         ],
+                          "qualityFlags":  [
+
+                                           ]
+                      },
+                      {
+                          "code":  "360000000000",
+                          "name":  "江西省",
+                          "metrics":  {
+                                          "population":  {
+                                                             "label":  "Resident population",
+                                                             "value":  4502,
+                                                             "unit":  "万人",
+                                                             "dt":  "2024YY",
+                                                             "indicatorId":  "4810ad6e9ddc41fc804a66134afe587f",
+                                                             "cid":  "1b8b3021a931466d99b65cac34d89ee3"
+                                                         },
+                                          "disposableIncome":  {
+                                                                   "label":  "Disposable income per capita",
+                                                                   "value":  36007,
+                                                                   "unit":  "元",
+                                                                   "dt":  "2024YY",
+                                                                   "indicatorId":  "bda568266e4c445b867d25626e1f6b8a",
+                                                                   "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                               },
+                                          "consumption":  {
+                                                              "label":  "Consumption expenditure per capita",
+                                                              "value":  24726,
+                                                              "unit":  "元",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "462f6c41041b4721b78e50397b358af8",
+                                                              "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                          },
+                                          "parkGreenPerCapita":  {
+                                                                     "label":  "Park green area per capita",
+                                                                     "value":  18.59,
+                                                                     "unit":  "平方米/人",
+                                                                     "dt":  "2024YY",
+                                                                     "indicatorId":  "e1ade4f905b8478c8aff53ec62f11c09",
+                                                                     "cid":  "425718c96f084a4ab57e95936eeaad68"
+                                                                 },
+                                          "gasCoverage":  {
+                                                              "label":  "Urban gas coverage",
+                                                              "value":  99.45,
+                                                              "unit":  "%",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "9a4e5d533e2f469ca2caab68e911f83b",
+                                                              "cid":  "956f3900294044aabf32f831d255f93b"
+                                                          },
+                                          "railwayLength":  {
+                                                                "label":  "Railway length",
+                                                                "value":  0.53,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "6191622eacb64d2eb5a34dd85659a1fb",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            },
+                                          "highwayLength":  {
+                                                                "label":  "Highway length",
+                                                                "value":  20.95,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "e56b0012f8c94a00bc16b040310561b0",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            }
+                                      },
+                          "sourceRefs":  [
+                                             "nbs-api-province-annual-2024"
+                                         ],
+                          "qualityFlags":  [
+
+                                           ]
+                      },
+                      {
+                          "code":  "370000000000",
+                          "name":  "山东省",
+                          "metrics":  {
+                                          "population":  {
+                                                             "label":  "Resident population",
+                                                             "value":  10080,
+                                                             "unit":  "万人",
+                                                             "dt":  "2024YY",
+                                                             "indicatorId":  "4810ad6e9ddc41fc804a66134afe587f",
+                                                             "cid":  "1b8b3021a931466d99b65cac34d89ee3"
+                                                         },
+                                          "disposableIncome":  {
+                                                                   "label":  "Disposable income per capita",
+                                                                   "value":  42077,
+                                                                   "unit":  "元",
+                                                                   "dt":  "2024YY",
+                                                                   "indicatorId":  "bda568266e4c445b867d25626e1f6b8a",
+                                                                   "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                               },
+                                          "consumption":  {
+                                                              "label":  "Consumption expenditure per capita",
+                                                              "value":  25645,
+                                                              "unit":  "元",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "462f6c41041b4721b78e50397b358af8",
+                                                              "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                          },
+                                          "parkGreenPerCapita":  {
+                                                                     "label":  "Park green area per capita",
+                                                                     "value":  18.84,
+                                                                     "unit":  "平方米/人",
+                                                                     "dt":  "2024YY",
+                                                                     "indicatorId":  "e1ade4f905b8478c8aff53ec62f11c09",
+                                                                     "cid":  "425718c96f084a4ab57e95936eeaad68"
+                                                                 },
+                                          "gasCoverage":  {
+                                                              "label":  "Urban gas coverage",
+                                                              "value":  99.85,
+                                                              "unit":  "%",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "9a4e5d533e2f469ca2caab68e911f83b",
+                                                              "cid":  "956f3900294044aabf32f831d255f93b"
+                                                          },
+                                          "railwayLength":  {
+                                                                "label":  "Railway length",
+                                                                "value":  0.79,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "6191622eacb64d2eb5a34dd85659a1fb",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            },
+                                          "highwayLength":  {
+                                                                "label":  "Highway length",
+                                                                "value":  29.58,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "e56b0012f8c94a00bc16b040310561b0",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            }
+                                      },
+                          "sourceRefs":  [
+                                             "nbs-api-province-annual-2024"
+                                         ],
+                          "qualityFlags":  [
+
+                                           ]
+                      },
+                      {
+                          "code":  "410000000000",
+                          "name":  "河南省",
+                          "metrics":  {
+                                          "population":  {
+                                                             "label":  "Resident population",
+                                                             "value":  9785,
+                                                             "unit":  "万人",
+                                                             "dt":  "2024YY",
+                                                             "indicatorId":  "4810ad6e9ddc41fc804a66134afe587f",
+                                                             "cid":  "1b8b3021a931466d99b65cac34d89ee3"
+                                                         },
+                                          "disposableIncome":  {
+                                                                   "label":  "Disposable income per capita",
+                                                                   "value":  31552,
+                                                                   "unit":  "元",
+                                                                   "dt":  "2024YY",
+                                                                   "indicatorId":  "bda568266e4c445b867d25626e1f6b8a",
+                                                                   "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                               },
+                                          "consumption":  {
+                                                              "label":  "Consumption expenditure per capita",
+                                                              "value":  21956,
+                                                              "unit":  "元",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "462f6c41041b4721b78e50397b358af8",
+                                                              "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                          },
+                                          "parkGreenPerCapita":  {
+                                                                     "label":  "Park green area per capita",
+                                                                     "value":  15.88,
+                                                                     "unit":  "平方米/人",
+                                                                     "dt":  "2024YY",
+                                                                     "indicatorId":  "e1ade4f905b8478c8aff53ec62f11c09",
+                                                                     "cid":  "425718c96f084a4ab57e95936eeaad68"
+                                                                 },
+                                          "gasCoverage":  {
+                                                              "label":  "Urban gas coverage",
+                                                              "value":  99.76,
+                                                              "unit":  "%",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "9a4e5d533e2f469ca2caab68e911f83b",
+                                                              "cid":  "956f3900294044aabf32f831d255f93b"
+                                                          },
+                                          "railwayLength":  {
+                                                                "label":  "Railway length",
+                                                                "value":  0.68,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "6191622eacb64d2eb5a34dd85659a1fb",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            },
+                                          "highwayLength":  {
+                                                                "label":  "Highway length",
+                                                                "value":  28.31,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "e56b0012f8c94a00bc16b040310561b0",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            }
+                                      },
+                          "sourceRefs":  [
+                                             "nbs-api-province-annual-2024"
+                                         ],
+                          "qualityFlags":  [
+
+                                           ]
+                      },
+                      {
+                          "code":  "420000000000",
+                          "name":  "湖北省",
+                          "metrics":  {
+                                          "population":  {
+                                                             "label":  "Resident population",
+                                                             "value":  5834,
+                                                             "unit":  "万人",
+                                                             "dt":  "2024YY",
+                                                             "indicatorId":  "4810ad6e9ddc41fc804a66134afe587f",
+                                                             "cid":  "1b8b3021a931466d99b65cac34d89ee3"
+                                                         },
+                                          "disposableIncome":  {
+                                                                   "label":  "Disposable income per capita",
+                                                                   "value":  36947,
+                                                                   "unit":  "元",
+                                                                   "dt":  "2024YY",
+                                                                   "indicatorId":  "bda568266e4c445b867d25626e1f6b8a",
+                                                                   "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                               },
+                                          "consumption":  {
+                                                              "label":  "Consumption expenditure per capita",
+                                                              "value":  27888,
+                                                              "unit":  "元",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "462f6c41041b4721b78e50397b358af8",
+                                                              "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                          },
+                                          "parkGreenPerCapita":  {
+                                                                     "label":  "Park green area per capita",
+                                                                     "value":  16.02,
+                                                                     "unit":  "平方米/人",
+                                                                     "dt":  "2024YY",
+                                                                     "indicatorId":  "e1ade4f905b8478c8aff53ec62f11c09",
+                                                                     "cid":  "425718c96f084a4ab57e95936eeaad68"
+                                                                 },
+                                          "gasCoverage":  {
+                                                              "label":  "Urban gas coverage",
+                                                              "value":  99.54,
+                                                              "unit":  "%",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "9a4e5d533e2f469ca2caab68e911f83b",
+                                                              "cid":  "956f3900294044aabf32f831d255f93b"
+                                                          },
+                                          "railwayLength":  {
+                                                                "label":  "Railway length",
+                                                                "value":  0.58,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "6191622eacb64d2eb5a34dd85659a1fb",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            },
+                                          "highwayLength":  {
+                                                                "label":  "Highway length",
+                                                                "value":  31.07,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "e56b0012f8c94a00bc16b040310561b0",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            }
+                                      },
+                          "sourceRefs":  [
+                                             "nbs-api-province-annual-2024"
+                                         ],
+                          "qualityFlags":  [
+
+                                           ]
+                      },
+                      {
+                          "code":  "430000000000",
+                          "name":  "湖南省",
+                          "metrics":  {
+                                          "population":  {
+                                                             "label":  "Resident population",
+                                                             "value":  6539,
+                                                             "unit":  "万人",
+                                                             "dt":  "2024YY",
+                                                             "indicatorId":  "4810ad6e9ddc41fc804a66134afe587f",
+                                                             "cid":  "1b8b3021a931466d99b65cac34d89ee3"
+                                                         },
+                                          "disposableIncome":  {
+                                                                   "label":  "Disposable income per capita",
+                                                                   "value":  37679,
+                                                                   "unit":  "元",
+                                                                   "dt":  "2024YY",
+                                                                   "indicatorId":  "bda568266e4c445b867d25626e1f6b8a",
+                                                                   "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                               },
+                                          "consumption":  {
+                                                              "label":  "Consumption expenditure per capita",
+                                                              "value":  26760,
+                                                              "unit":  "元",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "462f6c41041b4721b78e50397b358af8",
+                                                              "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                          },
+                                          "parkGreenPerCapita":  {
+                                                                     "label":  "Park green area per capita",
+                                                                     "value":  14.07,
+                                                                     "unit":  "平方米/人",
+                                                                     "dt":  "2024YY",
+                                                                     "indicatorId":  "e1ade4f905b8478c8aff53ec62f11c09",
+                                                                     "cid":  "425718c96f084a4ab57e95936eeaad68"
+                                                                 },
+                                          "gasCoverage":  {
+                                                              "label":  "Urban gas coverage",
+                                                              "value":  98.61,
+                                                              "unit":  "%",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "9a4e5d533e2f469ca2caab68e911f83b",
+                                                              "cid":  "956f3900294044aabf32f831d255f93b"
+                                                          },
+                                          "railwayLength":  {
+                                                                "label":  "Railway length",
+                                                                "value":  0.61,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "6191622eacb64d2eb5a34dd85659a1fb",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            },
+                                          "highwayLength":  {
+                                                                "label":  "Highway length",
+                                                                "value":  24.35,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "e56b0012f8c94a00bc16b040310561b0",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            }
+                                      },
+                          "sourceRefs":  [
+                                             "nbs-api-province-annual-2024"
+                                         ],
+                          "qualityFlags":  [
+
+                                           ]
+                      },
+                      {
+                          "code":  "440000000000",
+                          "name":  "广东省",
+                          "metrics":  {
+                                          "population":  {
+                                                             "label":  "Resident population",
+                                                             "value":  12780,
+                                                             "unit":  "万人",
+                                                             "dt":  "2024YY",
+                                                             "indicatorId":  "4810ad6e9ddc41fc804a66134afe587f",
+                                                             "cid":  "1b8b3021a931466d99b65cac34d89ee3"
+                                                         },
+                                          "disposableIncome":  {
+                                                                   "label":  "Disposable income per capita",
+                                                                   "value":  51474,
+                                                                   "unit":  "元",
+                                                                   "dt":  "2024YY",
+                                                                   "indicatorId":  "bda568266e4c445b867d25626e1f6b8a",
+                                                                   "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                               },
+                                          "consumption":  {
+                                                              "label":  "Consumption expenditure per capita",
+                                                              "value":  35818,
+                                                              "unit":  "元",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "462f6c41041b4721b78e50397b358af8",
+                                                              "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                          },
+                                          "parkGreenPerCapita":  {
+                                                                     "label":  "Park green area per capita",
+                                                                     "value":  17.92,
+                                                                     "unit":  "平方米/人",
+                                                                     "dt":  "2024YY",
+                                                                     "indicatorId":  "e1ade4f905b8478c8aff53ec62f11c09",
+                                                                     "cid":  "425718c96f084a4ab57e95936eeaad68"
+                                                                 },
+                                          "gasCoverage":  {
+                                                              "label":  "Urban gas coverage",
+                                                              "value":  97.24,
+                                                              "unit":  "%",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "9a4e5d533e2f469ca2caab68e911f83b",
+                                                              "cid":  "956f3900294044aabf32f831d255f93b"
+                                                          },
+                                          "railwayLength":  {
+                                                                "label":  "Railway length",
+                                                                "value":  0.6,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "6191622eacb64d2eb5a34dd85659a1fb",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            },
+                                          "highwayLength":  {
+                                                                "label":  "Highway length",
+                                                                "value":  22.44,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "e56b0012f8c94a00bc16b040310561b0",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            }
+                                      },
+                          "sourceRefs":  [
+                                             "nbs-api-province-annual-2024"
+                                         ],
+                          "qualityFlags":  [
+
+                                           ]
+                      },
+                      {
+                          "code":  "450000000000",
+                          "name":  "广西壮族自治区",
+                          "metrics":  {
+                                          "population":  {
+                                                             "label":  "Resident population",
+                                                             "value":  5013,
+                                                             "unit":  "万人",
+                                                             "dt":  "2024YY",
+                                                             "indicatorId":  "4810ad6e9ddc41fc804a66134afe587f",
+                                                             "cid":  "1b8b3021a931466d99b65cac34d89ee3"
+                                                         },
+                                          "disposableIncome":  {
+                                                                   "label":  "Disposable income per capita",
+                                                                   "value":  31125,
+                                                                   "unit":  "元",
+                                                                   "dt":  "2024YY",
+                                                                   "indicatorId":  "bda568266e4c445b867d25626e1f6b8a",
+                                                                   "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                               },
+                                          "consumption":  {
+                                                              "label":  "Consumption expenditure per capita",
+                                                              "value":  21150,
+                                                              "unit":  "元",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "462f6c41041b4721b78e50397b358af8",
+                                                              "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                          },
+                                          "parkGreenPerCapita":  {
+                                                                     "label":  "Park green area per capita",
+                                                                     "value":  12.96,
+                                                                     "unit":  "平方米/人",
+                                                                     "dt":  "2024YY",
+                                                                     "indicatorId":  "e1ade4f905b8478c8aff53ec62f11c09",
+                                                                     "cid":  "425718c96f084a4ab57e95936eeaad68"
+                                                                 },
+                                          "gasCoverage":  {
+                                                              "label":  "Urban gas coverage",
+                                                              "value":  99.44,
+                                                              "unit":  "%",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "9a4e5d533e2f469ca2caab68e911f83b",
+                                                              "cid":  "956f3900294044aabf32f831d255f93b"
+                                                          },
+                                          "railwayLength":  {
+                                                                "label":  "Railway length",
+                                                                "value":  0.59,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "6191622eacb64d2eb5a34dd85659a1fb",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            },
+                                          "highwayLength":  {
+                                                                "label":  "Highway length",
+                                                                "value":  18.7,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "e56b0012f8c94a00bc16b040310561b0",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            }
+                                      },
+                          "sourceRefs":  [
+                                             "nbs-api-province-annual-2024"
+                                         ],
+                          "qualityFlags":  [
+
+                                           ]
+                      },
+                      {
+                          "code":  "460000000000",
+                          "name":  "海南省",
+                          "metrics":  {
+                                          "population":  {
+                                                             "label":  "Resident population",
+                                                             "value":  1048,
+                                                             "unit":  "万人",
+                                                             "dt":  "2024YY",
+                                                             "indicatorId":  "4810ad6e9ddc41fc804a66134afe587f",
+                                                             "cid":  "1b8b3021a931466d99b65cac34d89ee3"
+                                                         },
+                                          "disposableIncome":  {
+                                                                   "label":  "Disposable income per capita",
+                                                                   "value":  34829,
+                                                                   "unit":  "元",
+                                                                   "dt":  "2024YY",
+                                                                   "indicatorId":  "bda568266e4c445b867d25626e1f6b8a",
+                                                                   "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                               },
+                                          "consumption":  {
+                                                              "label":  "Consumption expenditure per capita",
+                                                              "value":  25908,
+                                                              "unit":  "元",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "462f6c41041b4721b78e50397b358af8",
+                                                              "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                          },
+                                          "parkGreenPerCapita":  {
+                                                                     "label":  "Park green area per capita",
+                                                                     "value":  12.52,
+                                                                     "unit":  "平方米/人",
+                                                                     "dt":  "2024YY",
+                                                                     "indicatorId":  "e1ade4f905b8478c8aff53ec62f11c09",
+                                                                     "cid":  "425718c96f084a4ab57e95936eeaad68"
+                                                                 },
+                                          "gasCoverage":  {
+                                                              "label":  "Urban gas coverage",
+                                                              "value":  99.99,
+                                                              "unit":  "%",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "9a4e5d533e2f469ca2caab68e911f83b",
+                                                              "cid":  "956f3900294044aabf32f831d255f93b"
+                                                          },
+                                          "railwayLength":  {
+                                                                "label":  "Railway length",
+                                                                "value":  0.1,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "6191622eacb64d2eb5a34dd85659a1fb",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            },
+                                          "highwayLength":  {
+                                                                "label":  "Highway length",
+                                                                "value":  4.21,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "e56b0012f8c94a00bc16b040310561b0",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            }
+                                      },
+                          "sourceRefs":  [
+                                             "nbs-api-province-annual-2024"
+                                         ],
+                          "qualityFlags":  [
+
+                                           ]
+                      },
+                      {
+                          "code":  "500000000000",
+                          "name":  "重庆市",
+                          "metrics":  {
+                                          "population":  {
+                                                             "label":  "Resident population",
+                                                             "value":  3190,
+                                                             "unit":  "万人",
+                                                             "dt":  "2024YY",
+                                                             "indicatorId":  "4810ad6e9ddc41fc804a66134afe587f",
+                                                             "cid":  "1b8b3021a931466d99b65cac34d89ee3"
+                                                         },
+                                          "disposableIncome":  {
+                                                                   "label":  "Disposable income per capita",
+                                                                   "value":  39713,
+                                                                   "unit":  "元",
+                                                                   "dt":  "2024YY",
+                                                                   "indicatorId":  "bda568266e4c445b867d25626e1f6b8a",
+                                                                   "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                               },
+                                          "consumption":  {
+                                                              "label":  "Consumption expenditure per capita",
+                                                              "value":  27451,
+                                                              "unit":  "元",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "462f6c41041b4721b78e50397b358af8",
+                                                              "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                          },
+                                          "parkGreenPerCapita":  {
+                                                                     "label":  "Park green area per capita",
+                                                                     "value":  20.93,
+                                                                     "unit":  "平方米/人",
+                                                                     "dt":  "2024YY",
+                                                                     "indicatorId":  "e1ade4f905b8478c8aff53ec62f11c09",
+                                                                     "cid":  "425718c96f084a4ab57e95936eeaad68"
+                                                                 },
+                                          "gasCoverage":  {
+                                                              "label":  "Urban gas coverage",
+                                                              "value":  99.77,
+                                                              "unit":  "%",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "9a4e5d533e2f469ca2caab68e911f83b",
+                                                              "cid":  "956f3900294044aabf32f831d255f93b"
+                                                          },
+                                          "railwayLength":  {
+                                                                "label":  "Railway length",
+                                                                "value":  0.29,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "6191622eacb64d2eb5a34dd85659a1fb",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            },
+                                          "highwayLength":  {
+                                                                "label":  "Highway length",
+                                                                "value":  18.71,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "e56b0012f8c94a00bc16b040310561b0",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            }
+                                      },
+                          "sourceRefs":  [
+                                             "nbs-api-province-annual-2024"
+                                         ],
+                          "qualityFlags":  [
+
+                                           ]
+                      },
+                      {
+                          "code":  "510000000000",
+                          "name":  "四川省",
+                          "metrics":  {
+                                          "population":  {
+                                                             "label":  "Resident population",
+                                                             "value":  8364,
+                                                             "unit":  "万人",
+                                                             "dt":  "2024YY",
+                                                             "indicatorId":  "4810ad6e9ddc41fc804a66134afe587f",
+                                                             "cid":  "1b8b3021a931466d99b65cac34d89ee3"
+                                                         },
+                                          "disposableIncome":  {
+                                                                   "label":  "Disposable income per capita",
+                                                                   "value":  34325,
+                                                                   "unit":  "元",
+                                                                   "dt":  "2024YY",
+                                                                   "indicatorId":  "bda568266e4c445b867d25626e1f6b8a",
+                                                                   "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                               },
+                                          "consumption":  {
+                                                              "label":  "Consumption expenditure per capita",
+                                                              "value":  24878,
+                                                              "unit":  "元",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "462f6c41041b4721b78e50397b358af8",
+                                                              "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                          },
+                                          "parkGreenPerCapita":  {
+                                                                     "label":  "Park green area per capita",
+                                                                     "value":  14.69,
+                                                                     "unit":  "平方米/人",
+                                                                     "dt":  "2024YY",
+                                                                     "indicatorId":  "e1ade4f905b8478c8aff53ec62f11c09",
+                                                                     "cid":  "425718c96f084a4ab57e95936eeaad68"
+                                                                 },
+                                          "gasCoverage":  {
+                                                              "label":  "Urban gas coverage",
+                                                              "value":  98.2,
+                                                              "unit":  "%",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "9a4e5d533e2f469ca2caab68e911f83b",
+                                                              "cid":  "956f3900294044aabf32f831d255f93b"
+                                                          },
+                                          "railwayLength":  {
+                                                                "label":  "Railway length",
+                                                                "value":  0.68,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "6191622eacb64d2eb5a34dd85659a1fb",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            },
+                                          "highwayLength":  {
+                                                                "label":  "Highway length",
+                                                                "value":  42.5,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "e56b0012f8c94a00bc16b040310561b0",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            }
+                                      },
+                          "sourceRefs":  [
+                                             "nbs-api-province-annual-2024"
+                                         ],
+                          "qualityFlags":  [
+
+                                           ]
+                      },
+                      {
+                          "code":  "520000000000",
+                          "name":  "贵州省",
+                          "metrics":  {
+                                          "population":  {
+                                                             "label":  "Resident population",
+                                                             "value":  3860,
+                                                             "unit":  "万人",
+                                                             "dt":  "2024YY",
+                                                             "indicatorId":  "4810ad6e9ddc41fc804a66134afe587f",
+                                                             "cid":  "1b8b3021a931466d99b65cac34d89ee3"
+                                                         },
+                                          "disposableIncome":  {
+                                                                   "label":  "Disposable income per capita",
+                                                                   "value":  28561,
+                                                                   "unit":  "元",
+                                                                   "dt":  "2024YY",
+                                                                   "indicatorId":  "bda568266e4c445b867d25626e1f6b8a",
+                                                                   "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                               },
+                                          "consumption":  {
+                                                              "label":  "Consumption expenditure per capita",
+                                                              "value":  20871,
+                                                              "unit":  "元",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "462f6c41041b4721b78e50397b358af8",
+                                                              "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                          },
+                                          "parkGreenPerCapita":  {
+                                                                     "label":  "Park green area per capita",
+                                                                     "value":  17.39,
+                                                                     "unit":  "平方米/人",
+                                                                     "dt":  "2024YY",
+                                                                     "indicatorId":  "e1ade4f905b8478c8aff53ec62f11c09",
+                                                                     "cid":  "425718c96f084a4ab57e95936eeaad68"
+                                                                 },
+                                          "gasCoverage":  {
+                                                              "label":  "Urban gas coverage",
+                                                              "value":  95.64,
+                                                              "unit":  "%",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "9a4e5d533e2f469ca2caab68e911f83b",
+                                                              "cid":  "956f3900294044aabf32f831d255f93b"
+                                                          },
+                                          "railwayLength":  {
+                                                                "label":  "Railway length",
+                                                                "value":  0.43,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "6191622eacb64d2eb5a34dd85659a1fb",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            },
+                                          "highwayLength":  {
+                                                                "label":  "Highway length",
+                                                                "value":  22.03,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "e56b0012f8c94a00bc16b040310561b0",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            }
+                                      },
+                          "sourceRefs":  [
+                                             "nbs-api-province-annual-2024"
+                                         ],
+                          "qualityFlags":  [
+
+                                           ]
+                      },
+                      {
+                          "code":  "530000000000",
+                          "name":  "云南省",
+                          "metrics":  {
+                                          "population":  {
+                                                             "label":  "Resident population",
+                                                             "value":  4655,
+                                                             "unit":  "万人",
+                                                             "dt":  "2024YY",
+                                                             "indicatorId":  "4810ad6e9ddc41fc804a66134afe587f",
+                                                             "cid":  "1b8b3021a931466d99b65cac34d89ee3"
+                                                         },
+                                          "disposableIncome":  {
+                                                                   "label":  "Disposable income per capita",
+                                                                   "value":  29932,
+                                                                   "unit":  "元",
+                                                                   "dt":  "2024YY",
+                                                                   "indicatorId":  "bda568266e4c445b867d25626e1f6b8a",
+                                                                   "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                               },
+                                          "consumption":  {
+                                                              "label":  "Consumption expenditure per capita",
+                                                              "value":  22280,
+                                                              "unit":  "元",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "462f6c41041b4721b78e50397b358af8",
+                                                              "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                          },
+                                          "parkGreenPerCapita":  {
+                                                                     "label":  "Park green area per capita",
+                                                                     "value":  14.35,
+                                                                     "unit":  "平方米/人",
+                                                                     "dt":  "2024YY",
+                                                                     "indicatorId":  "e1ade4f905b8478c8aff53ec62f11c09",
+                                                                     "cid":  "425718c96f084a4ab57e95936eeaad68"
+                                                                 },
+                                          "gasCoverage":  {
+                                                              "label":  "Urban gas coverage",
+                                                              "value":  83.5,
+                                                              "unit":  "%",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "9a4e5d533e2f469ca2caab68e911f83b",
+                                                              "cid":  "956f3900294044aabf32f831d255f93b"
+                                                          },
+                                          "railwayLength":  {
+                                                                "label":  "Railway length",
+                                                                "value":  0.52,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "6191622eacb64d2eb5a34dd85659a1fb",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            },
+                                          "highwayLength":  {
+                                                                "label":  "Highway length",
+                                                                "value":  34,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "e56b0012f8c94a00bc16b040310561b0",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            }
+                                      },
+                          "sourceRefs":  [
+                                             "nbs-api-province-annual-2024"
+                                         ],
+                          "qualityFlags":  [
+
+                                           ]
+                      },
+                      {
+                          "code":  "540000000000",
+                          "name":  "西藏自治区",
+                          "metrics":  {
+                                          "population":  {
+                                                             "label":  "Resident population",
+                                                             "value":  370,
+                                                             "unit":  "万人",
+                                                             "dt":  "2024YY",
+                                                             "indicatorId":  "4810ad6e9ddc41fc804a66134afe587f",
+                                                             "cid":  "1b8b3021a931466d99b65cac34d89ee3"
+                                                         },
+                                          "disposableIncome":  {
+                                                                   "label":  "Disposable income per capita",
+                                                                   "value":  31358,
+                                                                   "unit":  "元",
+                                                                   "dt":  "2024YY",
+                                                                   "indicatorId":  "bda568266e4c445b867d25626e1f6b8a",
+                                                                   "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                               },
+                                          "consumption":  {
+                                                              "label":  "Consumption expenditure per capita",
+                                                              "value":  18983,
+                                                              "unit":  "元",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "462f6c41041b4721b78e50397b358af8",
+                                                              "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                          },
+                                          "parkGreenPerCapita":  {
+                                                                     "label":  "Park green area per capita",
+                                                                     "value":  17.48,
+                                                                     "unit":  "平方米/人",
+                                                                     "dt":  "2024YY",
+                                                                     "indicatorId":  "e1ade4f905b8478c8aff53ec62f11c09",
+                                                                     "cid":  "425718c96f084a4ab57e95936eeaad68"
+                                                                 },
+                                          "gasCoverage":  {
+                                                              "label":  "Urban gas coverage",
+                                                              "value":  89.42,
+                                                              "unit":  "%",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "9a4e5d533e2f469ca2caab68e911f83b",
+                                                              "cid":  "956f3900294044aabf32f831d255f93b"
+                                                          },
+                                          "railwayLength":  {
+                                                                "label":  "Railway length",
+                                                                "value":  0.12,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "6191622eacb64d2eb5a34dd85659a1fb",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            },
+                                          "highwayLength":  {
+                                                                "label":  "Highway length",
+                                                                "value":  12.38,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "e56b0012f8c94a00bc16b040310561b0",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            }
+                                      },
+                          "sourceRefs":  [
+                                             "nbs-api-province-annual-2024"
+                                         ],
+                          "qualityFlags":  [
+
+                                           ]
+                      },
+                      {
+                          "code":  "610000000000",
+                          "name":  "陕西省",
+                          "metrics":  {
+                                          "population":  {
+                                                             "label":  "Resident population",
+                                                             "value":  3953,
+                                                             "unit":  "万人",
+                                                             "dt":  "2024YY",
+                                                             "indicatorId":  "4810ad6e9ddc41fc804a66134afe587f",
+                                                             "cid":  "1b8b3021a931466d99b65cac34d89ee3"
+                                                         },
+                                          "disposableIncome":  {
+                                                                   "label":  "Disposable income per capita",
+                                                                   "value":  33905,
+                                                                   "unit":  "元",
+                                                                   "dt":  "2024YY",
+                                                                   "indicatorId":  "bda568266e4c445b867d25626e1f6b8a",
+                                                                   "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                               },
+                                          "consumption":  {
+                                                              "label":  "Consumption expenditure per capita",
+                                                              "value":  23213,
+                                                              "unit":  "元",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "462f6c41041b4721b78e50397b358af8",
+                                                              "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                          },
+                                          "parkGreenPerCapita":  {
+                                                                     "label":  "Park green area per capita",
+                                                                     "value":  13.11,
+                                                                     "unit":  "平方米/人",
+                                                                     "dt":  "2024YY",
+                                                                     "indicatorId":  "e1ade4f905b8478c8aff53ec62f11c09",
+                                                                     "cid":  "425718c96f084a4ab57e95936eeaad68"
+                                                                 },
+                                          "gasCoverage":  {
+                                                              "label":  "Urban gas coverage",
+                                                              "value":  98.88,
+                                                              "unit":  "%",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "9a4e5d533e2f469ca2caab68e911f83b",
+                                                              "cid":  "956f3900294044aabf32f831d255f93b"
+                                                          },
+                                          "railwayLength":  {
+                                                                "label":  "Railway length",
+                                                                "value":  0.56,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "6191622eacb64d2eb5a34dd85659a1fb",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            },
+                                          "highwayLength":  {
+                                                                "label":  "Highway length",
+                                                                "value":  19.01,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "e56b0012f8c94a00bc16b040310561b0",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            }
+                                      },
+                          "sourceRefs":  [
+                                             "nbs-api-province-annual-2024"
+                                         ],
+                          "qualityFlags":  [
+
+                                           ]
+                      },
+                      {
+                          "code":  "620000000000",
+                          "name":  "甘肃省",
+                          "metrics":  {
+                                          "population":  {
+                                                             "label":  "Resident population",
+                                                             "value":  2458,
+                                                             "unit":  "万人",
+                                                             "dt":  "2024YY",
+                                                             "indicatorId":  "4810ad6e9ddc41fc804a66134afe587f",
+                                                             "cid":  "1b8b3021a931466d99b65cac34d89ee3"
+                                                         },
+                                          "disposableIncome":  {
+                                                                   "label":  "Disposable income per capita",
+                                                                   "value":  26612,
+                                                                   "unit":  "元",
+                                                                   "dt":  "2024YY",
+                                                                   "indicatorId":  "bda568266e4c445b867d25626e1f6b8a",
+                                                                   "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                               },
+                                          "consumption":  {
+                                                              "label":  "Consumption expenditure per capita",
+                                                              "value":  19829,
+                                                              "unit":  "元",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "462f6c41041b4721b78e50397b358af8",
+                                                              "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                          },
+                                          "parkGreenPerCapita":  {
+                                                                     "label":  "Park green area per capita",
+                                                                     "value":  15.39,
+                                                                     "unit":  "平方米/人",
+                                                                     "dt":  "2024YY",
+                                                                     "indicatorId":  "e1ade4f905b8478c8aff53ec62f11c09",
+                                                                     "cid":  "425718c96f084a4ab57e95936eeaad68"
+                                                                 },
+                                          "gasCoverage":  {
+                                                              "label":  "Urban gas coverage",
+                                                              "value":  98.32,
+                                                              "unit":  "%",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "9a4e5d533e2f469ca2caab68e911f83b",
+                                                              "cid":  "956f3900294044aabf32f831d255f93b"
+                                                          },
+                                          "railwayLength":  {
+                                                                "label":  "Railway length",
+                                                                "value":  0.58,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "6191622eacb64d2eb5a34dd85659a1fb",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            },
+                                          "highwayLength":  {
+                                                                "label":  "Highway length",
+                                                                "value":  15.93,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "e56b0012f8c94a00bc16b040310561b0",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            }
+                                      },
+                          "sourceRefs":  [
+                                             "nbs-api-province-annual-2024"
+                                         ],
+                          "qualityFlags":  [
+
+                                           ]
+                      },
+                      {
+                          "code":  "630000000000",
+                          "name":  "青海省",
+                          "metrics":  {
+                                          "population":  {
+                                                             "label":  "Resident population",
+                                                             "value":  593,
+                                                             "unit":  "万人",
+                                                             "dt":  "2024YY",
+                                                             "indicatorId":  "4810ad6e9ddc41fc804a66134afe587f",
+                                                             "cid":  "1b8b3021a931466d99b65cac34d89ee3"
+                                                         },
+                                          "disposableIncome":  {
+                                                                   "label":  "Disposable income per capita",
+                                                                   "value":  30117,
+                                                                   "unit":  "元",
+                                                                   "dt":  "2024YY",
+                                                                   "indicatorId":  "bda568266e4c445b867d25626e1f6b8a",
+                                                                   "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                               },
+                                          "consumption":  {
+                                                              "label":  "Consumption expenditure per capita",
+                                                              "value":  21204,
+                                                              "unit":  "元",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "462f6c41041b4721b78e50397b358af8",
+                                                              "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                          },
+                                          "parkGreenPerCapita":  {
+                                                                     "label":  "Park green area per capita",
+                                                                     "value":  12.95,
+                                                                     "unit":  "平方米/人",
+                                                                     "dt":  "2024YY",
+                                                                     "indicatorId":  "e1ade4f905b8478c8aff53ec62f11c09",
+                                                                     "cid":  "425718c96f084a4ab57e95936eeaad68"
+                                                                 },
+                                          "gasCoverage":  {
+                                                              "label":  "Urban gas coverage",
+                                                              "value":  97.45,
+                                                              "unit":  "%",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "9a4e5d533e2f469ca2caab68e911f83b",
+                                                              "cid":  "956f3900294044aabf32f831d255f93b"
+                                                          },
+                                          "railwayLength":  {
+                                                                "label":  "Railway length",
+                                                                "value":  0.3,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "6191622eacb64d2eb5a34dd85659a1fb",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            },
+                                          "highwayLength":  {
+                                                                "label":  "Highway length",
+                                                                "value":  9.12,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "e56b0012f8c94a00bc16b040310561b0",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            }
+                                      },
+                          "sourceRefs":  [
+                                             "nbs-api-province-annual-2024"
+                                         ],
+                          "qualityFlags":  [
+
+                                           ]
+                      },
+                      {
+                          "code":  "640000000000",
+                          "name":  "宁夏回族自治区",
+                          "metrics":  {
+                                          "population":  {
+                                                             "label":  "Resident population",
+                                                             "value":  729,
+                                                             "unit":  "万人",
+                                                             "dt":  "2024YY",
+                                                             "indicatorId":  "4810ad6e9ddc41fc804a66134afe587f",
+                                                             "cid":  "1b8b3021a931466d99b65cac34d89ee3"
+                                                         },
+                                          "disposableIncome":  {
+                                                                   "label":  "Disposable income per capita",
+                                                                   "value":  33355,
+                                                                   "unit":  "元",
+                                                                   "dt":  "2024YY",
+                                                                   "indicatorId":  "bda568266e4c445b867d25626e1f6b8a",
+                                                                   "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                               },
+                                          "consumption":  {
+                                                              "label":  "Consumption expenditure per capita",
+                                                              "value":  22865,
+                                                              "unit":  "元",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "462f6c41041b4721b78e50397b358af8",
+                                                              "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                          },
+                                          "parkGreenPerCapita":  {
+                                                                     "label":  "Park green area per capita",
+                                                                     "value":  23.44,
+                                                                     "unit":  "平方米/人",
+                                                                     "dt":  "2024YY",
+                                                                     "indicatorId":  "e1ade4f905b8478c8aff53ec62f11c09",
+                                                                     "cid":  "425718c96f084a4ab57e95936eeaad68"
+                                                                 },
+                                          "gasCoverage":  {
+                                                              "label":  "Urban gas coverage",
+                                                              "value":  98.44,
+                                                              "unit":  "%",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "9a4e5d533e2f469ca2caab68e911f83b",
+                                                              "cid":  "956f3900294044aabf32f831d255f93b"
+                                                          },
+                                          "railwayLength":  {
+                                                                "label":  "Railway length",
+                                                                "value":  0.18,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "6191622eacb64d2eb5a34dd85659a1fb",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            },
+                                          "highwayLength":  {
+                                                                "label":  "Highway length",
+                                                                "value":  3.9,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "e56b0012f8c94a00bc16b040310561b0",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            }
+                                      },
+                          "sourceRefs":  [
+                                             "nbs-api-province-annual-2024"
+                                         ],
+                          "qualityFlags":  [
+
+                                           ]
+                      },
+                      {
+                          "code":  "650000000000",
+                          "name":  "新疆维吾尔自治区",
+                          "metrics":  {
+                                          "population":  {
+                                                             "label":  "Resident population",
+                                                             "value":  2623,
+                                                             "unit":  "万人",
+                                                             "dt":  "2024YY",
+                                                             "indicatorId":  "4810ad6e9ddc41fc804a66134afe587f",
+                                                             "cid":  "1b8b3021a931466d99b65cac34d89ee3"
+                                                         },
+                                          "disposableIncome":  {
+                                                                   "label":  "Disposable income per capita",
+                                                                   "value":  30899,
+                                                                   "unit":  "元",
+                                                                   "dt":  "2024YY",
+                                                                   "indicatorId":  "bda568266e4c445b867d25626e1f6b8a",
+                                                                   "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                               },
+                                          "consumption":  {
+                                                              "label":  "Consumption expenditure per capita",
+                                                              "value":  21364,
+                                                              "unit":  "元",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "462f6c41041b4721b78e50397b358af8",
+                                                              "cid":  "b8a6a78e15684f47b1c340cdb0ff8a23"
+                                                          },
+                                          "parkGreenPerCapita":  {
+                                                                     "label":  "Park green area per capita",
+                                                                     "value":  16.67,
+                                                                     "unit":  "平方米/人",
+                                                                     "dt":  "2024YY",
+                                                                     "indicatorId":  "e1ade4f905b8478c8aff53ec62f11c09",
+                                                                     "cid":  "425718c96f084a4ab57e95936eeaad68"
+                                                                 },
+                                          "gasCoverage":  {
+                                                              "label":  "Urban gas coverage",
+                                                              "value":  98.86,
+                                                              "unit":  "%",
+                                                              "dt":  "2024YY",
+                                                              "indicatorId":  "9a4e5d533e2f469ca2caab68e911f83b",
+                                                              "cid":  "956f3900294044aabf32f831d255f93b"
+                                                          },
+                                          "railwayLength":  {
+                                                                "label":  "Railway length",
+                                                                "value":  0.92,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "6191622eacb64d2eb5a34dd85659a1fb",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            },
+                                          "highwayLength":  {
+                                                                "label":  "Highway length",
+                                                                "value":  23.19,
+                                                                "unit":  "万公里",
+                                                                "dt":  "2024YY",
+                                                                "indicatorId":  "e56b0012f8c94a00bc16b040310561b0",
+                                                                "cid":  "d180695e985243c994eef6a7c3e58090"
+                                                            }
+                                      },
+                          "sourceRefs":  [
+                                             "nbs-api-province-annual-2024"
+                                         ],
+                          "qualityFlags":  [
+
+                                           ]
+                      },
+                      {
+                          "code":  "710000000000",
+                          "name":  "台湾省",
+                          "metrics":  {
+
+                                      },
+                          "sourceRefs":  [
+                                             "nbs-api-province-annual-2024"
+                                         ],
+                          "qualityFlags":  [
+                                               "limited_comparability"
+                                           ]
+                      },
+                      {
+                          "code":  "810000000000",
+                          "name":  "香港特别行政区",
+                          "metrics":  {
+
+                                      },
+                          "sourceRefs":  [
+                                             "nbs-api-province-annual-2024"
+                                         ],
+                          "qualityFlags":  [
+                                               "limited_comparability"
+                                           ]
+                      },
+                      {
+                          "code":  "820000000000",
+                          "name":  "澳门特别行政区",
+                          "metrics":  {
+
+                                      },
+                          "sourceRefs":  [
+                                             "nbs-api-province-annual-2024"
+                                         ],
+                          "qualityFlags":  [
+                                               "limited_comparability"
+                                           ]
+                      }
+                  ]
+}

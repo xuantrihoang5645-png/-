@@ -1,0 +1,294 @@
+﻿[
+    {
+        "cityId":  "beijing",
+        "rentIndex":  null,
+        "rentMedian":  2428.5,
+        "rentMedianPerSqm":  80.95,
+        "assumedDwellingSizeSqm":  30,
+        "annualConsumptionPerCapita":  49748,
+        "consumptionIndex":  null,
+        "transportCostIndex":  null,
+        "totalCostIndex":  null,
+        "source":  "北京市2024年统计公报 + 中指云北京住房租赁月报站内摘要",
+        "sourceRefs":  [
+                           "beijing-bulletin-2024",
+                           "rent-beijing-2026-01"
+                       ],
+        "sourceType":  "mixed",
+        "snapshotType":  "mixed_snapshot",
+        "period":  "2024 + 2026-01",
+        "periodMode":  "latest",
+        "periodLabel":  "收入与消费为 2024，租金为 2026-01 快照",
+        "coverageLevel":  "deep",
+        "comparableScope":  "city_snapshot",
+        "qualityFlags":  [
+                             "rent_estimate_30sqm",
+                             "income_proxy"
+                         ],
+        "confidence":  0.82,
+        "isEstimated":  true,
+        "notes":  "rentMedian 为按 30㎡ 单人租住估算的月租参考，不等同于真实整租中位数。",
+        "lastUpdated":  "2026-03-27"
+    },
+    {
+        "cityId":  "shanghai",
+        "rentIndex":  null,
+        "rentMedian":  2445,
+        "rentMedianPerSqm":  81.5,
+        "assumedDwellingSizeSqm":  30,
+        "annualConsumptionPerCapita":  52722,
+        "consumptionIndex":  null,
+        "transportCostIndex":  null,
+        "totalCostIndex":  null,
+        "source":  "上海市2024年统计公报 + 中指云上海二手房市场月报站内摘要",
+        "sourceRefs":  [
+                           "shanghai-bulletin-2024",
+                           "rent-shanghai-2026-01"
+                       ],
+        "sourceType":  "mixed",
+        "snapshotType":  "mixed_snapshot",
+        "period":  "2024 + 2026-01",
+        "periodMode":  "latest",
+        "periodLabel":  "收入与消费为 2024，租金为 2026-01 快照",
+        "coverageLevel":  "deep",
+        "comparableScope":  "city_snapshot",
+        "qualityFlags":  [
+                             "rent_estimate_30sqm",
+                             "income_proxy"
+                         ],
+        "confidence":  0.82,
+        "isEstimated":  true,
+        "notes":  "租金为公开住宅单价快照换算后的月租代理。",
+        "lastUpdated":  "2026-03-27"
+    },
+    {
+        "cityId":  "shenzhen",
+        "rentIndex":  null,
+        "rentMedian":  2455.8,
+        "rentMedianPerSqm":  81.86,
+        "assumedDwellingSizeSqm":  30,
+        "annualConsumptionPerCapita":  51415,
+        "consumptionIndex":  null,
+        "transportCostIndex":  null,
+        "totalCostIndex":  null,
+        "source":  "深圳市2024年统计公报 + 中指云深圳住房租赁月报站内摘要",
+        "sourceRefs":  [
+                           "shenzhen-bulletin-2024",
+                           "rent-shenzhen-2026-02"
+                       ],
+        "sourceType":  "mixed",
+        "snapshotType":  "mixed_snapshot",
+        "period":  "2024 + 2026-02",
+        "periodMode":  "latest",
+        "periodLabel":  "收入与消费为 2024，租金为 2026-02 快照",
+        "coverageLevel":  "deep",
+        "comparableScope":  "city_snapshot",
+        "qualityFlags":  [
+                             "rent_estimate_30sqm",
+                             "income_proxy"
+                         ],
+        "confidence":  0.82,
+        "isEstimated":  true,
+        "notes":  "深圳租金使用公开单价快照换算，站内只把它当作压力代理。",
+        "lastUpdated":  "2026-03-27"
+    },
+    {
+        "cityId":  "guangzhou",
+        "rentIndex":  null,
+        "rentMedian":  1433.4,
+        "rentMedianPerSqm":  47.78,
+        "assumedDwellingSizeSqm":  30,
+        "annualConsumptionPerCapita":  50496,
+        "consumptionIndex":  null,
+        "transportCostIndex":  null,
+        "totalCostIndex":  null,
+        "source":  "广州市2024年统计公报 + 中指云广州二手房市场月报站内摘要",
+        "sourceRefs":  [
+                           "guangzhou-bulletin-2024",
+                           "rent-guangzhou-2026-01"
+                       ],
+        "sourceType":  "mixed",
+        "snapshotType":  "mixed_snapshot",
+        "period":  "2024 + 2026-01",
+        "periodMode":  "latest",
+        "periodLabel":  "消费为 2024 城镇居民口径，租金为 2026-01 快照",
+        "coverageLevel":  "partial",
+        "comparableScope":  "urban_resident_household",
+        "qualityFlags":  [
+                             "rent_estimate_30sqm",
+                             "scope_mismatch",
+                             "income_proxy"
+                         ],
+        "confidence":  0.68,
+        "isEstimated":  true,
+        "notes":  "广州消费支出为城镇居民家庭口径，横向比较需谨慎。",
+        "lastUpdated":  "2026-03-27"
+    },
+    {
+        "cityId":  "hangzhou",
+        "rentIndex":  null,
+        "rentMedian":  1456.2,
+        "rentMedianPerSqm":  48.54,
+        "assumedDwellingSizeSqm":  30,
+        "annualConsumptionPerCapita":  52996,
+        "consumptionIndex":  null,
+        "transportCostIndex":  null,
+        "totalCostIndex":  null,
+        "source":  "杭州市2024年统计公报 + 中指云杭州住房租赁月报站内摘要",
+        "sourceRefs":  [
+                           "hangzhou-bulletin-2024",
+                           "rent-hangzhou-2026-02"
+                       ],
+        "sourceType":  "mixed",
+        "snapshotType":  "mixed_snapshot",
+        "period":  "2024 + 2026-02",
+        "periodMode":  "latest",
+        "periodLabel":  "收入与消费为 2024，租金为 2026-02 快照",
+        "coverageLevel":  "deep",
+        "comparableScope":  "city_snapshot",
+        "qualityFlags":  [
+                             "rent_estimate_30sqm",
+                             "income_proxy"
+                         ],
+        "confidence":  0.82,
+        "isEstimated":  true,
+        "notes":  "租金为公开单价快照换算的代理月租。",
+        "lastUpdated":  "2026-03-27"
+    },
+    {
+        "cityId":  "nanjing",
+        "rentIndex":  null,
+        "rentMedian":  1105.5,
+        "rentMedianPerSqm":  36.85,
+        "assumedDwellingSizeSqm":  30,
+        "annualConsumptionPerCapita":  44578,
+        "consumptionIndex":  null,
+        "transportCostIndex":  null,
+        "totalCostIndex":  null,
+        "source":  "南京市2024年统计公报 + 中指云南京房地产市场月报站内摘要",
+        "sourceRefs":  [
+                           "nanjing-bulletin-2024",
+                           "rent-nanjing-2026-01"
+                       ],
+        "sourceType":  "mixed",
+        "snapshotType":  "mixed_snapshot",
+        "period":  "2024 + 2026-01",
+        "periodMode":  "latest",
+        "periodLabel":  "收入与消费为 2024，租金为 2026-01 快照",
+        "coverageLevel":  "deep",
+        "comparableScope":  "city_snapshot",
+        "qualityFlags":  [
+                             "rent_estimate_30sqm",
+                             "income_proxy"
+                         ],
+        "confidence":  0.82,
+        "isEstimated":  true,
+        "notes":  "租金为公开住宅租赁单价换算后的代理月租。",
+        "lastUpdated":  "2026-03-27"
+    },
+    {
+        "cityId":  "wuhan",
+        "rentIndex":  null,
+        "rentMedian":  770.7,
+        "rentMedianPerSqm":  25.69,
+        "assumedDwellingSizeSqm":  30,
+        "annualConsumptionPerCapita":  39625,
+        "consumptionIndex":  null,
+        "transportCostIndex":  null,
+        "totalCostIndex":  null,
+        "source":  "Wuhan 2024 statistical bulletin + Wuhan housing rent monthly snapshot (2026-02)",
+        "sourceRefs":  [
+                           "wuhan-bulletin-2024",
+                           "rent-wuhan-2026-02"
+                       ],
+        "sourceType":  "mixed",
+        "snapshotType":  "mixed_snapshot",
+        "period":  "2024 + 2026-02",
+        "periodMode":  "latest",
+        "periodLabel":  "Consumption uses the 2024 annual baseline; rent uses the 2026-02 snapshot.",
+        "coverageLevel":  "deep",
+        "comparableScope":  "city_snapshot",
+        "qualityFlags":  "rent_estimate_30sqm",
+        "confidence":  0.88,
+        "isEstimated":  true,
+        "alignedAnnualCompatible":  false,
+        "notes":  "The rent proxy uses the monthly sqm rent and an assumed 30 sqm dwelling size; it is not a transaction price.",
+        "periodSnapshots":  {
+                                "annual2024":  {
+                                                   "annualConsumptionPerCapita":  39625,
+                                                   "rentMedian":  null,
+                                                   "rentMedianPerSqm":  null,
+                                                   "assumedDwellingSizeSqm":  null
+                                               },
+                                "latest":  {
+                                               "annualConsumptionPerCapita":  39625,
+                                               "rentMedian":  770.7,
+                                               "rentMedianPerSqm":  25.69,
+                                               "assumedDwellingSizeSqm":  30
+                                           }
+                            },
+        "lastUpdated":  "2026-02-28"
+    },
+    {
+        "cityId":  "suzhou",
+        "rentIndex":  null,
+        "rentMedian":  1011.6,
+        "rentMedianPerSqm":  33.72,
+        "assumedDwellingSizeSqm":  30,
+        "annualConsumptionPerCapita":  48108,
+        "consumptionIndex":  null,
+        "transportCostIndex":  null,
+        "totalCostIndex":  null,
+        "source":  "苏州市2024年统计公报 + 中指云苏州房地产市场月报站内摘要",
+        "sourceRefs":  [
+                           "suzhou-bulletin-2024",
+                           "rent-suzhou-2026-01"
+                       ],
+        "sourceType":  "mixed",
+        "snapshotType":  "mixed_snapshot",
+        "period":  "2024 + 2026-01",
+        "periodMode":  "latest",
+        "periodLabel":  "收入与消费为 2024，租金为 2026-01 快照",
+        "coverageLevel":  "deep",
+        "comparableScope":  "city_snapshot",
+        "qualityFlags":  [
+                             "rent_estimate_30sqm",
+                             "income_proxy"
+                         ],
+        "confidence":  0.82,
+        "isEstimated":  true,
+        "notes":  "租金为公开单价快照换算后的单人代理月租。",
+        "lastUpdated":  "2026-03-27"
+    },
+    {
+        "cityId":  "xiamen",
+        "rentIndex":  null,
+        "rentMedian":  1164.3,
+        "rentMedianPerSqm":  38.81,
+        "assumedDwellingSizeSqm":  30,
+        "annualConsumptionPerCapita":  49085,
+        "consumptionIndex":  null,
+        "transportCostIndex":  null,
+        "totalCostIndex":  null,
+        "source":  "厦门市2024年统计公报 + 中指云厦门住房租赁月报站内摘要",
+        "sourceRefs":  [
+                           "xiamen-bulletin-2024",
+                           "rent-xiamen-2026-01"
+                       ],
+        "sourceType":  "mixed",
+        "snapshotType":  "mixed_snapshot",
+        "period":  "2024 + 2026-01",
+        "periodMode":  "latest",
+        "periodLabel":  "收入与消费为 2024，租金为 2026-01 快照",
+        "coverageLevel":  "partial",
+        "comparableScope":  "city_snapshot",
+        "qualityFlags":  [
+                             "rent_estimate_30sqm",
+                             "income_proxy"
+                         ],
+        "confidence":  0.76,
+        "isEstimated":  true,
+        "notes":  "厦门的环境信息较强，但部分租赁月报公开链路不稳定，先以站内检索快照记录。",
+        "lastUpdated":  "2026-03-27"
+    }
+]

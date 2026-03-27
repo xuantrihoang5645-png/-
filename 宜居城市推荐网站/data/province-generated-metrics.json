@@ -1,0 +1,852 @@
+﻿[
+    {
+        "provinceId":  "110000000000",
+        "incomeSupportScore":  95.2,
+        "consumptionBurdenScore":  100,
+        "environmentScore":  53.9,
+        "publicServiceScore":  59.9,
+        "overviewScore":  81.1,
+        "coverageScore":  1,
+        "coverageLevel":  "full",
+        "sourceRefs":  "nbs-api-province-annual-2024",
+        "qualityFlags":  "environment_green_proxy",
+        "periods":  {
+                        "latest":  {
+                                       "label":  "2024 official annual province data",
+                                       "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                       "aligned":  true
+                                   },
+                        "alignedAnnual":  {
+                                              "label":  "2024 aligned annual province data",
+                                              "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                              "aligned":  true
+                                          }
+                    },
+        "generatedAt":  "2026-03-27"
+    },
+    {
+        "provinceId":  "120000000000",
+        "incomeSupportScore":  43.7,
+        "consumptionBurdenScore":  50.2,
+        "environmentScore":  2.5,
+        "publicServiceScore":  46.5,
+        "overviewScore":  37.6,
+        "coverageScore":  1,
+        "coverageLevel":  "full",
+        "sourceRefs":  "nbs-api-province-annual-2024",
+        "qualityFlags":  "environment_green_proxy",
+        "periods":  {
+                        "latest":  {
+                                       "label":  "2024 official annual province data",
+                                       "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                       "aligned":  true
+                                   },
+                        "alignedAnnual":  {
+                                              "label":  "2024 aligned annual province data",
+                                              "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                              "aligned":  true
+                                          }
+                    },
+        "generatedAt":  "2026-03-27"
+    },
+    {
+        "provinceId":  "130000000000",
+        "incomeSupportScore":  13,
+        "consumptionBurdenScore":  32,
+        "environmentScore":  36.8,
+        "publicServiceScore":  70.1,
+        "overviewScore":  33.9,
+        "coverageScore":  1,
+        "coverageLevel":  "full",
+        "sourceRefs":  "nbs-api-province-annual-2024",
+        "qualityFlags":  "environment_green_proxy",
+        "periods":  {
+                        "latest":  {
+                                       "label":  "2024 official annual province data",
+                                       "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                       "aligned":  true
+                                   },
+                        "alignedAnnual":  {
+                                              "label":  "2024 aligned annual province data",
+                                              "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                              "aligned":  true
+                                          }
+                    },
+        "generatedAt":  "2026-03-27"
+    },
+    {
+        "provinceId":  "140000000000",
+        "incomeSupportScore":  9.4,
+        "consumptionBurdenScore":  60.7,
+        "environmentScore":  33.1,
+        "publicServiceScore":  63.9,
+        "overviewScore":  37.9,
+        "coverageScore":  1,
+        "coverageLevel":  "full",
+        "sourceRefs":  "nbs-api-province-annual-2024",
+        "qualityFlags":  "environment_green_proxy",
+        "periods":  {
+                        "latest":  {
+                                       "label":  "2024 official annual province data",
+                                       "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                       "aligned":  true
+                                   },
+                        "alignedAnnual":  {
+                                              "label":  "2024 aligned annual province data",
+                                              "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                              "aligned":  true
+                                          }
+                    },
+        "generatedAt":  "2026-03-27"
+    },
+    {
+        "provinceId":  "150000000000",
+        "incomeSupportScore":  21.8,
+        "consumptionBurdenScore":  30.9,
+        "environmentScore":  75.3,
+        "publicServiceScore":  85.7,
+        "overviewScore":  47.6,
+        "coverageScore":  1,
+        "coverageLevel":  "full",
+        "sourceRefs":  "nbs-api-province-annual-2024",
+        "qualityFlags":  "environment_green_proxy",
+        "periods":  {
+                        "latest":  {
+                                       "label":  "2024 official annual province data",
+                                       "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                       "aligned":  true
+                                   },
+                        "alignedAnnual":  {
+                                              "label":  "2024 aligned annual province data",
+                                              "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                              "aligned":  true
+                                          }
+                    },
+        "generatedAt":  "2026-03-27"
+    },
+    {
+        "provinceId":  "210000000000",
+        "incomeSupportScore":  21.4,
+        "consumptionBurdenScore":  59.9,
+        "environmentScore":  35.5,
+        "publicServiceScore":  64.6,
+        "overviewScore":  42.5,
+        "coverageScore":  1,
+        "coverageLevel":  "full",
+        "sourceRefs":  "nbs-api-province-annual-2024",
+        "qualityFlags":  "environment_green_proxy",
+        "periods":  {
+                        "latest":  {
+                                       "label":  "2024 official annual province data",
+                                       "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                       "aligned":  true
+                                   },
+                        "alignedAnnual":  {
+                                              "label":  "2024 aligned annual province data",
+                                              "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                              "aligned":  true
+                                          }
+                    },
+        "generatedAt":  "2026-03-27"
+    },
+    {
+        "provinceId":  "220000000000",
+        "incomeSupportScore":  7.6,
+        "consumptionBurdenScore":  9.6,
+        "environmentScore":  39,
+        "publicServiceScore":  62,
+        "overviewScore":  25.3,
+        "coverageScore":  1,
+        "coverageLevel":  "full",
+        "sourceRefs":  "nbs-api-province-annual-2024",
+        "qualityFlags":  "environment_green_proxy",
+        "periods":  {
+                        "latest":  {
+                                       "label":  "2024 official annual province data",
+                                       "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                       "aligned":  true
+                                   },
+                        "alignedAnnual":  {
+                                              "label":  "2024 aligned annual province data",
+                                              "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                              "aligned":  true
+                                          }
+                    },
+        "generatedAt":  "2026-03-27"
+    },
+    {
+        "provinceId":  "230000000000",
+        "incomeSupportScore":  7.5,
+        "consumptionBurdenScore":  2.5,
+        "environmentScore":  42.6,
+        "publicServiceScore":  66.7,
+        "overviewScore":  25.1,
+        "coverageScore":  1,
+        "coverageLevel":  "full",
+        "sourceRefs":  "nbs-api-province-annual-2024",
+        "qualityFlags":  "environment_green_proxy",
+        "periods":  {
+                        "latest":  {
+                                       "label":  "2024 official annual province data",
+                                       "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                       "aligned":  true
+                                   },
+                        "alignedAnnual":  {
+                                              "label":  "2024 aligned annual province data",
+                                              "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                              "aligned":  true
+                                          }
+                    },
+        "generatedAt":  "2026-03-27"
+    },
+    {
+        "provinceId":  "310000000000",
+        "incomeSupportScore":  100,
+        "consumptionBurdenScore":  91.8,
+        "environmentScore":  0,
+        "publicServiceScore":  45,
+        "overviewScore":  67,
+        "coverageScore":  1,
+        "coverageLevel":  "full",
+        "sourceRefs":  "nbs-api-province-annual-2024",
+        "qualityFlags":  "environment_green_proxy",
+        "periods":  {
+                        "latest":  {
+                                       "label":  "2024 official annual province data",
+                                       "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                       "aligned":  true
+                                   },
+                        "alignedAnnual":  {
+                                              "label":  "2024 aligned annual province data",
+                                              "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                              "aligned":  true
+                                          }
+                    },
+        "generatedAt":  "2026-03-27"
+    },
+    {
+        "provinceId":  "320000000000",
+        "incomeSupportScore":  46.6,
+        "consumptionBurdenScore":  46.9,
+        "environmentScore":  49.1,
+        "publicServiceScore":  67.2,
+        "overviewScore":  51.3,
+        "coverageScore":  1,
+        "coverageLevel":  "full",
+        "sourceRefs":  "nbs-api-province-annual-2024",
+        "qualityFlags":  "environment_green_proxy",
+        "periods":  {
+                        "latest":  {
+                                       "label":  "2024 official annual province data",
+                                       "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                       "aligned":  true
+                                   },
+                        "alignedAnnual":  {
+                                              "label":  "2024 aligned annual province data",
+                                              "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                              "aligned":  true
+                                          }
+                    },
+        "generatedAt":  "2026-03-27"
+    },
+    {
+        "provinceId":  "330000000000",
+        "incomeSupportScore":  65.4,
+        "consumptionBurdenScore":  47.4,
+        "environmentScore":  42.4,
+        "publicServiceScore":  63.5,
+        "overviewScore":  55.9,
+        "coverageScore":  1,
+        "coverageLevel":  "full",
+        "sourceRefs":  "nbs-api-province-annual-2024",
+        "qualityFlags":  "environment_green_proxy",
+        "periods":  {
+                        "latest":  {
+                                       "label":  "2024 official annual province data",
+                                       "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                       "aligned":  true
+                                   },
+                        "alignedAnnual":  {
+                                              "label":  "2024 aligned annual province data",
+                                              "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                              "aligned":  true
+                                          }
+                    },
+        "generatedAt":  "2026-03-27"
+    },
+    {
+        "provinceId":  "340000000000",
+        "incomeSupportScore":  16.5,
+        "consumptionBurdenScore":  43.6,
+        "environmentScore":  58.6,
+        "publicServiceScore":  73.6,
+        "overviewScore":  43.1,
+        "coverageScore":  1,
+        "coverageLevel":  "full",
+        "sourceRefs":  "nbs-api-province-annual-2024",
+        "qualityFlags":  "environment_green_proxy",
+        "periods":  {
+                        "latest":  {
+                                       "label":  "2024 official annual province data",
+                                       "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                       "aligned":  true
+                                   },
+                        "alignedAnnual":  {
+                                              "label":  "2024 aligned annual province data",
+                                              "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                              "aligned":  true
+                                          }
+                    },
+        "generatedAt":  "2026-03-27"
+    },
+    {
+        "provinceId":  "350000000000",
+        "incomeSupportScore":  34.4,
+        "consumptionBurdenScore":  27.2,
+        "environmentScore":  46.1,
+        "publicServiceScore":  64.6,
+        "overviewScore":  41,
+        "coverageScore":  1,
+        "coverageLevel":  "full",
+        "sourceRefs":  "nbs-api-province-annual-2024",
+        "qualityFlags":  "environment_green_proxy",
+        "periods":  {
+                        "latest":  {
+                                       "label":  "2024 official annual province data",
+                                       "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                       "aligned":  true
+                                   },
+                        "alignedAnnual":  {
+                                              "label":  "2024 aligned annual province data",
+                                              "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                              "aligned":  true
+                                          }
+                    },
+        "generatedAt":  "2026-03-27"
+    },
+    {
+        "provinceId":  "360000000000",
+        "incomeSupportScore":  15.2,
+        "consumptionBurdenScore":  39.5,
+        "environmentScore":  64.8,
+        "publicServiceScore":  73.3,
+        "overviewScore":  42.8,
+        "coverageScore":  1,
+        "coverageLevel":  "full",
+        "sourceRefs":  "nbs-api-province-annual-2024",
+        "qualityFlags":  "environment_green_proxy",
+        "periods":  {
+                        "latest":  {
+                                       "label":  "2024 official annual province data",
+                                       "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                       "aligned":  true
+                                   },
+                        "alignedAnnual":  {
+                                              "label":  "2024 aligned annual province data",
+                                              "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                              "aligned":  true
+                                          }
+                    },
+        "generatedAt":  "2026-03-27"
+    },
+    {
+        "provinceId":  "370000000000",
+        "incomeSupportScore":  25,
+        "consumptionBurdenScore":  84.3,
+        "environmentScore":  66.6,
+        "publicServiceScore":  79.9,
+        "overviewScore":  59.1,
+        "coverageScore":  1,
+        "coverageLevel":  "full",
+        "sourceRefs":  "nbs-api-province-annual-2024",
+        "qualityFlags":  "environment_green_proxy",
+        "periods":  {
+                        "latest":  {
+                                       "label":  "2024 official annual province data",
+                                       "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                       "aligned":  true
+                                   },
+                        "alignedAnnual":  {
+                                              "label":  "2024 aligned annual province data",
+                                              "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                              "aligned":  true
+                                          }
+                    },
+        "generatedAt":  "2026-03-27"
+    },
+    {
+        "provinceId":  "410000000000",
+        "incomeSupportScore":  8,
+        "consumptionBurdenScore":  34.2,
+        "environmentScore":  45.1,
+        "publicServiceScore":  72.8,
+        "overviewScore":  34.9,
+        "coverageScore":  1,
+        "coverageLevel":  "full",
+        "sourceRefs":  "nbs-api-province-annual-2024",
+        "qualityFlags":  "environment_green_proxy",
+        "periods":  {
+                        "latest":  {
+                                       "label":  "2024 official annual province data",
+                                       "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                       "aligned":  true
+                                   },
+                        "alignedAnnual":  {
+                                              "label":  "2024 aligned annual province data",
+                                              "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                              "aligned":  true
+                                          }
+                    },
+        "generatedAt":  "2026-03-27"
+    },
+    {
+        "provinceId":  "420000000000",
+        "incomeSupportScore":  16.7,
+        "consumptionBurdenScore":  0,
+        "environmentScore":  46.1,
+        "publicServiceScore":  72.9,
+        "overviewScore":  29.6,
+        "coverageScore":  1,
+        "coverageLevel":  "full",
+        "sourceRefs":  "nbs-api-province-annual-2024",
+        "qualityFlags":  "environment_green_proxy",
+        "periods":  {
+                        "latest":  {
+                                       "label":  "2024 official annual province data",
+                                       "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                       "aligned":  true
+                                   },
+                        "alignedAnnual":  {
+                                              "label":  "2024 aligned annual province data",
+                                              "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                              "aligned":  true
+                                          }
+                    },
+        "generatedAt":  "2026-03-27"
+    },
+    {
+        "provinceId":  "430000000000",
+        "incomeSupportScore":  17.9,
+        "consumptionBurdenScore":  25.9,
+        "environmentScore":  31.9,
+        "publicServiceScore":  66.7,
+        "overviewScore":  32.5,
+        "coverageScore":  1,
+        "coverageLevel":  "full",
+        "sourceRefs":  "nbs-api-province-annual-2024",
+        "qualityFlags":  "environment_green_proxy",
+        "periods":  {
+                        "latest":  {
+                                       "label":  "2024 official annual province data",
+                                       "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                       "aligned":  true
+                                   },
+                        "alignedAnnual":  {
+                                              "label":  "2024 aligned annual province data",
+                                              "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                              "aligned":  true
+                                          }
+                    },
+        "generatedAt":  "2026-03-27"
+    },
+    {
+        "provinceId":  "440000000000",
+        "incomeSupportScore":  40.3,
+        "consumptionBurdenScore":  34.2,
+        "environmentScore":  59.9,
+        "publicServiceScore":  72.3,
+        "overviewScore":  49.1,
+        "coverageScore":  1,
+        "coverageLevel":  "full",
+        "sourceRefs":  "nbs-api-province-annual-2024",
+        "qualityFlags":  "environment_green_proxy",
+        "periods":  {
+                        "latest":  {
+                                       "label":  "2024 official annual province data",
+                                       "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                       "aligned":  true
+                                   },
+                        "alignedAnnual":  {
+                                              "label":  "2024 aligned annual province data",
+                                              "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                              "aligned":  true
+                                          }
+                    },
+        "generatedAt":  "2026-03-27"
+    },
+    {
+        "provinceId":  "450000000000",
+        "incomeSupportScore":  7.3,
+        "consumptionBurdenScore":  43.7,
+        "environmentScore":  23.8,
+        "publicServiceScore":  62.8,
+        "overviewScore":  30.8,
+        "coverageScore":  1,
+        "coverageLevel":  "full",
+        "sourceRefs":  "nbs-api-province-annual-2024",
+        "qualityFlags":  "environment_green_proxy",
+        "periods":  {
+                        "latest":  {
+                                       "label":  "2024 official annual province data",
+                                       "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                       "aligned":  true
+                                   },
+                        "alignedAnnual":  {
+                                              "label":  "2024 aligned annual province data",
+                                              "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                              "aligned":  true
+                                          }
+                    },
+        "generatedAt":  "2026-03-27"
+    },
+    {
+        "provinceId":  "460000000000",
+        "incomeSupportScore":  13.3,
+        "consumptionBurdenScore":  6.3,
+        "environmentScore":  20.6,
+        "publicServiceScore":  51.6,
+        "overviewScore":  20.7,
+        "coverageScore":  1,
+        "coverageLevel":  "full",
+        "sourceRefs":  "nbs-api-province-annual-2024",
+        "qualityFlags":  "environment_green_proxy",
+        "periods":  {
+                        "latest":  {
+                                       "label":  "2024 official annual province data",
+                                       "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                       "aligned":  true
+                                   },
+                        "alignedAnnual":  {
+                                              "label":  "2024 aligned annual province data",
+                                              "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                              "aligned":  true
+                                          }
+                    },
+        "generatedAt":  "2026-03-27"
+    },
+    {
+        "provinceId":  "500000000000",
+        "incomeSupportScore":  21.2,
+        "consumptionBurdenScore":  36.9,
+        "environmentScore":  81.8,
+        "publicServiceScore":  74.2,
+        "overviewScore":  47.8,
+        "coverageScore":  1,
+        "coverageLevel":  "full",
+        "sourceRefs":  "nbs-api-province-annual-2024",
+        "qualityFlags":  "environment_green_proxy",
+        "periods":  {
+                        "latest":  {
+                                       "label":  "2024 official annual province data",
+                                       "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                       "aligned":  true
+                                   },
+                        "alignedAnnual":  {
+                                              "label":  "2024 aligned annual province data",
+                                              "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                              "aligned":  true
+                                          }
+                    },
+        "generatedAt":  "2026-03-27"
+    },
+    {
+        "provinceId":  "510000000000",
+        "incomeSupportScore":  12.5,
+        "consumptionBurdenScore":  17.4,
+        "environmentScore":  36.4,
+        "publicServiceScore":  75.1,
+        "overviewScore":  31,
+        "coverageScore":  1,
+        "coverageLevel":  "full",
+        "sourceRefs":  "nbs-api-province-annual-2024",
+        "qualityFlags":  "environment_green_proxy",
+        "periods":  {
+                        "latest":  {
+                                       "label":  "2024 official annual province data",
+                                       "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                       "aligned":  true
+                                   },
+                        "alignedAnnual":  {
+                                              "label":  "2024 aligned annual province data",
+                                              "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                              "aligned":  true
+                                          }
+                    },
+        "generatedAt":  "2026-03-27"
+    },
+    {
+        "provinceId":  "520000000000",
+        "incomeSupportScore":  3.2,
+        "consumptionBurdenScore":  13.9,
+        "environmentScore":  56,
+        "publicServiceScore":  68.6,
+        "overviewScore":  29.5,
+        "coverageScore":  1,
+        "coverageLevel":  "full",
+        "sourceRefs":  "nbs-api-province-annual-2024",
+        "qualityFlags":  "environment_green_proxy",
+        "periods":  {
+                        "latest":  {
+                                       "label":  "2024 official annual province data",
+                                       "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                       "aligned":  true
+                                   },
+                        "alignedAnnual":  {
+                                              "label":  "2024 aligned annual province data",
+                                              "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                              "aligned":  true
+                                          }
+                    },
+        "generatedAt":  "2026-03-27"
+    },
+    {
+        "provinceId":  "530000000000",
+        "incomeSupportScore":  5.4,
+        "consumptionBurdenScore":  6,
+        "environmentScore":  33.9,
+        "publicServiceScore":  63,
+        "overviewScore":  22.8,
+        "coverageScore":  1,
+        "coverageLevel":  "full",
+        "sourceRefs":  "nbs-api-province-annual-2024",
+        "qualityFlags":  "environment_green_proxy",
+        "periods":  {
+                        "latest":  {
+                                       "label":  "2024 official annual province data",
+                                       "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                       "aligned":  true
+                                   },
+                        "alignedAnnual":  {
+                                              "label":  "2024 aligned annual province data",
+                                              "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                              "aligned":  true
+                                          }
+                    },
+        "generatedAt":  "2026-03-27"
+    },
+    {
+        "provinceId":  "540000000000",
+        "incomeSupportScore":  7.7,
+        "consumptionBurdenScore":  86.7,
+        "environmentScore":  56.7,
+        "publicServiceScore":  59.1,
+        "overviewScore":  47.5,
+        "coverageScore":  1,
+        "coverageLevel":  "full",
+        "sourceRefs":  "nbs-api-province-annual-2024",
+        "qualityFlags":  "environment_green_proxy",
+        "periods":  {
+                        "latest":  {
+                                       "label":  "2024 official annual province data",
+                                       "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                       "aligned":  true
+                                   },
+                        "alignedAnnual":  {
+                                              "label":  "2024 aligned annual province data",
+                                              "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                              "aligned":  true
+                                          }
+                    },
+        "generatedAt":  "2026-03-27"
+    },
+    {
+        "provinceId":  "610000000000",
+        "incomeSupportScore":  11.8,
+        "consumptionBurdenScore":  40.7,
+        "environmentScore":  24.9,
+        "publicServiceScore":  62.6,
+        "overviewScore":  31.8,
+        "coverageScore":  1,
+        "coverageLevel":  "full",
+        "sourceRefs":  "nbs-api-province-annual-2024",
+        "qualityFlags":  "environment_green_proxy",
+        "periods":  {
+                        "latest":  {
+                                       "label":  "2024 official annual province data",
+                                       "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                       "aligned":  true
+                                   },
+                        "alignedAnnual":  {
+                                              "label":  "2024 aligned annual province data",
+                                              "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                              "aligned":  true
+                                          }
+                    },
+        "generatedAt":  "2026-03-27"
+    },
+    {
+        "provinceId":  "620000000000",
+        "incomeSupportScore":  0,
+        "consumptionBurdenScore":  5.6,
+        "environmentScore":  41.5,
+        "publicServiceScore":  65.6,
+        "overviewScore":  22.8,
+        "coverageScore":  1,
+        "coverageLevel":  "full",
+        "sourceRefs":  "nbs-api-province-annual-2024",
+        "qualityFlags":  "environment_green_proxy",
+        "periods":  {
+                        "latest":  {
+                                       "label":  "2024 official annual province data",
+                                       "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                       "aligned":  true
+                                   },
+                        "alignedAnnual":  {
+                                              "label":  "2024 aligned annual province data",
+                                              "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                              "aligned":  true
+                                          }
+                    },
+        "generatedAt":  "2026-03-27"
+    },
+    {
+        "provinceId":  "630000000000",
+        "incomeSupportScore":  5.7,
+        "consumptionBurdenScore":  29.4,
+        "environmentScore":  23.8,
+        "publicServiceScore":  55.3,
+        "overviewScore":  25.2,
+        "coverageScore":  1,
+        "coverageLevel":  "full",
+        "sourceRefs":  "nbs-api-province-annual-2024",
+        "qualityFlags":  "environment_green_proxy",
+        "periods":  {
+                        "latest":  {
+                                       "label":  "2024 official annual province data",
+                                       "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                       "aligned":  true
+                                   },
+                        "alignedAnnual":  {
+                                              "label":  "2024 aligned annual province data",
+                                              "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                              "aligned":  true
+                                          }
+                    },
+        "generatedAt":  "2026-03-27"
+    },
+    {
+        "provinceId":  "640000000000",
+        "incomeSupportScore":  10.9,
+        "consumptionBurdenScore":  40.2,
+        "environmentScore":  100,
+        "publicServiceScore":  71.6,
+        "overviewScore":  48.2,
+        "coverageScore":  1,
+        "coverageLevel":  "full",
+        "sourceRefs":  "nbs-api-province-annual-2024",
+        "qualityFlags":  "environment_green_proxy",
+        "periods":  {
+                        "latest":  {
+                                       "label":  "2024 official annual province data",
+                                       "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                       "aligned":  true
+                                   },
+                        "alignedAnnual":  {
+                                              "label":  "2024 aligned annual province data",
+                                              "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                              "aligned":  true
+                                          }
+                    },
+        "generatedAt":  "2026-03-27"
+    },
+    {
+        "provinceId":  "650000000000",
+        "incomeSupportScore":  6.9,
+        "consumptionBurdenScore":  36.8,
+        "environmentScore":  50.8,
+        "publicServiceScore":  74.6,
+        "overviewScore":  36.7,
+        "coverageScore":  1,
+        "coverageLevel":  "full",
+        "sourceRefs":  "nbs-api-province-annual-2024",
+        "qualityFlags":  "environment_green_proxy",
+        "periods":  {
+                        "latest":  {
+                                       "label":  "2024 official annual province data",
+                                       "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                       "aligned":  true
+                                   },
+                        "alignedAnnual":  {
+                                              "label":  "2024 aligned annual province data",
+                                              "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                              "aligned":  true
+                                          }
+                    },
+        "generatedAt":  "2026-03-27"
+    },
+    {
+        "provinceId":  "710000000000",
+        "incomeSupportScore":  null,
+        "consumptionBurdenScore":  null,
+        "environmentScore":  null,
+        "publicServiceScore":  null,
+        "overviewScore":  null,
+        "coverageScore":  0.35,
+        "coverageLevel":  "limited",
+        "sourceRefs":  "nbs-api-province-annual-2024",
+        "qualityFlags":  "limited_comparability",
+        "periods":  {
+                        "latest":  {
+                                       "label":  "2024 official annual province data",
+                                       "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                       "aligned":  true
+                                   },
+                        "alignedAnnual":  {
+                                              "label":  "2024 aligned annual province data",
+                                              "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                              "aligned":  true
+                                          }
+                    },
+        "generatedAt":  "2026-03-27"
+    },
+    {
+        "provinceId":  "810000000000",
+        "incomeSupportScore":  null,
+        "consumptionBurdenScore":  null,
+        "environmentScore":  null,
+        "publicServiceScore":  null,
+        "overviewScore":  null,
+        "coverageScore":  0.35,
+        "coverageLevel":  "limited",
+        "sourceRefs":  "nbs-api-province-annual-2024",
+        "qualityFlags":  "limited_comparability",
+        "periods":  {
+                        "latest":  {
+                                       "label":  "2024 official annual province data",
+                                       "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                       "aligned":  true
+                                   },
+                        "alignedAnnual":  {
+                                              "label":  "2024 aligned annual province data",
+                                              "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                              "aligned":  true
+                                          }
+                    },
+        "generatedAt":  "2026-03-27"
+    },
+    {
+        "provinceId":  "820000000000",
+        "incomeSupportScore":  null,
+        "consumptionBurdenScore":  null,
+        "environmentScore":  null,
+        "publicServiceScore":  null,
+        "overviewScore":  null,
+        "coverageScore":  0.35,
+        "coverageLevel":  "limited",
+        "sourceRefs":  "nbs-api-province-annual-2024",
+        "qualityFlags":  "limited_comparability",
+        "periods":  {
+                        "latest":  {
+                                       "label":  "2024 official annual province data",
+                                       "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                       "aligned":  true
+                                   },
+                        "alignedAnnual":  {
+                                              "label":  "2024 aligned annual province data",
+                                              "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                              "aligned":  true
+                                          }
+                    },
+        "generatedAt":  "2026-03-27"
+    }
+]

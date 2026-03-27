@@ -1,0 +1,2544 @@
+﻿{
+    "generatedAt":  "2026-03-27",
+    "period":  "2024",
+    "sourceId":  "nbs-api-major-city-annual-2024",
+    "scope":  "36-major-cities",
+    "daCatalogId":  "5772e42228f948149cf5d6a11d07bce1",
+    "indicators":  [
+                       {
+                           "label":  "GDP",
+                           "key":  "gdp",
+                           "cid":  "75a85abe58c749e0ad1d85be343e9056",
+                           "id":  "35613910b9ad47e19cf79ae041ccb7ed",
+                           "unit":  "100m CNY"
+                       },
+                       {
+                           "label":  "Average wage in urban non-private units",
+                           "key":  "wageAnnual",
+                           "cid":  "b13e73d4a4734a46bf358aa1baff2649",
+                           "id":  "38ab34487419483b9e826c5d80a9c3ce",
+                           "unit":  "CNY"
+                       },
+                       {
+                           "label":  "Registered population",
+                           "key":  "registeredPopulation",
+                           "cid":  "b13e73d4a4734a46bf358aa1baff2649",
+                           "id":  "3825c2d7a32b4cf6b3d72fc5ed9e62c6",
+                           "unit":  "10k persons"
+                       },
+                       {
+                           "label":  "Retail sales of consumer goods",
+                           "key":  "retailSales",
+                           "cid":  "e4703d312cd44d498c168a10d2337f4a",
+                           "id":  "06eac78eee1c4eac9fcaeb0e8b5b108d",
+                           "unit":  "100m CNY"
+                       },
+                       {
+                           "label":  "College students enrolled",
+                           "key":  "students",
+                           "cid":  "b5590334491d4247af1313190d960fe4",
+                           "id":  "991b24f307ce4cbeb3fba62db4fa79c9",
+                           "unit":  "10k persons"
+                       },
+                       {
+                           "label":  "Hospitals",
+                           "key":  "hospitals",
+                           "cid":  "b5590334491d4247af1313190d960fe4",
+                           "id":  "a3ebd177379e4f59a4fde46c7e17b3d2",
+                           "unit":  "count"
+                       },
+                       {
+                           "label":  "Doctors",
+                           "key":  "doctors",
+                           "cid":  "b5590334491d4247af1313190d960fe4",
+                           "id":  "4e21cb7e40b2412fa60b45c2a64f0f4d",
+                           "unit":  "10k persons"
+                       }
+                   ],
+    "cities":  [
+                   {
+                       "code":  "110000000000",
+                       "name":  "北京",
+                       "fullName":  "北京市",
+                       "metrics":  {
+                                       "gdp":  {
+                                                   "label":  "GDP",
+                                                   "value":  49843.1,
+                                                   "unit":  "亿元",
+                                                   "dt":  "2024YY",
+                                                   "indicatorId":  "35613910b9ad47e19cf79ae041ccb7ed",
+                                                   "cid":  "75a85abe58c749e0ad1d85be343e9056"
+                                               },
+                                       "wageAnnual":  {
+                                                          "label":  "Average wage in urban non-private units",
+                                                          "value":  232592,
+                                                          "unit":  "元",
+                                                          "dt":  "2024YY",
+                                                          "indicatorId":  "38ab34487419483b9e826c5d80a9c3ce",
+                                                          "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                      },
+                                       "registeredPopulation":  {
+                                                                    "label":  "Registered population",
+                                                                    "value":  null,
+                                                                    "unit":  "万人",
+                                                                    "dt":  "2024YY",
+                                                                    "indicatorId":  "3825c2d7a32b4cf6b3d72fc5ed9e62c6",
+                                                                    "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                                },
+                                       "retailSales":  {
+                                                           "label":  "Retail sales of consumer goods",
+                                                           "value":  14092.4,
+                                                           "unit":  "亿元",
+                                                           "dt":  "2024YY",
+                                                           "indicatorId":  "06eac78eee1c4eac9fcaeb0e8b5b108d",
+                                                           "cid":  "e4703d312cd44d498c168a10d2337f4a"
+                                                       },
+                                       "students":  {
+                                                        "label":  "College students enrolled",
+                                                        "value":  66.5412,
+                                                        "unit":  "万人",
+                                                        "dt":  "2024YY",
+                                                        "indicatorId":  "991b24f307ce4cbeb3fba62db4fa79c9",
+                                                        "cid":  "b5590334491d4247af1313190d960fe4"
+                                                    },
+                                       "hospitals":  {
+                                                         "label":  "Hospitals",
+                                                         "value":  682,
+                                                         "unit":  "个",
+                                                         "dt":  "2024YY",
+                                                         "indicatorId":  "a3ebd177379e4f59a4fde46c7e17b3d2",
+                                                         "cid":  "b5590334491d4247af1313190d960fe4"
+                                                     },
+                                       "doctors":  {
+                                                       "label":  "Doctors",
+                                                       "value":  12.64,
+                                                       "unit":  "万人",
+                                                       "dt":  "2024YY",
+                                                       "indicatorId":  "4e21cb7e40b2412fa60b45c2a64f0f4d",
+                                                       "cid":  "b5590334491d4247af1313190d960fe4"
+                                                   }
+                                   },
+                       "sourceRefs":  [
+                                          "nbs-api-major-city-annual-2024"
+                                      ],
+                       "qualityFlags":  [
+                                            "major_city_official_layer"
+                                        ]
+                   },
+                   {
+                       "code":  "120000000000",
+                       "name":  "天津",
+                       "fullName":  "天津市",
+                       "metrics":  {
+                                       "gdp":  {
+                                                   "label":  "GDP",
+                                                   "value":  18024.3,
+                                                   "unit":  "亿元",
+                                                   "dt":  "2024YY",
+                                                   "indicatorId":  "35613910b9ad47e19cf79ae041ccb7ed",
+                                                   "cid":  "75a85abe58c749e0ad1d85be343e9056"
+                                               },
+                                       "wageAnnual":  {
+                                                          "label":  "Average wage in urban non-private units",
+                                                          "value":  146490,
+                                                          "unit":  "元",
+                                                          "dt":  "2024YY",
+                                                          "indicatorId":  "38ab34487419483b9e826c5d80a9c3ce",
+                                                          "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                      },
+                                       "registeredPopulation":  {
+                                                                    "label":  "Registered population",
+                                                                    "value":  null,
+                                                                    "unit":  "万人",
+                                                                    "dt":  "2024YY",
+                                                                    "indicatorId":  "3825c2d7a32b4cf6b3d72fc5ed9e62c6",
+                                                                    "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                                },
+                                       "retailSales":  {
+                                                           "label":  "Retail sales of consumer goods",
+                                                           "value":  4128.3,
+                                                           "unit":  "亿元",
+                                                           "dt":  "2024YY",
+                                                           "indicatorId":  "06eac78eee1c4eac9fcaeb0e8b5b108d",
+                                                           "cid":  "e4703d312cd44d498c168a10d2337f4a"
+                                                       },
+                                       "students":  {
+                                                        "label":  "College students enrolled",
+                                                        "value":  60.536,
+                                                        "unit":  "万人",
+                                                        "dt":  "2024YY",
+                                                        "indicatorId":  "991b24f307ce4cbeb3fba62db4fa79c9",
+                                                        "cid":  "b5590334491d4247af1313190d960fe4"
+                                                    },
+                                       "hospitals":  {
+                                                         "label":  "Hospitals",
+                                                         "value":  453,
+                                                         "unit":  "个",
+                                                         "dt":  "2024YY",
+                                                         "indicatorId":  "a3ebd177379e4f59a4fde46c7e17b3d2",
+                                                         "cid":  "b5590334491d4247af1313190d960fe4"
+                                                     },
+                                       "doctors":  {
+                                                       "label":  "Doctors",
+                                                       "value":  6.08,
+                                                       "unit":  "万人",
+                                                       "dt":  "2024YY",
+                                                       "indicatorId":  "4e21cb7e40b2412fa60b45c2a64f0f4d",
+                                                       "cid":  "b5590334491d4247af1313190d960fe4"
+                                                   }
+                                   },
+                       "sourceRefs":  [
+                                          "nbs-api-major-city-annual-2024"
+                                      ],
+                       "qualityFlags":  [
+                                            "major_city_official_layer"
+                                        ]
+                   },
+                   {
+                       "code":  "130100000000",
+                       "name":  "石家庄",
+                       "fullName":  "石家庄市",
+                       "metrics":  {
+                                       "gdp":  {
+                                                   "label":  "GDP",
+                                                   "value":  8203.44,
+                                                   "unit":  "亿元",
+                                                   "dt":  "2024YY",
+                                                   "indicatorId":  "35613910b9ad47e19cf79ae041ccb7ed",
+                                                   "cid":  "75a85abe58c749e0ad1d85be343e9056"
+                                               },
+                                       "wageAnnual":  {
+                                                          "label":  "Average wage in urban non-private units",
+                                                          "value":  null,
+                                                          "unit":  "元",
+                                                          "dt":  "2024YY",
+                                                          "indicatorId":  "38ab34487419483b9e826c5d80a9c3ce",
+                                                          "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                      },
+                                       "registeredPopulation":  {
+                                                                    "label":  "Registered population",
+                                                                    "value":  null,
+                                                                    "unit":  "万人",
+                                                                    "dt":  "2024YY",
+                                                                    "indicatorId":  "3825c2d7a32b4cf6b3d72fc5ed9e62c6",
+                                                                    "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                                },
+                                       "retailSales":  {
+                                                           "label":  "Retail sales of consumer goods",
+                                                           "value":  3021.7,
+                                                           "unit":  "亿元",
+                                                           "dt":  "2024YY",
+                                                           "indicatorId":  "06eac78eee1c4eac9fcaeb0e8b5b108d",
+                                                           "cid":  "e4703d312cd44d498c168a10d2337f4a"
+                                                       },
+                                       "students":  {
+                                                        "label":  "College students enrolled",
+                                                        "value":  70.1389,
+                                                        "unit":  "万人",
+                                                        "dt":  "2024YY",
+                                                        "indicatorId":  "991b24f307ce4cbeb3fba62db4fa79c9",
+                                                        "cid":  "b5590334491d4247af1313190d960fe4"
+                                                    },
+                                       "hospitals":  {
+                                                         "label":  "Hospitals",
+                                                         "value":  344,
+                                                         "unit":  "个",
+                                                         "dt":  "2024YY",
+                                                         "indicatorId":  "a3ebd177379e4f59a4fde46c7e17b3d2",
+                                                         "cid":  "b5590334491d4247af1313190d960fe4"
+                                                     },
+                                       "doctors":  {
+                                                       "label":  "Doctors",
+                                                       "value":  5.24,
+                                                       "unit":  "万人",
+                                                       "dt":  "2024YY",
+                                                       "indicatorId":  "4e21cb7e40b2412fa60b45c2a64f0f4d",
+                                                       "cid":  "b5590334491d4247af1313190d960fe4"
+                                                   }
+                                   },
+                       "sourceRefs":  [
+                                          "nbs-api-major-city-annual-2024"
+                                      ],
+                       "qualityFlags":  [
+                                            "major_city_official_layer"
+                                        ]
+                   },
+                   {
+                       "code":  "140100000000",
+                       "name":  "太原",
+                       "fullName":  "太原市",
+                       "metrics":  {
+                                       "gdp":  {
+                                                   "label":  "GDP",
+                                                   "value":  5418.87,
+                                                   "unit":  "亿元",
+                                                   "dt":  "2024YY",
+                                                   "indicatorId":  "35613910b9ad47e19cf79ae041ccb7ed",
+                                                   "cid":  "75a85abe58c749e0ad1d85be343e9056"
+                                               },
+                                       "wageAnnual":  {
+                                                          "label":  "Average wage in urban non-private units",
+                                                          "value":  null,
+                                                          "unit":  "元",
+                                                          "dt":  "2024YY",
+                                                          "indicatorId":  "38ab34487419483b9e826c5d80a9c3ce",
+                                                          "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                      },
+                                       "registeredPopulation":  {
+                                                                    "label":  "Registered population",
+                                                                    "value":  null,
+                                                                    "unit":  "万人",
+                                                                    "dt":  "2024YY",
+                                                                    "indicatorId":  "3825c2d7a32b4cf6b3d72fc5ed9e62c6",
+                                                                    "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                                },
+                                       "retailSales":  {
+                                                           "label":  "Retail sales of consumer goods",
+                                                           "value":  2260.4,
+                                                           "unit":  "亿元",
+                                                           "dt":  "2024YY",
+                                                           "indicatorId":  "06eac78eee1c4eac9fcaeb0e8b5b108d",
+                                                           "cid":  "e4703d312cd44d498c168a10d2337f4a"
+                                                       },
+                                       "students":  {
+                                                        "label":  "College students enrolled",
+                                                        "value":  73.314,
+                                                        "unit":  "万人",
+                                                        "dt":  "2024YY",
+                                                        "indicatorId":  "991b24f307ce4cbeb3fba62db4fa79c9",
+                                                        "cid":  "b5590334491d4247af1313190d960fe4"
+                                                    },
+                                       "hospitals":  {
+                                                         "label":  "Hospitals",
+                                                         "value":  162,
+                                                         "unit":  "个",
+                                                         "dt":  "2024YY",
+                                                         "indicatorId":  "a3ebd177379e4f59a4fde46c7e17b3d2",
+                                                         "cid":  "b5590334491d4247af1313190d960fe4"
+                                                     },
+                                       "doctors":  {
+                                                       "label":  "Doctors",
+                                                       "value":  2.91,
+                                                       "unit":  "万人",
+                                                       "dt":  "2024YY",
+                                                       "indicatorId":  "4e21cb7e40b2412fa60b45c2a64f0f4d",
+                                                       "cid":  "b5590334491d4247af1313190d960fe4"
+                                                   }
+                                   },
+                       "sourceRefs":  [
+                                          "nbs-api-major-city-annual-2024"
+                                      ],
+                       "qualityFlags":  [
+                                            "major_city_official_layer"
+                                        ]
+                   },
+                   {
+                       "code":  "150100000000",
+                       "name":  "呼和浩特",
+                       "fullName":  "呼和浩特市",
+                       "metrics":  {
+                                       "gdp":  {
+                                                   "label":  "GDP",
+                                                   "value":  4107.08,
+                                                   "unit":  "亿元",
+                                                   "dt":  "2024YY",
+                                                   "indicatorId":  "35613910b9ad47e19cf79ae041ccb7ed",
+                                                   "cid":  "75a85abe58c749e0ad1d85be343e9056"
+                                               },
+                                       "wageAnnual":  {
+                                                          "label":  "Average wage in urban non-private units",
+                                                          "value":  null,
+                                                          "unit":  "元",
+                                                          "dt":  "2024YY",
+                                                          "indicatorId":  "38ab34487419483b9e826c5d80a9c3ce",
+                                                          "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                      },
+                                       "registeredPopulation":  {
+                                                                    "label":  "Registered population",
+                                                                    "value":  null,
+                                                                    "unit":  "万人",
+                                                                    "dt":  "2024YY",
+                                                                    "indicatorId":  "3825c2d7a32b4cf6b3d72fc5ed9e62c6",
+                                                                    "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                                },
+                                       "retailSales":  {
+                                                           "label":  "Retail sales of consumer goods",
+                                                           "value":  1176,
+                                                           "unit":  "亿元",
+                                                           "dt":  "2024YY",
+                                                           "indicatorId":  "06eac78eee1c4eac9fcaeb0e8b5b108d",
+                                                           "cid":  "e4703d312cd44d498c168a10d2337f4a"
+                                                       },
+                                       "students":  {
+                                                        "label":  "College students enrolled",
+                                                        "value":  24.9351,
+                                                        "unit":  "万人",
+                                                        "dt":  "2024YY",
+                                                        "indicatorId":  "991b24f307ce4cbeb3fba62db4fa79c9",
+                                                        "cid":  "b5590334491d4247af1313190d960fe4"
+                                                    },
+                                       "hospitals":  {
+                                                         "label":  "Hospitals",
+                                                         "value":  122,
+                                                         "unit":  "个",
+                                                         "dt":  "2024YY",
+                                                         "indicatorId":  "a3ebd177379e4f59a4fde46c7e17b3d2",
+                                                         "cid":  "b5590334491d4247af1313190d960fe4"
+                                                     },
+                                       "doctors":  {
+                                                       "label":  "Doctors",
+                                                       "value":  1.59,
+                                                       "unit":  "万人",
+                                                       "dt":  "2024YY",
+                                                       "indicatorId":  "4e21cb7e40b2412fa60b45c2a64f0f4d",
+                                                       "cid":  "b5590334491d4247af1313190d960fe4"
+                                                   }
+                                   },
+                       "sourceRefs":  [
+                                          "nbs-api-major-city-annual-2024"
+                                      ],
+                       "qualityFlags":  [
+                                            "major_city_official_layer"
+                                        ]
+                   },
+                   {
+                       "code":  "210100000000",
+                       "name":  "沈阳",
+                       "fullName":  "沈阳市",
+                       "metrics":  {
+                                       "gdp":  {
+                                                   "label":  "GDP",
+                                                   "value":  9027.14,
+                                                   "unit":  "亿元",
+                                                   "dt":  "2024YY",
+                                                   "indicatorId":  "35613910b9ad47e19cf79ae041ccb7ed",
+                                                   "cid":  "75a85abe58c749e0ad1d85be343e9056"
+                                               },
+                                       "wageAnnual":  {
+                                                          "label":  "Average wage in urban non-private units",
+                                                          "value":  null,
+                                                          "unit":  "元",
+                                                          "dt":  "2024YY",
+                                                          "indicatorId":  "38ab34487419483b9e826c5d80a9c3ce",
+                                                          "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                      },
+                                       "registeredPopulation":  {
+                                                                    "label":  "Registered population",
+                                                                    "value":  null,
+                                                                    "unit":  "万人",
+                                                                    "dt":  "2024YY",
+                                                                    "indicatorId":  "3825c2d7a32b4cf6b3d72fc5ed9e62c6",
+                                                                    "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                                },
+                                       "retailSales":  {
+                                                           "label":  "Retail sales of consumer goods",
+                                                           "value":  4154.8,
+                                                           "unit":  "亿元",
+                                                           "dt":  "2024YY",
+                                                           "indicatorId":  "06eac78eee1c4eac9fcaeb0e8b5b108d",
+                                                           "cid":  "e4703d312cd44d498c168a10d2337f4a"
+                                                       },
+                                       "students":  {
+                                                        "label":  "College students enrolled",
+                                                        "value":  46.0484,
+                                                        "unit":  "万人",
+                                                        "dt":  "2024YY",
+                                                        "indicatorId":  "991b24f307ce4cbeb3fba62db4fa79c9",
+                                                        "cid":  "b5590334491d4247af1313190d960fe4"
+                                                    },
+                                       "hospitals":  {
+                                                         "label":  "Hospitals",
+                                                         "value":  314,
+                                                         "unit":  "个",
+                                                         "dt":  "2024YY",
+                                                         "indicatorId":  "a3ebd177379e4f59a4fde46c7e17b3d2",
+                                                         "cid":  "b5590334491d4247af1313190d960fe4"
+                                                     },
+                                       "doctors":  {
+                                                       "label":  "Doctors",
+                                                       "value":  4.12,
+                                                       "unit":  "万人",
+                                                       "dt":  "2024YY",
+                                                       "indicatorId":  "4e21cb7e40b2412fa60b45c2a64f0f4d",
+                                                       "cid":  "b5590334491d4247af1313190d960fe4"
+                                                   }
+                                   },
+                       "sourceRefs":  [
+                                          "nbs-api-major-city-annual-2024"
+                                      ],
+                       "qualityFlags":  [
+                                            "major_city_official_layer"
+                                        ]
+                   },
+                   {
+                       "code":  "210200000000",
+                       "name":  "大连",
+                       "fullName":  "大连市",
+                       "metrics":  {
+                                       "gdp":  {
+                                                   "label":  "GDP",
+                                                   "value":  9516.87,
+                                                   "unit":  "亿元",
+                                                   "dt":  "2024YY",
+                                                   "indicatorId":  "35613910b9ad47e19cf79ae041ccb7ed",
+                                                   "cid":  "75a85abe58c749e0ad1d85be343e9056"
+                                               },
+                                       "wageAnnual":  {
+                                                          "label":  "Average wage in urban non-private units",
+                                                          "value":  null,
+                                                          "unit":  "元",
+                                                          "dt":  "2024YY",
+                                                          "indicatorId":  "38ab34487419483b9e826c5d80a9c3ce",
+                                                          "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                      },
+                                       "registeredPopulation":  {
+                                                                    "label":  "Registered population",
+                                                                    "value":  null,
+                                                                    "unit":  "万人",
+                                                                    "dt":  "2024YY",
+                                                                    "indicatorId":  "3825c2d7a32b4cf6b3d72fc5ed9e62c6",
+                                                                    "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                                },
+                                       "retailSales":  {
+                                                           "label":  "Retail sales of consumer goods",
+                                                           "value":  2135.9,
+                                                           "unit":  "亿元",
+                                                           "dt":  "2024YY",
+                                                           "indicatorId":  "06eac78eee1c4eac9fcaeb0e8b5b108d",
+                                                           "cid":  "e4703d312cd44d498c168a10d2337f4a"
+                                                       },
+                                       "students":  {
+                                                        "label":  "College students enrolled",
+                                                        "value":  33.6841,
+                                                        "unit":  "万人",
+                                                        "dt":  "2024YY",
+                                                        "indicatorId":  "991b24f307ce4cbeb3fba62db4fa79c9",
+                                                        "cid":  "b5590334491d4247af1313190d960fe4"
+                                                    },
+                                       "hospitals":  {
+                                                         "label":  "Hospitals",
+                                                         "value":  250,
+                                                         "unit":  "个",
+                                                         "dt":  "2024YY",
+                                                         "indicatorId":  "a3ebd177379e4f59a4fde46c7e17b3d2",
+                                                         "cid":  "b5590334491d4247af1313190d960fe4"
+                                                     },
+                                       "doctors":  {
+                                                       "label":  "Doctors",
+                                                       "value":  2.83,
+                                                       "unit":  "万人",
+                                                       "dt":  "2024YY",
+                                                       "indicatorId":  "4e21cb7e40b2412fa60b45c2a64f0f4d",
+                                                       "cid":  "b5590334491d4247af1313190d960fe4"
+                                                   }
+                                   },
+                       "sourceRefs":  [
+                                          "nbs-api-major-city-annual-2024"
+                                      ],
+                       "qualityFlags":  [
+                                            "major_city_official_layer"
+                                        ]
+                   },
+                   {
+                       "code":  "220100000000",
+                       "name":  "长春",
+                       "fullName":  "长春市",
+                       "metrics":  {
+                                       "gdp":  {
+                                                   "label":  "GDP",
+                                                   "value":  7632.19,
+                                                   "unit":  "亿元",
+                                                   "dt":  "2024YY",
+                                                   "indicatorId":  "35613910b9ad47e19cf79ae041ccb7ed",
+                                                   "cid":  "75a85abe58c749e0ad1d85be343e9056"
+                                               },
+                                       "wageAnnual":  {
+                                                          "label":  "Average wage in urban non-private units",
+                                                          "value":  null,
+                                                          "unit":  "元",
+                                                          "dt":  "2024YY",
+                                                          "indicatorId":  "38ab34487419483b9e826c5d80a9c3ce",
+                                                          "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                      },
+                                       "registeredPopulation":  {
+                                                                    "label":  "Registered population",
+                                                                    "value":  null,
+                                                                    "unit":  "万人",
+                                                                    "dt":  "2024YY",
+                                                                    "indicatorId":  "3825c2d7a32b4cf6b3d72fc5ed9e62c6",
+                                                                    "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                                },
+                                       "retailSales":  {
+                                                           "label":  "Retail sales of consumer goods",
+                                                           "value":  2454.5,
+                                                           "unit":  "亿元",
+                                                           "dt":  "2024YY",
+                                                           "indicatorId":  "06eac78eee1c4eac9fcaeb0e8b5b108d",
+                                                           "cid":  "e4703d312cd44d498c168a10d2337f4a"
+                                                       },
+                                       "students":  {
+                                                        "label":  "College students enrolled",
+                                                        "value":  54.5186,
+                                                        "unit":  "万人",
+                                                        "dt":  "2024YY",
+                                                        "indicatorId":  "991b24f307ce4cbeb3fba62db4fa79c9",
+                                                        "cid":  "b5590334491d4247af1313190d960fe4"
+                                                    },
+                                       "hospitals":  {
+                                                         "label":  "Hospitals",
+                                                         "value":  289,
+                                                         "unit":  "个",
+                                                         "dt":  "2024YY",
+                                                         "indicatorId":  "a3ebd177379e4f59a4fde46c7e17b3d2",
+                                                         "cid":  "b5590334491d4247af1313190d960fe4"
+                                                     },
+                                       "doctors":  {
+                                                       "label":  "Doctors",
+                                                       "value":  3.97,
+                                                       "unit":  "万人",
+                                                       "dt":  "2024YY",
+                                                       "indicatorId":  "4e21cb7e40b2412fa60b45c2a64f0f4d",
+                                                       "cid":  "b5590334491d4247af1313190d960fe4"
+                                                   }
+                                   },
+                       "sourceRefs":  [
+                                          "nbs-api-major-city-annual-2024"
+                                      ],
+                       "qualityFlags":  [
+                                            "major_city_official_layer"
+                                        ]
+                   },
+                   {
+                       "code":  "230100000000",
+                       "name":  "哈尔滨",
+                       "fullName":  "哈尔滨市",
+                       "metrics":  {
+                                       "gdp":  {
+                                                   "label":  "GDP",
+                                                   "value":  6016.33,
+                                                   "unit":  "亿元",
+                                                   "dt":  "2024YY",
+                                                   "indicatorId":  "35613910b9ad47e19cf79ae041ccb7ed",
+                                                   "cid":  "75a85abe58c749e0ad1d85be343e9056"
+                                               },
+                                       "wageAnnual":  {
+                                                          "label":  "Average wage in urban non-private units",
+                                                          "value":  null,
+                                                          "unit":  "元",
+                                                          "dt":  "2024YY",
+                                                          "indicatorId":  "38ab34487419483b9e826c5d80a9c3ce",
+                                                          "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                      },
+                                       "registeredPopulation":  {
+                                                                    "label":  "Registered population",
+                                                                    "value":  null,
+                                                                    "unit":  "万人",
+                                                                    "dt":  "2024YY",
+                                                                    "indicatorId":  "3825c2d7a32b4cf6b3d72fc5ed9e62c6",
+                                                                    "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                                },
+                                       "retailSales":  {
+                                                           "label":  "Retail sales of consumer goods",
+                                                           "value":  2460.5,
+                                                           "unit":  "亿元",
+                                                           "dt":  "2024YY",
+                                                           "indicatorId":  "06eac78eee1c4eac9fcaeb0e8b5b108d",
+                                                           "cid":  "e4703d312cd44d498c168a10d2337f4a"
+                                                       },
+                                       "students":  {
+                                                        "label":  "College students enrolled",
+                                                        "value":  72.0528,
+                                                        "unit":  "万人",
+                                                        "dt":  "2024YY",
+                                                        "indicatorId":  "991b24f307ce4cbeb3fba62db4fa79c9",
+                                                        "cid":  "b5590334491d4247af1313190d960fe4"
+                                                    },
+                                       "hospitals":  {
+                                                         "label":  "Hospitals",
+                                                         "value":  360,
+                                                         "unit":  "个",
+                                                         "dt":  "2024YY",
+                                                         "indicatorId":  "a3ebd177379e4f59a4fde46c7e17b3d2",
+                                                         "cid":  "b5590334491d4247af1313190d960fe4"
+                                                     },
+                                       "doctors":  {
+                                                       "label":  "Doctors",
+                                                       "value":  3.62,
+                                                       "unit":  "万人",
+                                                       "dt":  "2024YY",
+                                                       "indicatorId":  "4e21cb7e40b2412fa60b45c2a64f0f4d",
+                                                       "cid":  "b5590334491d4247af1313190d960fe4"
+                                                   }
+                                   },
+                       "sourceRefs":  [
+                                          "nbs-api-major-city-annual-2024"
+                                      ],
+                       "qualityFlags":  [
+                                            "major_city_official_layer"
+                                        ]
+                   },
+                   {
+                       "code":  "310000000000",
+                       "name":  "上海",
+                       "fullName":  "上海市",
+                       "metrics":  {
+                                       "gdp":  {
+                                                   "label":  "GDP",
+                                                   "value":  53926.7,
+                                                   "unit":  "亿元",
+                                                   "dt":  "2024YY",
+                                                   "indicatorId":  "35613910b9ad47e19cf79ae041ccb7ed",
+                                                   "cid":  "75a85abe58c749e0ad1d85be343e9056"
+                                               },
+                                       "wageAnnual":  {
+                                                          "label":  "Average wage in urban non-private units",
+                                                          "value":  247174,
+                                                          "unit":  "元",
+                                                          "dt":  "2024YY",
+                                                          "indicatorId":  "38ab34487419483b9e826c5d80a9c3ce",
+                                                          "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                      },
+                                       "registeredPopulation":  {
+                                                                    "label":  "Registered population",
+                                                                    "value":  null,
+                                                                    "unit":  "万人",
+                                                                    "dt":  "2024YY",
+                                                                    "indicatorId":  "3825c2d7a32b4cf6b3d72fc5ed9e62c6",
+                                                                    "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                                },
+                                       "retailSales":  {
+                                                           "label":  "Retail sales of consumer goods",
+                                                           "value":  15872.3,
+                                                           "unit":  "亿元",
+                                                           "dt":  "2024YY",
+                                                           "indicatorId":  "06eac78eee1c4eac9fcaeb0e8b5b108d",
+                                                           "cid":  "e4703d312cd44d498c168a10d2337f4a"
+                                                       },
+                                       "students":  {
+                                                        "label":  "College students enrolled",
+                                                        "value":  58.7313,
+                                                        "unit":  "万人",
+                                                        "dt":  "2024YY",
+                                                        "indicatorId":  "991b24f307ce4cbeb3fba62db4fa79c9",
+                                                        "cid":  "b5590334491d4247af1313190d960fe4"
+                                                    },
+                                       "hospitals":  {
+                                                         "label":  "Hospitals",
+                                                         "value":  492,
+                                                         "unit":  "个",
+                                                         "dt":  "2024YY",
+                                                         "indicatorId":  "a3ebd177379e4f59a4fde46c7e17b3d2",
+                                                         "cid":  "b5590334491d4247af1313190d960fe4"
+                                                     },
+                                       "doctors":  {
+                                                       "label":  "Doctors",
+                                                       "value":  9.42,
+                                                       "unit":  "万人",
+                                                       "dt":  "2024YY",
+                                                       "indicatorId":  "4e21cb7e40b2412fa60b45c2a64f0f4d",
+                                                       "cid":  "b5590334491d4247af1313190d960fe4"
+                                                   }
+                                   },
+                       "sourceRefs":  [
+                                          "nbs-api-major-city-annual-2024"
+                                      ],
+                       "qualityFlags":  [
+                                            "major_city_official_layer"
+                                        ]
+                   },
+                   {
+                       "code":  "320100000000",
+                       "name":  "南京",
+                       "fullName":  "南京市",
+                       "metrics":  {
+                                       "gdp":  {
+                                                   "label":  "GDP",
+                                                   "value":  18500.81,
+                                                   "unit":  "亿元",
+                                                   "dt":  "2024YY",
+                                                   "indicatorId":  "35613910b9ad47e19cf79ae041ccb7ed",
+                                                   "cid":  "75a85abe58c749e0ad1d85be343e9056"
+                                               },
+                                       "wageAnnual":  {
+                                                          "label":  "Average wage in urban non-private units",
+                                                          "value":  null,
+                                                          "unit":  "元",
+                                                          "dt":  "2024YY",
+                                                          "indicatorId":  "38ab34487419483b9e826c5d80a9c3ce",
+                                                          "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                      },
+                                       "registeredPopulation":  {
+                                                                    "label":  "Registered population",
+                                                                    "value":  null,
+                                                                    "unit":  "万人",
+                                                                    "dt":  "2024YY",
+                                                                    "indicatorId":  "3825c2d7a32b4cf6b3d72fc5ed9e62c6",
+                                                                    "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                                },
+                                       "retailSales":  {
+                                                           "label":  "Retail sales of consumer goods",
+                                                           "value":  7864.1,
+                                                           "unit":  "亿元",
+                                                           "dt":  "2024YY",
+                                                           "indicatorId":  "06eac78eee1c4eac9fcaeb0e8b5b108d",
+                                                           "cid":  "e4703d312cd44d498c168a10d2337f4a"
+                                                       },
+                                       "students":  {
+                                                        "label":  "College students enrolled",
+                                                        "value":  83.4347,
+                                                        "unit":  "万人",
+                                                        "dt":  "2024YY",
+                                                        "indicatorId":  "991b24f307ce4cbeb3fba62db4fa79c9",
+                                                        "cid":  "b5590334491d4247af1313190d960fe4"
+                                                    },
+                                       "hospitals":  {
+                                                         "label":  "Hospitals",
+                                                         "value":  315,
+                                                         "unit":  "个",
+                                                         "dt":  "2024YY",
+                                                         "indicatorId":  "a3ebd177379e4f59a4fde46c7e17b3d2",
+                                                         "cid":  "b5590334491d4247af1313190d960fe4"
+                                                     },
+                                       "doctors":  {
+                                                       "label":  "Doctors",
+                                                       "value":  4.58,
+                                                       "unit":  "万人",
+                                                       "dt":  "2024YY",
+                                                       "indicatorId":  "4e21cb7e40b2412fa60b45c2a64f0f4d",
+                                                       "cid":  "b5590334491d4247af1313190d960fe4"
+                                                   }
+                                   },
+                       "sourceRefs":  [
+                                          "nbs-api-major-city-annual-2024"
+                                      ],
+                       "qualityFlags":  [
+                                            "major_city_official_layer"
+                                        ]
+                   },
+                   {
+                       "code":  "330100000000",
+                       "name":  "杭州",
+                       "fullName":  "杭州市",
+                       "metrics":  {
+                                       "gdp":  {
+                                                   "label":  "GDP",
+                                                   "value":  21860.32,
+                                                   "unit":  "亿元",
+                                                   "dt":  "2024YY",
+                                                   "indicatorId":  "35613910b9ad47e19cf79ae041ccb7ed",
+                                                   "cid":  "75a85abe58c749e0ad1d85be343e9056"
+                                               },
+                                       "wageAnnual":  {
+                                                          "label":  "Average wage in urban non-private units",
+                                                          "value":  null,
+                                                          "unit":  "元",
+                                                          "dt":  "2024YY",
+                                                          "indicatorId":  "38ab34487419483b9e826c5d80a9c3ce",
+                                                          "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                      },
+                                       "registeredPopulation":  {
+                                                                    "label":  "Registered population",
+                                                                    "value":  null,
+                                                                    "unit":  "万人",
+                                                                    "dt":  "2024YY",
+                                                                    "indicatorId":  "3825c2d7a32b4cf6b3d72fc5ed9e62c6",
+                                                                    "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                                },
+                                       "retailSales":  {
+                                                           "label":  "Retail sales of consumer goods",
+                                                           "value":  9150.9,
+                                                           "unit":  "亿元",
+                                                           "dt":  "2024YY",
+                                                           "indicatorId":  "06eac78eee1c4eac9fcaeb0e8b5b108d",
+                                                           "cid":  "e4703d312cd44d498c168a10d2337f4a"
+                                                       },
+                                       "students":  {
+                                                        "label":  "College students enrolled",
+                                                        "value":  52.2588,
+                                                        "unit":  "万人",
+                                                        "dt":  "2024YY",
+                                                        "indicatorId":  "991b24f307ce4cbeb3fba62db4fa79c9",
+                                                        "cid":  "b5590334491d4247af1313190d960fe4"
+                                                    },
+                                       "hospitals":  {
+                                                         "label":  "Hospitals",
+                                                         "value":  417,
+                                                         "unit":  "个",
+                                                         "dt":  "2024YY",
+                                                         "indicatorId":  "a3ebd177379e4f59a4fde46c7e17b3d2",
+                                                         "cid":  "b5590334491d4247af1313190d960fe4"
+                                                     },
+                                       "doctors":  {
+                                                       "label":  "Doctors",
+                                                       "value":  6.62,
+                                                       "unit":  "万人",
+                                                       "dt":  "2024YY",
+                                                       "indicatorId":  "4e21cb7e40b2412fa60b45c2a64f0f4d",
+                                                       "cid":  "b5590334491d4247af1313190d960fe4"
+                                                   }
+                                   },
+                       "sourceRefs":  [
+                                          "nbs-api-major-city-annual-2024"
+                                      ],
+                       "qualityFlags":  [
+                                            "major_city_official_layer"
+                                        ]
+                   },
+                   {
+                       "code":  "330200000000",
+                       "name":  "宁波",
+                       "fullName":  "宁波市",
+                       "metrics":  {
+                                       "gdp":  {
+                                                   "label":  "GDP",
+                                                   "value":  18147.7,
+                                                   "unit":  "亿元",
+                                                   "dt":  "2024YY",
+                                                   "indicatorId":  "35613910b9ad47e19cf79ae041ccb7ed",
+                                                   "cid":  "75a85abe58c749e0ad1d85be343e9056"
+                                               },
+                                       "wageAnnual":  {
+                                                          "label":  "Average wage in urban non-private units",
+                                                          "value":  null,
+                                                          "unit":  "元",
+                                                          "dt":  "2024YY",
+                                                          "indicatorId":  "38ab34487419483b9e826c5d80a9c3ce",
+                                                          "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                      },
+                                       "registeredPopulation":  {
+                                                                    "label":  "Registered population",
+                                                                    "value":  null,
+                                                                    "unit":  "万人",
+                                                                    "dt":  "2024YY",
+                                                                    "indicatorId":  "3825c2d7a32b4cf6b3d72fc5ed9e62c6",
+                                                                    "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                                },
+                                       "retailSales":  {
+                                                           "label":  "Retail sales of consumer goods",
+                                                           "value":  5279.2,
+                                                           "unit":  "亿元",
+                                                           "dt":  "2024YY",
+                                                           "indicatorId":  "06eac78eee1c4eac9fcaeb0e8b5b108d",
+                                                           "cid":  "e4703d312cd44d498c168a10d2337f4a"
+                                                       },
+                                       "students":  {
+                                                        "label":  "College students enrolled",
+                                                        "value":  19.3807,
+                                                        "unit":  "万人",
+                                                        "dt":  "2024YY",
+                                                        "indicatorId":  "991b24f307ce4cbeb3fba62db4fa79c9",
+                                                        "cid":  "b5590334491d4247af1313190d960fe4"
+                                                    },
+                                       "hospitals":  {
+                                                         "label":  "Hospitals",
+                                                         "value":  214,
+                                                         "unit":  "个",
+                                                         "dt":  "2024YY",
+                                                         "indicatorId":  "a3ebd177379e4f59a4fde46c7e17b3d2",
+                                                         "cid":  "b5590334491d4247af1313190d960fe4"
+                                                     },
+                                       "doctors":  {
+                                                       "label":  "Doctors",
+                                                       "value":  3.97,
+                                                       "unit":  "万人",
+                                                       "dt":  "2024YY",
+                                                       "indicatorId":  "4e21cb7e40b2412fa60b45c2a64f0f4d",
+                                                       "cid":  "b5590334491d4247af1313190d960fe4"
+                                                   }
+                                   },
+                       "sourceRefs":  [
+                                          "nbs-api-major-city-annual-2024"
+                                      ],
+                       "qualityFlags":  [
+                                            "major_city_official_layer"
+                                        ]
+                   },
+                   {
+                       "code":  "340100000000",
+                       "name":  "合肥",
+                       "fullName":  "合肥市",
+                       "metrics":  {
+                                       "gdp":  {
+                                                   "label":  "GDP",
+                                                   "value":  13507.69,
+                                                   "unit":  "亿元",
+                                                   "dt":  "2024YY",
+                                                   "indicatorId":  "35613910b9ad47e19cf79ae041ccb7ed",
+                                                   "cid":  "75a85abe58c749e0ad1d85be343e9056"
+                                               },
+                                       "wageAnnual":  {
+                                                          "label":  "Average wage in urban non-private units",
+                                                          "value":  null,
+                                                          "unit":  "元",
+                                                          "dt":  "2024YY",
+                                                          "indicatorId":  "38ab34487419483b9e826c5d80a9c3ce",
+                                                          "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                      },
+                                       "registeredPopulation":  {
+                                                                    "label":  "Registered population",
+                                                                    "value":  null,
+                                                                    "unit":  "万人",
+                                                                    "dt":  "2024YY",
+                                                                    "indicatorId":  "3825c2d7a32b4cf6b3d72fc5ed9e62c6",
+                                                                    "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                                },
+                                       "retailSales":  {
+                                                           "label":  "Retail sales of consumer goods",
+                                                           "value":  5156.5,
+                                                           "unit":  "亿元",
+                                                           "dt":  "2024YY",
+                                                           "indicatorId":  "06eac78eee1c4eac9fcaeb0e8b5b108d",
+                                                           "cid":  "e4703d312cd44d498c168a10d2337f4a"
+                                                       },
+                                       "students":  {
+                                                        "label":  "College students enrolled",
+                                                        "value":  83.9507,
+                                                        "unit":  "万人",
+                                                        "dt":  "2024YY",
+                                                        "indicatorId":  "991b24f307ce4cbeb3fba62db4fa79c9",
+                                                        "cid":  "b5590334491d4247af1313190d960fe4"
+                                                    },
+                                       "hospitals":  {
+                                                         "label":  "Hospitals",
+                                                         "value":  231,
+                                                         "unit":  "个",
+                                                         "dt":  "2024YY",
+                                                         "indicatorId":  "a3ebd177379e4f59a4fde46c7e17b3d2",
+                                                         "cid":  "b5590334491d4247af1313190d960fe4"
+                                                     },
+                                       "doctors":  {
+                                                       "label":  "Doctors",
+                                                       "value":  3.64,
+                                                       "unit":  "万人",
+                                                       "dt":  "2024YY",
+                                                       "indicatorId":  "4e21cb7e40b2412fa60b45c2a64f0f4d",
+                                                       "cid":  "b5590334491d4247af1313190d960fe4"
+                                                   }
+                                   },
+                       "sourceRefs":  [
+                                          "nbs-api-major-city-annual-2024"
+                                      ],
+                       "qualityFlags":  [
+                                            "major_city_official_layer"
+                                        ]
+                   },
+                   {
+                       "code":  "350100000000",
+                       "name":  "福州",
+                       "fullName":  "福州市",
+                       "metrics":  {
+                                       "gdp":  {
+                                                   "label":  "GDP",
+                                                   "value":  14236.76,
+                                                   "unit":  "亿元",
+                                                   "dt":  "2024YY",
+                                                   "indicatorId":  "35613910b9ad47e19cf79ae041ccb7ed",
+                                                   "cid":  "75a85abe58c749e0ad1d85be343e9056"
+                                               },
+                                       "wageAnnual":  {
+                                                          "label":  "Average wage in urban non-private units",
+                                                          "value":  null,
+                                                          "unit":  "元",
+                                                          "dt":  "2024YY",
+                                                          "indicatorId":  "38ab34487419483b9e826c5d80a9c3ce",
+                                                          "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                      },
+                                       "registeredPopulation":  {
+                                                                    "label":  "Registered population",
+                                                                    "value":  null,
+                                                                    "unit":  "万人",
+                                                                    "dt":  "2024YY",
+                                                                    "indicatorId":  "3825c2d7a32b4cf6b3d72fc5ed9e62c6",
+                                                                    "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                                },
+                                       "retailSales":  {
+                                                           "label":  "Retail sales of consumer goods",
+                                                           "value":  5633.7,
+                                                           "unit":  "亿元",
+                                                           "dt":  "2024YY",
+                                                           "indicatorId":  "06eac78eee1c4eac9fcaeb0e8b5b108d",
+                                                           "cid":  "e4703d312cd44d498c168a10d2337f4a"
+                                                       },
+                                       "students":  {
+                                                        "label":  "College students enrolled",
+                                                        "value":  45.2993,
+                                                        "unit":  "万人",
+                                                        "dt":  "2024YY",
+                                                        "indicatorId":  "991b24f307ce4cbeb3fba62db4fa79c9",
+                                                        "cid":  "b5590334491d4247af1313190d960fe4"
+                                                    },
+                                       "hospitals":  {
+                                                         "label":  "Hospitals",
+                                                         "value":  152,
+                                                         "unit":  "个",
+                                                         "dt":  "2024YY",
+                                                         "indicatorId":  "a3ebd177379e4f59a4fde46c7e17b3d2",
+                                                         "cid":  "b5590334491d4247af1313190d960fe4"
+                                                     },
+                                       "doctors":  {
+                                                       "label":  "Doctors",
+                                                       "value":  3.11,
+                                                       "unit":  "万人",
+                                                       "dt":  "2024YY",
+                                                       "indicatorId":  "4e21cb7e40b2412fa60b45c2a64f0f4d",
+                                                       "cid":  "b5590334491d4247af1313190d960fe4"
+                                                   }
+                                   },
+                       "sourceRefs":  [
+                                          "nbs-api-major-city-annual-2024"
+                                      ],
+                       "qualityFlags":  [
+                                            "major_city_official_layer"
+                                        ]
+                   },
+                   {
+                       "code":  "350200000000",
+                       "name":  "厦门",
+                       "fullName":  "厦门市",
+                       "metrics":  {
+                                       "gdp":  {
+                                                   "label":  "GDP",
+                                                   "value":  8589.01,
+                                                   "unit":  "亿元",
+                                                   "dt":  "2024YY",
+                                                   "indicatorId":  "35613910b9ad47e19cf79ae041ccb7ed",
+                                                   "cid":  "75a85abe58c749e0ad1d85be343e9056"
+                                               },
+                                       "wageAnnual":  {
+                                                          "label":  "Average wage in urban non-private units",
+                                                          "value":  null,
+                                                          "unit":  "元",
+                                                          "dt":  "2024YY",
+                                                          "indicatorId":  "38ab34487419483b9e826c5d80a9c3ce",
+                                                          "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                      },
+                                       "registeredPopulation":  {
+                                                                    "label":  "Registered population",
+                                                                    "value":  null,
+                                                                    "unit":  "万人",
+                                                                    "dt":  "2024YY",
+                                                                    "indicatorId":  "3825c2d7a32b4cf6b3d72fc5ed9e62c6",
+                                                                    "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                                },
+                                       "retailSales":  {
+                                                           "label":  "Retail sales of consumer goods",
+                                                           "value":  3329.8,
+                                                           "unit":  "亿元",
+                                                           "dt":  "2024YY",
+                                                           "indicatorId":  "06eac78eee1c4eac9fcaeb0e8b5b108d",
+                                                           "cid":  "e4703d312cd44d498c168a10d2337f4a"
+                                                       },
+                                       "students":  {
+                                                        "label":  "College students enrolled",
+                                                        "value":  19.9268,
+                                                        "unit":  "万人",
+                                                        "dt":  "2024YY",
+                                                        "indicatorId":  "991b24f307ce4cbeb3fba62db4fa79c9",
+                                                        "cid":  "b5590334491d4247af1313190d960fe4"
+                                                    },
+                                       "hospitals":  {
+                                                         "label":  "Hospitals",
+                                                         "value":  70,
+                                                         "unit":  "个",
+                                                         "dt":  "2024YY",
+                                                         "indicatorId":  "a3ebd177379e4f59a4fde46c7e17b3d2",
+                                                         "cid":  "b5590334491d4247af1313190d960fe4"
+                                                     },
+                                       "doctors":  {
+                                                       "label":  "Doctors",
+                                                       "value":  2.01,
+                                                       "unit":  "万人",
+                                                       "dt":  "2024YY",
+                                                       "indicatorId":  "4e21cb7e40b2412fa60b45c2a64f0f4d",
+                                                       "cid":  "b5590334491d4247af1313190d960fe4"
+                                                   }
+                                   },
+                       "sourceRefs":  [
+                                          "nbs-api-major-city-annual-2024"
+                                      ],
+                       "qualityFlags":  [
+                                            "major_city_official_layer"
+                                        ]
+                   },
+                   {
+                       "code":  "360100000000",
+                       "name":  "南昌",
+                       "fullName":  "南昌市",
+                       "metrics":  {
+                                       "gdp":  {
+                                                   "label":  "GDP",
+                                                   "value":  7800.37,
+                                                   "unit":  "亿元",
+                                                   "dt":  "2024YY",
+                                                   "indicatorId":  "35613910b9ad47e19cf79ae041ccb7ed",
+                                                   "cid":  "75a85abe58c749e0ad1d85be343e9056"
+                                               },
+                                       "wageAnnual":  {
+                                                          "label":  "Average wage in urban non-private units",
+                                                          "value":  null,
+                                                          "unit":  "元",
+                                                          "dt":  "2024YY",
+                                                          "indicatorId":  "38ab34487419483b9e826c5d80a9c3ce",
+                                                          "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                      },
+                                       "registeredPopulation":  {
+                                                                    "label":  "Registered population",
+                                                                    "value":  null,
+                                                                    "unit":  "万人",
+                                                                    "dt":  "2024YY",
+                                                                    "indicatorId":  "3825c2d7a32b4cf6b3d72fc5ed9e62c6",
+                                                                    "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                                },
+                                       "retailSales":  {
+                                                           "label":  "Retail sales of consumer goods",
+                                                           "value":  2847.7,
+                                                           "unit":  "亿元",
+                                                           "dt":  "2024YY",
+                                                           "indicatorId":  "06eac78eee1c4eac9fcaeb0e8b5b108d",
+                                                           "cid":  "e4703d312cd44d498c168a10d2337f4a"
+                                                       },
+                                       "students":  {
+                                                        "label":  "College students enrolled",
+                                                        "value":  82.0266,
+                                                        "unit":  "万人",
+                                                        "dt":  "2024YY",
+                                                        "indicatorId":  "991b24f307ce4cbeb3fba62db4fa79c9",
+                                                        "cid":  "b5590334491d4247af1313190d960fe4"
+                                                    },
+                                       "hospitals":  {
+                                                         "label":  "Hospitals",
+                                                         "value":  158,
+                                                         "unit":  "个",
+                                                         "dt":  "2024YY",
+                                                         "indicatorId":  "a3ebd177379e4f59a4fde46c7e17b3d2",
+                                                         "cid":  "b5590334491d4247af1313190d960fe4"
+                                                     },
+                                       "doctors":  {
+                                                       "label":  "Doctors",
+                                                       "value":  2.45,
+                                                       "unit":  "万人",
+                                                       "dt":  "2024YY",
+                                                       "indicatorId":  "4e21cb7e40b2412fa60b45c2a64f0f4d",
+                                                       "cid":  "b5590334491d4247af1313190d960fe4"
+                                                   }
+                                   },
+                       "sourceRefs":  [
+                                          "nbs-api-major-city-annual-2024"
+                                      ],
+                       "qualityFlags":  [
+                                            "major_city_official_layer"
+                                        ]
+                   },
+                   {
+                       "code":  "370100000000",
+                       "name":  "济南",
+                       "fullName":  "济南市",
+                       "metrics":  {
+                                       "gdp":  {
+                                                   "label":  "GDP",
+                                                   "value":  13527.55,
+                                                   "unit":  "亿元",
+                                                   "dt":  "2024YY",
+                                                   "indicatorId":  "35613910b9ad47e19cf79ae041ccb7ed",
+                                                   "cid":  "75a85abe58c749e0ad1d85be343e9056"
+                                               },
+                                       "wageAnnual":  {
+                                                          "label":  "Average wage in urban non-private units",
+                                                          "value":  null,
+                                                          "unit":  "元",
+                                                          "dt":  "2024YY",
+                                                          "indicatorId":  "38ab34487419483b9e826c5d80a9c3ce",
+                                                          "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                      },
+                                       "registeredPopulation":  {
+                                                                    "label":  "Registered population",
+                                                                    "value":  null,
+                                                                    "unit":  "万人",
+                                                                    "dt":  "2024YY",
+                                                                    "indicatorId":  "3825c2d7a32b4cf6b3d72fc5ed9e62c6",
+                                                                    "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                                },
+                                       "retailSales":  {
+                                                           "label":  "Retail sales of consumer goods",
+                                                           "value":  5316.1,
+                                                           "unit":  "亿元",
+                                                           "dt":  "2024YY",
+                                                           "indicatorId":  "06eac78eee1c4eac9fcaeb0e8b5b108d",
+                                                           "cid":  "e4703d312cd44d498c168a10d2337f4a"
+                                                       },
+                                       "students":  {
+                                                        "label":  "College students enrolled",
+                                                        "value":  68.73,
+                                                        "unit":  "万人",
+                                                        "dt":  "2024YY",
+                                                        "indicatorId":  "991b24f307ce4cbeb3fba62db4fa79c9",
+                                                        "cid":  "b5590334491d4247af1313190d960fe4"
+                                                    },
+                                       "hospitals":  {
+                                                         "label":  "Hospitals",
+                                                         "value":  336,
+                                                         "unit":  "个",
+                                                         "dt":  "2024YY",
+                                                         "indicatorId":  "a3ebd177379e4f59a4fde46c7e17b3d2",
+                                                         "cid":  "b5590334491d4247af1313190d960fe4"
+                                                     },
+                                       "doctors":  {
+                                                       "label":  "Doctors",
+                                                       "value":  5.09,
+                                                       "unit":  "万人",
+                                                       "dt":  "2024YY",
+                                                       "indicatorId":  "4e21cb7e40b2412fa60b45c2a64f0f4d",
+                                                       "cid":  "b5590334491d4247af1313190d960fe4"
+                                                   }
+                                   },
+                       "sourceRefs":  [
+                                          "nbs-api-major-city-annual-2024"
+                                      ],
+                       "qualityFlags":  [
+                                            "major_city_official_layer"
+                                        ]
+                   },
+                   {
+                       "code":  "370200000000",
+                       "name":  "青岛",
+                       "fullName":  "青岛市",
+                       "metrics":  {
+                                       "gdp":  {
+                                                   "label":  "GDP",
+                                                   "value":  16719.46,
+                                                   "unit":  "亿元",
+                                                   "dt":  "2024YY",
+                                                   "indicatorId":  "35613910b9ad47e19cf79ae041ccb7ed",
+                                                   "cid":  "75a85abe58c749e0ad1d85be343e9056"
+                                               },
+                                       "wageAnnual":  {
+                                                          "label":  "Average wage in urban non-private units",
+                                                          "value":  null,
+                                                          "unit":  "元",
+                                                          "dt":  "2024YY",
+                                                          "indicatorId":  "38ab34487419483b9e826c5d80a9c3ce",
+                                                          "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                      },
+                                       "registeredPopulation":  {
+                                                                    "label":  "Registered population",
+                                                                    "value":  null,
+                                                                    "unit":  "万人",
+                                                                    "dt":  "2024YY",
+                                                                    "indicatorId":  "3825c2d7a32b4cf6b3d72fc5ed9e62c6",
+                                                                    "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                                },
+                                       "retailSales":  {
+                                                           "label":  "Retail sales of consumer goods",
+                                                           "value":  6746.8,
+                                                           "unit":  "亿元",
+                                                           "dt":  "2024YY",
+                                                           "indicatorId":  "06eac78eee1c4eac9fcaeb0e8b5b108d",
+                                                           "cid":  "e4703d312cd44d498c168a10d2337f4a"
+                                                       },
+                                       "students":  {
+                                                        "label":  "College students enrolled",
+                                                        "value":  51.628,
+                                                        "unit":  "万人",
+                                                        "dt":  "2024YY",
+                                                        "indicatorId":  "991b24f307ce4cbeb3fba62db4fa79c9",
+                                                        "cid":  "b5590334491d4247af1313190d960fe4"
+                                                    },
+                                       "hospitals":  {
+                                                         "label":  "Hospitals",
+                                                         "value":  369,
+                                                         "unit":  "个",
+                                                         "dt":  "2024YY",
+                                                         "indicatorId":  "a3ebd177379e4f59a4fde46c7e17b3d2",
+                                                         "cid":  "b5590334491d4247af1313190d960fe4"
+                                                     },
+                                       "doctors":  {
+                                                       "label":  "Doctors",
+                                                       "value":  4.49,
+                                                       "unit":  "万人",
+                                                       "dt":  "2024YY",
+                                                       "indicatorId":  "4e21cb7e40b2412fa60b45c2a64f0f4d",
+                                                       "cid":  "b5590334491d4247af1313190d960fe4"
+                                                   }
+                                   },
+                       "sourceRefs":  [
+                                          "nbs-api-major-city-annual-2024"
+                                      ],
+                       "qualityFlags":  [
+                                            "major_city_official_layer"
+                                        ]
+                   },
+                   {
+                       "code":  "410100000000",
+                       "name":  "郑州",
+                       "fullName":  "郑州市",
+                       "metrics":  {
+                                       "gdp":  {
+                                                   "label":  "GDP",
+                                                   "value":  14532.07,
+                                                   "unit":  "亿元",
+                                                   "dt":  "2024YY",
+                                                   "indicatorId":  "35613910b9ad47e19cf79ae041ccb7ed",
+                                                   "cid":  "75a85abe58c749e0ad1d85be343e9056"
+                                               },
+                                       "wageAnnual":  {
+                                                          "label":  "Average wage in urban non-private units",
+                                                          "value":  null,
+                                                          "unit":  "元",
+                                                          "dt":  "2024YY",
+                                                          "indicatorId":  "38ab34487419483b9e826c5d80a9c3ce",
+                                                          "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                      },
+                                       "registeredPopulation":  {
+                                                                    "label":  "Registered population",
+                                                                    "value":  null,
+                                                                    "unit":  "万人",
+                                                                    "dt":  "2024YY",
+                                                                    "indicatorId":  "3825c2d7a32b4cf6b3d72fc5ed9e62c6",
+                                                                    "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                                },
+                                       "retailSales":  {
+                                                           "label":  "Retail sales of consumer goods",
+                                                           "value":  6310.7,
+                                                           "unit":  "亿元",
+                                                           "dt":  "2024YY",
+                                                           "indicatorId":  "06eac78eee1c4eac9fcaeb0e8b5b108d",
+                                                           "cid":  "e4703d312cd44d498c168a10d2337f4a"
+                                                       },
+                                       "students":  {
+                                                        "label":  "College students enrolled",
+                                                        "value":  143.2172,
+                                                        "unit":  "万人",
+                                                        "dt":  "2024YY",
+                                                        "indicatorId":  "991b24f307ce4cbeb3fba62db4fa79c9",
+                                                        "cid":  "b5590334491d4247af1313190d960fe4"
+                                                    },
+                                       "hospitals":  {
+                                                         "label":  "Hospitals",
+                                                         "value":  292,
+                                                         "unit":  "个",
+                                                         "dt":  "2024YY",
+                                                         "indicatorId":  "a3ebd177379e4f59a4fde46c7e17b3d2",
+                                                         "cid":  "b5590334491d4247af1313190d960fe4"
+                                                     },
+                                       "doctors":  {
+                                                       "label":  "Doctors",
+                                                       "value":  6,
+                                                       "unit":  "万人",
+                                                       "dt":  "2024YY",
+                                                       "indicatorId":  "4e21cb7e40b2412fa60b45c2a64f0f4d",
+                                                       "cid":  "b5590334491d4247af1313190d960fe4"
+                                                   }
+                                   },
+                       "sourceRefs":  [
+                                          "nbs-api-major-city-annual-2024"
+                                      ],
+                       "qualityFlags":  [
+                                            "major_city_official_layer"
+                                        ]
+                   },
+                   {
+                       "code":  "420100000000",
+                       "name":  "武汉",
+                       "fullName":  "武汉市",
+                       "metrics":  {
+                                       "gdp":  {
+                                                   "label":  "GDP",
+                                                   "value":  21106.23,
+                                                   "unit":  "亿元",
+                                                   "dt":  "2024YY",
+                                                   "indicatorId":  "35613910b9ad47e19cf79ae041ccb7ed",
+                                                   "cid":  "75a85abe58c749e0ad1d85be343e9056"
+                                               },
+                                       "wageAnnual":  {
+                                                          "label":  "Average wage in urban non-private units",
+                                                          "value":  null,
+                                                          "unit":  "元",
+                                                          "dt":  "2024YY",
+                                                          "indicatorId":  "38ab34487419483b9e826c5d80a9c3ce",
+                                                          "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                      },
+                                       "registeredPopulation":  {
+                                                                    "label":  "Registered population",
+                                                                    "value":  null,
+                                                                    "unit":  "万人",
+                                                                    "dt":  "2024YY",
+                                                                    "indicatorId":  "3825c2d7a32b4cf6b3d72fc5ed9e62c6",
+                                                                    "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                                },
+                                       "retailSales":  {
+                                                           "label":  "Retail sales of consumer goods",
+                                                           "value":  7931.9,
+                                                           "unit":  "亿元",
+                                                           "dt":  "2024YY",
+                                                           "indicatorId":  "06eac78eee1c4eac9fcaeb0e8b5b108d",
+                                                           "cid":  "e4703d312cd44d498c168a10d2337f4a"
+                                                       },
+                                       "students":  {
+                                                        "label":  "College students enrolled",
+                                                        "value":  119.3975,
+                                                        "unit":  "万人",
+                                                        "dt":  "2024YY",
+                                                        "indicatorId":  "991b24f307ce4cbeb3fba62db4fa79c9",
+                                                        "cid":  "b5590334491d4247af1313190d960fe4"
+                                                    },
+                                       "hospitals":  {
+                                                         "label":  "Hospitals",
+                                                         "value":  373,
+                                                         "unit":  "个",
+                                                         "dt":  "2024YY",
+                                                         "indicatorId":  "a3ebd177379e4f59a4fde46c7e17b3d2",
+                                                         "cid":  "b5590334491d4247af1313190d960fe4"
+                                                     },
+                                       "doctors":  {
+                                                       "label":  "Doctors",
+                                                       "value":  5.28,
+                                                       "unit":  "万人",
+                                                       "dt":  "2024YY",
+                                                       "indicatorId":  "4e21cb7e40b2412fa60b45c2a64f0f4d",
+                                                       "cid":  "b5590334491d4247af1313190d960fe4"
+                                                   }
+                                   },
+                       "sourceRefs":  [
+                                          "nbs-api-major-city-annual-2024"
+                                      ],
+                       "qualityFlags":  [
+                                            "major_city_official_layer"
+                                        ]
+                   },
+                   {
+                       "code":  "430100000000",
+                       "name":  "长沙",
+                       "fullName":  "长沙市",
+                       "metrics":  {
+                                       "gdp":  {
+                                                   "label":  "GDP",
+                                                   "value":  15268.78,
+                                                   "unit":  "亿元",
+                                                   "dt":  "2024YY",
+                                                   "indicatorId":  "35613910b9ad47e19cf79ae041ccb7ed",
+                                                   "cid":  "75a85abe58c749e0ad1d85be343e9056"
+                                               },
+                                       "wageAnnual":  {
+                                                          "label":  "Average wage in urban non-private units",
+                                                          "value":  null,
+                                                          "unit":  "元",
+                                                          "dt":  "2024YY",
+                                                          "indicatorId":  "38ab34487419483b9e826c5d80a9c3ce",
+                                                          "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                      },
+                                       "registeredPopulation":  {
+                                                                    "label":  "Registered population",
+                                                                    "value":  null,
+                                                                    "unit":  "万人",
+                                                                    "dt":  "2024YY",
+                                                                    "indicatorId":  "3825c2d7a32b4cf6b3d72fc5ed9e62c6",
+                                                                    "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                                },
+                                       "retailSales":  {
+                                                           "label":  "Retail sales of consumer goods",
+                                                           "value":  5797.7,
+                                                           "unit":  "亿元",
+                                                           "dt":  "2024YY",
+                                                           "indicatorId":  "06eac78eee1c4eac9fcaeb0e8b5b108d",
+                                                           "cid":  "e4703d312cd44d498c168a10d2337f4a"
+                                                       },
+                                       "students":  {
+                                                        "label":  "College students enrolled",
+                                                        "value":  83.1578,
+                                                        "unit":  "万人",
+                                                        "dt":  "2024YY",
+                                                        "indicatorId":  "991b24f307ce4cbeb3fba62db4fa79c9",
+                                                        "cid":  "b5590334491d4247af1313190d960fe4"
+                                                    },
+                                       "hospitals":  {
+                                                         "label":  "Hospitals",
+                                                         "value":  245,
+                                                         "unit":  "个",
+                                                         "dt":  "2024YY",
+                                                         "indicatorId":  "a3ebd177379e4f59a4fde46c7e17b3d2",
+                                                         "cid":  "b5590334491d4247af1313190d960fe4"
+                                                     },
+                                       "doctors":  {
+                                                       "label":  "Doctors",
+                                                       "value":  4.51,
+                                                       "unit":  "万人",
+                                                       "dt":  "2024YY",
+                                                       "indicatorId":  "4e21cb7e40b2412fa60b45c2a64f0f4d",
+                                                       "cid":  "b5590334491d4247af1313190d960fe4"
+                                                   }
+                                   },
+                       "sourceRefs":  [
+                                          "nbs-api-major-city-annual-2024"
+                                      ],
+                       "qualityFlags":  [
+                                            "major_city_official_layer"
+                                        ]
+                   },
+                   {
+                       "code":  "440100000000",
+                       "name":  "广州",
+                       "fullName":  "广州市",
+                       "metrics":  {
+                                       "gdp":  {
+                                                   "label":  "GDP",
+                                                   "value":  31032.5,
+                                                   "unit":  "亿元",
+                                                   "dt":  "2024YY",
+                                                   "indicatorId":  "35613910b9ad47e19cf79ae041ccb7ed",
+                                                   "cid":  "75a85abe58c749e0ad1d85be343e9056"
+                                               },
+                                       "wageAnnual":  {
+                                                          "label":  "Average wage in urban non-private units",
+                                                          "value":  null,
+                                                          "unit":  "元",
+                                                          "dt":  "2024YY",
+                                                          "indicatorId":  "38ab34487419483b9e826c5d80a9c3ce",
+                                                          "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                      },
+                                       "registeredPopulation":  {
+                                                                    "label":  "Registered population",
+                                                                    "value":  null,
+                                                                    "unit":  "万人",
+                                                                    "dt":  "2024YY",
+                                                                    "indicatorId":  "3825c2d7a32b4cf6b3d72fc5ed9e62c6",
+                                                                    "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                                },
+                                       "retailSales":  {
+                                                           "label":  "Retail sales of consumer goods",
+                                                           "value":  10450.6,
+                                                           "unit":  "亿元",
+                                                           "dt":  "2024YY",
+                                                           "indicatorId":  "06eac78eee1c4eac9fcaeb0e8b5b108d",
+                                                           "cid":  "e4703d312cd44d498c168a10d2337f4a"
+                                                       },
+                                       "students":  {
+                                                        "label":  "College students enrolled",
+                                                        "value":  151.4739,
+                                                        "unit":  "万人",
+                                                        "dt":  "2024YY",
+                                                        "indicatorId":  "991b24f307ce4cbeb3fba62db4fa79c9",
+                                                        "cid":  "b5590334491d4247af1313190d960fe4"
+                                                    },
+                                       "hospitals":  {
+                                                         "label":  "Hospitals",
+                                                         "value":  336,
+                                                         "unit":  "个",
+                                                         "dt":  "2024YY",
+                                                         "indicatorId":  "a3ebd177379e4f59a4fde46c7e17b3d2",
+                                                         "cid":  "b5590334491d4247af1313190d960fe4"
+                                                     },
+                                       "doctors":  {
+                                                       "label":  "Doctors",
+                                                       "value":  7.54,
+                                                       "unit":  "万人",
+                                                       "dt":  "2024YY",
+                                                       "indicatorId":  "4e21cb7e40b2412fa60b45c2a64f0f4d",
+                                                       "cid":  "b5590334491d4247af1313190d960fe4"
+                                                   }
+                                   },
+                       "sourceRefs":  [
+                                          "nbs-api-major-city-annual-2024"
+                                      ],
+                       "qualityFlags":  [
+                                            "major_city_official_layer"
+                                        ]
+                   },
+                   {
+                       "code":  "440300000000",
+                       "name":  "深圳",
+                       "fullName":  "深圳市",
+                       "metrics":  {
+                                       "gdp":  {
+                                                   "label":  "GDP",
+                                                   "value":  36801.87,
+                                                   "unit":  "亿元",
+                                                   "dt":  "2024YY",
+                                                   "indicatorId":  "35613910b9ad47e19cf79ae041ccb7ed",
+                                                   "cid":  "75a85abe58c749e0ad1d85be343e9056"
+                                               },
+                                       "wageAnnual":  {
+                                                          "label":  "Average wage in urban non-private units",
+                                                          "value":  null,
+                                                          "unit":  "元",
+                                                          "dt":  "2024YY",
+                                                          "indicatorId":  "38ab34487419483b9e826c5d80a9c3ce",
+                                                          "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                      },
+                                       "registeredPopulation":  {
+                                                                    "label":  "Registered population",
+                                                                    "value":  null,
+                                                                    "unit":  "万人",
+                                                                    "dt":  "2024YY",
+                                                                    "indicatorId":  "3825c2d7a32b4cf6b3d72fc5ed9e62c6",
+                                                                    "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                                },
+                                       "retailSales":  {
+                                                           "label":  "Retail sales of consumer goods",
+                                                           "value":  10025,
+                                                           "unit":  "亿元",
+                                                           "dt":  "2024YY",
+                                                           "indicatorId":  "06eac78eee1c4eac9fcaeb0e8b5b108d",
+                                                           "cid":  "e4703d312cd44d498c168a10d2337f4a"
+                                                       },
+                                       "students":  {
+                                                        "label":  "College students enrolled",
+                                                        "value":  12.2842,
+                                                        "unit":  "万人",
+                                                        "dt":  "2024YY",
+                                                        "indicatorId":  "991b24f307ce4cbeb3fba62db4fa79c9",
+                                                        "cid":  "b5590334491d4247af1313190d960fe4"
+                                                    },
+                                       "hospitals":  {
+                                                         "label":  "Hospitals",
+                                                         "value":  162,
+                                                         "unit":  "个",
+                                                         "dt":  "2024YY",
+                                                         "indicatorId":  "a3ebd177379e4f59a4fde46c7e17b3d2",
+                                                         "cid":  "b5590334491d4247af1313190d960fe4"
+                                                     },
+                                       "doctors":  {
+                                                       "label":  "Doctors",
+                                                       "value":  5.43,
+                                                       "unit":  "万人",
+                                                       "dt":  "2024YY",
+                                                       "indicatorId":  "4e21cb7e40b2412fa60b45c2a64f0f4d",
+                                                       "cid":  "b5590334491d4247af1313190d960fe4"
+                                                   }
+                                   },
+                       "sourceRefs":  [
+                                          "nbs-api-major-city-annual-2024"
+                                      ],
+                       "qualityFlags":  [
+                                            "major_city_official_layer"
+                                        ]
+                   },
+                   {
+                       "code":  "450100000000",
+                       "name":  "南宁",
+                       "fullName":  "南宁市",
+                       "metrics":  {
+                                       "gdp":  {
+                                                   "label":  "GDP",
+                                                   "value":  5995.36,
+                                                   "unit":  "亿元",
+                                                   "dt":  "2024YY",
+                                                   "indicatorId":  "35613910b9ad47e19cf79ae041ccb7ed",
+                                                   "cid":  "75a85abe58c749e0ad1d85be343e9056"
+                                               },
+                                       "wageAnnual":  {
+                                                          "label":  "Average wage in urban non-private units",
+                                                          "value":  null,
+                                                          "unit":  "元",
+                                                          "dt":  "2024YY",
+                                                          "indicatorId":  "38ab34487419483b9e826c5d80a9c3ce",
+                                                          "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                      },
+                                       "registeredPopulation":  {
+                                                                    "label":  "Registered population",
+                                                                    "value":  null,
+                                                                    "unit":  "万人",
+                                                                    "dt":  "2024YY",
+                                                                    "indicatorId":  "3825c2d7a32b4cf6b3d72fc5ed9e62c6",
+                                                                    "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                                },
+                                       "retailSales":  {
+                                                           "label":  "Retail sales of consumer goods",
+                                                           "value":  2100.4,
+                                                           "unit":  "亿元",
+                                                           "dt":  "2024YY",
+                                                           "indicatorId":  "06eac78eee1c4eac9fcaeb0e8b5b108d",
+                                                           "cid":  "e4703d312cd44d498c168a10d2337f4a"
+                                                       },
+                                       "students":  {
+                                                        "label":  "College students enrolled",
+                                                        "value":  72.0832,
+                                                        "unit":  "万人",
+                                                        "dt":  "2024YY",
+                                                        "indicatorId":  "991b24f307ce4cbeb3fba62db4fa79c9",
+                                                        "cid":  "b5590334491d4247af1313190d960fe4"
+                                                    },
+                                       "hospitals":  {
+                                                         "label":  "Hospitals",
+                                                         "value":  179,
+                                                         "unit":  "个",
+                                                         "dt":  "2024YY",
+                                                         "indicatorId":  "a3ebd177379e4f59a4fde46c7e17b3d2",
+                                                         "cid":  "b5590334491d4247af1313190d960fe4"
+                                                     },
+                                       "doctors":  {
+                                                       "label":  "Doctors",
+                                                       "value":  3.59,
+                                                       "unit":  "万人",
+                                                       "dt":  "2024YY",
+                                                       "indicatorId":  "4e21cb7e40b2412fa60b45c2a64f0f4d",
+                                                       "cid":  "b5590334491d4247af1313190d960fe4"
+                                                   }
+                                   },
+                       "sourceRefs":  [
+                                          "nbs-api-major-city-annual-2024"
+                                      ],
+                       "qualityFlags":  [
+                                            "major_city_official_layer"
+                                        ]
+                   },
+                   {
+                       "code":  "460100000000",
+                       "name":  "海口",
+                       "fullName":  "海口市",
+                       "metrics":  {
+                                       "gdp":  {
+                                                   "label":  "GDP",
+                                                   "value":  2470.63,
+                                                   "unit":  "亿元",
+                                                   "dt":  "2024YY",
+                                                   "indicatorId":  "35613910b9ad47e19cf79ae041ccb7ed",
+                                                   "cid":  "75a85abe58c749e0ad1d85be343e9056"
+                                               },
+                                       "wageAnnual":  {
+                                                          "label":  "Average wage in urban non-private units",
+                                                          "value":  null,
+                                                          "unit":  "元",
+                                                          "dt":  "2024YY",
+                                                          "indicatorId":  "38ab34487419483b9e826c5d80a9c3ce",
+                                                          "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                      },
+                                       "registeredPopulation":  {
+                                                                    "label":  "Registered population",
+                                                                    "value":  null,
+                                                                    "unit":  "万人",
+                                                                    "dt":  "2024YY",
+                                                                    "indicatorId":  "3825c2d7a32b4cf6b3d72fc5ed9e62c6",
+                                                                    "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                                },
+                                       "retailSales":  {
+                                                           "label":  "Retail sales of consumer goods",
+                                                           "value":  1046.3,
+                                                           "unit":  "亿元",
+                                                           "dt":  "2024YY",
+                                                           "indicatorId":  "06eac78eee1c4eac9fcaeb0e8b5b108d",
+                                                           "cid":  "e4703d312cd44d498c168a10d2337f4a"
+                                                       },
+                                       "students":  {
+                                                        "label":  "College students enrolled",
+                                                        "value":  19.357,
+                                                        "unit":  "万人",
+                                                        "dt":  "2024YY",
+                                                        "indicatorId":  "991b24f307ce4cbeb3fba62db4fa79c9",
+                                                        "cid":  "b5590334491d4247af1313190d960fe4"
+                                                    },
+                                       "hospitals":  {
+                                                         "label":  "Hospitals",
+                                                         "value":  78,
+                                                         "unit":  "个",
+                                                         "dt":  "2024YY",
+                                                         "indicatorId":  "a3ebd177379e4f59a4fde46c7e17b3d2",
+                                                         "cid":  "b5590334491d4247af1313190d960fe4"
+                                                     },
+                                       "doctors":  {
+                                                       "label":  "Doctors",
+                                                       "value":  1.27,
+                                                       "unit":  "万人",
+                                                       "dt":  "2024YY",
+                                                       "indicatorId":  "4e21cb7e40b2412fa60b45c2a64f0f4d",
+                                                       "cid":  "b5590334491d4247af1313190d960fe4"
+                                                   }
+                                   },
+                       "sourceRefs":  [
+                                          "nbs-api-major-city-annual-2024"
+                                      ],
+                       "qualityFlags":  [
+                                            "major_city_official_layer"
+                                        ]
+                   },
+                   {
+                       "code":  "500000000000",
+                       "name":  "重庆",
+                       "fullName":  "重庆市",
+                       "metrics":  {
+                                       "gdp":  {
+                                                   "label":  "GDP",
+                                                   "value":  32193.2,
+                                                   "unit":  "亿元",
+                                                   "dt":  "2024YY",
+                                                   "indicatorId":  "35613910b9ad47e19cf79ae041ccb7ed",
+                                                   "cid":  "75a85abe58c749e0ad1d85be343e9056"
+                                               },
+                                       "wageAnnual":  {
+                                                          "label":  "Average wage in urban non-private units",
+                                                          "value":  121271,
+                                                          "unit":  "元",
+                                                          "dt":  "2024YY",
+                                                          "indicatorId":  "38ab34487419483b9e826c5d80a9c3ce",
+                                                          "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                      },
+                                       "registeredPopulation":  {
+                                                                    "label":  "Registered population",
+                                                                    "value":  null,
+                                                                    "unit":  "万人",
+                                                                    "dt":  "2024YY",
+                                                                    "indicatorId":  "3825c2d7a32b4cf6b3d72fc5ed9e62c6",
+                                                                    "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                                },
+                                       "retailSales":  {
+                                                           "label":  "Retail sales of consumer goods",
+                                                           "value":  16190.4,
+                                                           "unit":  "亿元",
+                                                           "dt":  "2024YY",
+                                                           "indicatorId":  "06eac78eee1c4eac9fcaeb0e8b5b108d",
+                                                           "cid":  "e4703d312cd44d498c168a10d2337f4a"
+                                                       },
+                                       "students":  {
+                                                        "label":  "College students enrolled",
+                                                        "value":  112.786,
+                                                        "unit":  "万人",
+                                                        "dt":  "2024YY",
+                                                        "indicatorId":  "991b24f307ce4cbeb3fba62db4fa79c9",
+                                                        "cid":  "b5590334491d4247af1313190d960fe4"
+                                                    },
+                                       "hospitals":  {
+                                                         "label":  "Hospitals",
+                                                         "value":  851,
+                                                         "unit":  "个",
+                                                         "dt":  "2024YY",
+                                                         "indicatorId":  "a3ebd177379e4f59a4fde46c7e17b3d2",
+                                                         "cid":  "b5590334491d4247af1313190d960fe4"
+                                                     },
+                                       "doctors":  {
+                                                       "label":  "Doctors",
+                                                       "value":  10.87,
+                                                       "unit":  "万人",
+                                                       "dt":  "2024YY",
+                                                       "indicatorId":  "4e21cb7e40b2412fa60b45c2a64f0f4d",
+                                                       "cid":  "b5590334491d4247af1313190d960fe4"
+                                                   }
+                                   },
+                       "sourceRefs":  [
+                                          "nbs-api-major-city-annual-2024"
+                                      ],
+                       "qualityFlags":  [
+                                            "major_city_official_layer"
+                                        ]
+                   },
+                   {
+                       "code":  "510100000000",
+                       "name":  "成都",
+                       "fullName":  "成都市",
+                       "metrics":  {
+                                       "gdp":  {
+                                                   "label":  "GDP",
+                                                   "value":  23511.34,
+                                                   "unit":  "亿元",
+                                                   "dt":  "2024YY",
+                                                   "indicatorId":  "35613910b9ad47e19cf79ae041ccb7ed",
+                                                   "cid":  "75a85abe58c749e0ad1d85be343e9056"
+                                               },
+                                       "wageAnnual":  {
+                                                          "label":  "Average wage in urban non-private units",
+                                                          "value":  null,
+                                                          "unit":  "元",
+                                                          "dt":  "2024YY",
+                                                          "indicatorId":  "38ab34487419483b9e826c5d80a9c3ce",
+                                                          "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                      },
+                                       "registeredPopulation":  {
+                                                                    "label":  "Registered population",
+                                                                    "value":  null,
+                                                                    "unit":  "万人",
+                                                                    "dt":  "2024YY",
+                                                                    "indicatorId":  "3825c2d7a32b4cf6b3d72fc5ed9e62c6",
+                                                                    "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                                },
+                                       "retailSales":  {
+                                                           "label":  "Retail sales of consumer goods",
+                                                           "value":  10835.3,
+                                                           "unit":  "亿元",
+                                                           "dt":  "2024YY",
+                                                           "indicatorId":  "06eac78eee1c4eac9fcaeb0e8b5b108d",
+                                                           "cid":  "e4703d312cd44d498c168a10d2337f4a"
+                                                       },
+                                       "students":  {
+                                                        "label":  "College students enrolled",
+                                                        "value":  116.8489,
+                                                        "unit":  "万人",
+                                                        "dt":  "2024YY",
+                                                        "indicatorId":  "991b24f307ce4cbeb3fba62db4fa79c9",
+                                                        "cid":  "b5590334491d4247af1313190d960fe4"
+                                                    },
+                                       "hospitals":  {
+                                                         "label":  "Hospitals",
+                                                         "value":  807,
+                                                         "unit":  "个",
+                                                         "dt":  "2024YY",
+                                                         "indicatorId":  "a3ebd177379e4f59a4fde46c7e17b3d2",
+                                                         "cid":  "b5590334491d4247af1313190d960fe4"
+                                                     },
+                                       "doctors":  {
+                                                       "label":  "Doctors",
+                                                       "value":  9.12,
+                                                       "unit":  "万人",
+                                                       "dt":  "2024YY",
+                                                       "indicatorId":  "4e21cb7e40b2412fa60b45c2a64f0f4d",
+                                                       "cid":  "b5590334491d4247af1313190d960fe4"
+                                                   }
+                                   },
+                       "sourceRefs":  [
+                                          "nbs-api-major-city-annual-2024"
+                                      ],
+                       "qualityFlags":  [
+                                            "major_city_official_layer"
+                                        ]
+                   },
+                   {
+                       "code":  "520100000000",
+                       "name":  "贵阳",
+                       "fullName":  "贵阳市",
+                       "metrics":  {
+                                       "gdp":  {
+                                                   "label":  "GDP",
+                                                   "value":  5777.41,
+                                                   "unit":  "亿元",
+                                                   "dt":  "2024YY",
+                                                   "indicatorId":  "35613910b9ad47e19cf79ae041ccb7ed",
+                                                   "cid":  "75a85abe58c749e0ad1d85be343e9056"
+                                               },
+                                       "wageAnnual":  {
+                                                          "label":  "Average wage in urban non-private units",
+                                                          "value":  null,
+                                                          "unit":  "元",
+                                                          "dt":  "2024YY",
+                                                          "indicatorId":  "38ab34487419483b9e826c5d80a9c3ce",
+                                                          "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                      },
+                                       "registeredPopulation":  {
+                                                                    "label":  "Registered population",
+                                                                    "value":  null,
+                                                                    "unit":  "万人",
+                                                                    "dt":  "2024YY",
+                                                                    "indicatorId":  "3825c2d7a32b4cf6b3d72fc5ed9e62c6",
+                                                                    "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                                },
+                                       "retailSales":  {
+                                                           "label":  "Retail sales of consumer goods",
+                                                           "value":  2491.3,
+                                                           "unit":  "亿元",
+                                                           "dt":  "2024YY",
+                                                           "indicatorId":  "06eac78eee1c4eac9fcaeb0e8b5b108d",
+                                                           "cid":  "e4703d312cd44d498c168a10d2337f4a"
+                                                       },
+                                       "students":  {
+                                                        "label":  "College students enrolled",
+                                                        "value":  47.8012,
+                                                        "unit":  "万人",
+                                                        "dt":  "2024YY",
+                                                        "indicatorId":  "991b24f307ce4cbeb3fba62db4fa79c9",
+                                                        "cid":  "b5590334491d4247af1313190d960fe4"
+                                                    },
+                                       "hospitals":  {
+                                                         "label":  "Hospitals",
+                                                         "value":  225,
+                                                         "unit":  "个",
+                                                         "dt":  "2024YY",
+                                                         "indicatorId":  "a3ebd177379e4f59a4fde46c7e17b3d2",
+                                                         "cid":  "b5590334491d4247af1313190d960fe4"
+                                                     },
+                                       "doctors":  {
+                                                       "label":  "Doctors",
+                                                       "value":  2.81,
+                                                       "unit":  "万人",
+                                                       "dt":  "2024YY",
+                                                       "indicatorId":  "4e21cb7e40b2412fa60b45c2a64f0f4d",
+                                                       "cid":  "b5590334491d4247af1313190d960fe4"
+                                                   }
+                                   },
+                       "sourceRefs":  [
+                                          "nbs-api-major-city-annual-2024"
+                                      ],
+                       "qualityFlags":  [
+                                            "major_city_official_layer"
+                                        ]
+                   },
+                   {
+                       "code":  "530100000000",
+                       "name":  "昆明",
+                       "fullName":  "昆明市",
+                       "metrics":  {
+                                       "gdp":  {
+                                                   "label":  "GDP",
+                                                   "value":  8275.22,
+                                                   "unit":  "亿元",
+                                                   "dt":  "2024YY",
+                                                   "indicatorId":  "35613910b9ad47e19cf79ae041ccb7ed",
+                                                   "cid":  "75a85abe58c749e0ad1d85be343e9056"
+                                               },
+                                       "wageAnnual":  {
+                                                          "label":  "Average wage in urban non-private units",
+                                                          "value":  null,
+                                                          "unit":  "元",
+                                                          "dt":  "2024YY",
+                                                          "indicatorId":  "38ab34487419483b9e826c5d80a9c3ce",
+                                                          "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                      },
+                                       "registeredPopulation":  {
+                                                                    "label":  "Registered population",
+                                                                    "value":  null,
+                                                                    "unit":  "万人",
+                                                                    "dt":  "2024YY",
+                                                                    "indicatorId":  "3825c2d7a32b4cf6b3d72fc5ed9e62c6",
+                                                                    "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                                },
+                                       "retailSales":  {
+                                                           "label":  "Retail sales of consumer goods",
+                                                           "value":  3769.4,
+                                                           "unit":  "亿元",
+                                                           "dt":  "2024YY",
+                                                           "indicatorId":  "06eac78eee1c4eac9fcaeb0e8b5b108d",
+                                                           "cid":  "e4703d312cd44d498c168a10d2337f4a"
+                                                       },
+                                       "students":  {
+                                                        "label":  "College students enrolled",
+                                                        "value":  78.4871,
+                                                        "unit":  "万人",
+                                                        "dt":  "2024YY",
+                                                        "indicatorId":  "991b24f307ce4cbeb3fba62db4fa79c9",
+                                                        "cid":  "b5590334491d4247af1313190d960fe4"
+                                                    },
+                                       "hospitals":  {
+                                                         "label":  "Hospitals",
+                                                         "value":  314,
+                                                         "unit":  "个",
+                                                         "dt":  "2024YY",
+                                                         "indicatorId":  "a3ebd177379e4f59a4fde46c7e17b3d2",
+                                                         "cid":  "b5590334491d4247af1313190d960fe4"
+                                                     },
+                                       "doctors":  {
+                                                       "label":  "Doctors",
+                                                       "value":  4.09,
+                                                       "unit":  "万人",
+                                                       "dt":  "2024YY",
+                                                       "indicatorId":  "4e21cb7e40b2412fa60b45c2a64f0f4d",
+                                                       "cid":  "b5590334491d4247af1313190d960fe4"
+                                                   }
+                                   },
+                       "sourceRefs":  [
+                                          "nbs-api-major-city-annual-2024"
+                                      ],
+                       "qualityFlags":  [
+                                            "major_city_official_layer"
+                                        ]
+                   },
+                   {
+                       "code":  "540100000000",
+                       "name":  "拉萨",
+                       "fullName":  "拉萨市",
+                       "metrics":  {
+                                       "gdp":  {
+                                                   "label":  "GDP",
+                                                   "value":  990.04,
+                                                   "unit":  "亿元",
+                                                   "dt":  "2024YY",
+                                                   "indicatorId":  "35613910b9ad47e19cf79ae041ccb7ed",
+                                                   "cid":  "75a85abe58c749e0ad1d85be343e9056"
+                                               },
+                                       "wageAnnual":  {
+                                                          "label":  "Average wage in urban non-private units",
+                                                          "value":  null,
+                                                          "unit":  "元",
+                                                          "dt":  "2024YY",
+                                                          "indicatorId":  "38ab34487419483b9e826c5d80a9c3ce",
+                                                          "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                      },
+                                       "registeredPopulation":  {
+                                                                    "label":  "Registered population",
+                                                                    "value":  null,
+                                                                    "unit":  "万人",
+                                                                    "dt":  "2024YY",
+                                                                    "indicatorId":  "3825c2d7a32b4cf6b3d72fc5ed9e62c6",
+                                                                    "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                                },
+                                       "retailSales":  {
+                                                           "label":  "Retail sales of consumer goods",
+                                                           "value":  526.8,
+                                                           "unit":  "亿元",
+                                                           "dt":  "2024YY",
+                                                           "indicatorId":  "06eac78eee1c4eac9fcaeb0e8b5b108d",
+                                                           "cid":  "e4703d312cd44d498c168a10d2337f4a"
+                                                       },
+                                       "students":  {
+                                                        "label":  "College students enrolled",
+                                                        "value":  2.515,
+                                                        "unit":  "万人",
+                                                        "dt":  "2024YY",
+                                                        "indicatorId":  "991b24f307ce4cbeb3fba62db4fa79c9",
+                                                        "cid":  "b5590334491d4247af1313190d960fe4"
+                                                    },
+                                       "hospitals":  {
+                                                         "label":  "Hospitals",
+                                                         "value":  35,
+                                                         "unit":  "个",
+                                                         "dt":  "2024YY",
+                                                         "indicatorId":  "a3ebd177379e4f59a4fde46c7e17b3d2",
+                                                         "cid":  "b5590334491d4247af1313190d960fe4"
+                                                     },
+                                       "doctors":  {
+                                                       "label":  "Doctors",
+                                                       "value":  0.43,
+                                                       "unit":  "万人",
+                                                       "dt":  "2024YY",
+                                                       "indicatorId":  "4e21cb7e40b2412fa60b45c2a64f0f4d",
+                                                       "cid":  "b5590334491d4247af1313190d960fe4"
+                                                   }
+                                   },
+                       "sourceRefs":  [
+                                          "nbs-api-major-city-annual-2024"
+                                      ],
+                       "qualityFlags":  [
+                                            "major_city_official_layer"
+                                        ]
+                   },
+                   {
+                       "code":  "610100000000",
+                       "name":  "西安",
+                       "fullName":  "西安市",
+                       "metrics":  {
+                                       "gdp":  {
+                                                   "label":  "GDP",
+                                                   "value":  13317.78,
+                                                   "unit":  "亿元",
+                                                   "dt":  "2024YY",
+                                                   "indicatorId":  "35613910b9ad47e19cf79ae041ccb7ed",
+                                                   "cid":  "75a85abe58c749e0ad1d85be343e9056"
+                                               },
+                                       "wageAnnual":  {
+                                                          "label":  "Average wage in urban non-private units",
+                                                          "value":  null,
+                                                          "unit":  "元",
+                                                          "dt":  "2024YY",
+                                                          "indicatorId":  "38ab34487419483b9e826c5d80a9c3ce",
+                                                          "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                      },
+                                       "registeredPopulation":  {
+                                                                    "label":  "Registered population",
+                                                                    "value":  null,
+                                                                    "unit":  "万人",
+                                                                    "dt":  "2024YY",
+                                                                    "indicatorId":  "3825c2d7a32b4cf6b3d72fc5ed9e62c6",
+                                                                    "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                                },
+                                       "retailSales":  {
+                                                           "label":  "Retail sales of consumer goods",
+                                                           "value":  4915.1,
+                                                           "unit":  "亿元",
+                                                           "dt":  "2024YY",
+                                                           "indicatorId":  "06eac78eee1c4eac9fcaeb0e8b5b108d",
+                                                           "cid":  "e4703d312cd44d498c168a10d2337f4a"
+                                                       },
+                                       "students":  {
+                                                        "label":  "College students enrolled",
+                                                        "value":  86.0359,
+                                                        "unit":  "万人",
+                                                        "dt":  "2024YY",
+                                                        "indicatorId":  "991b24f307ce4cbeb3fba62db4fa79c9",
+                                                        "cid":  "b5590334491d4247af1313190d960fe4"
+                                                    },
+                                       "hospitals":  {
+                                                         "label":  "Hospitals",
+                                                         "value":  390,
+                                                         "unit":  "个",
+                                                         "dt":  "2024YY",
+                                                         "indicatorId":  "a3ebd177379e4f59a4fde46c7e17b3d2",
+                                                         "cid":  "b5590334491d4247af1313190d960fe4"
+                                                     },
+                                       "doctors":  {
+                                                       "label":  "Doctors",
+                                                       "value":  5.57,
+                                                       "unit":  "万人",
+                                                       "dt":  "2024YY",
+                                                       "indicatorId":  "4e21cb7e40b2412fa60b45c2a64f0f4d",
+                                                       "cid":  "b5590334491d4247af1313190d960fe4"
+                                                   }
+                                   },
+                       "sourceRefs":  [
+                                          "nbs-api-major-city-annual-2024"
+                                      ],
+                       "qualityFlags":  [
+                                            "major_city_official_layer"
+                                        ]
+                   },
+                   {
+                       "code":  "620100000000",
+                       "name":  "兰州",
+                       "fullName":  "兰州市",
+                       "metrics":  {
+                                       "gdp":  {
+                                                   "label":  "GDP",
+                                                   "value":  3742.25,
+                                                   "unit":  "亿元",
+                                                   "dt":  "2024YY",
+                                                   "indicatorId":  "35613910b9ad47e19cf79ae041ccb7ed",
+                                                   "cid":  "75a85abe58c749e0ad1d85be343e9056"
+                                               },
+                                       "wageAnnual":  {
+                                                          "label":  "Average wage in urban non-private units",
+                                                          "value":  null,
+                                                          "unit":  "元",
+                                                          "dt":  "2024YY",
+                                                          "indicatorId":  "38ab34487419483b9e826c5d80a9c3ce",
+                                                          "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                      },
+                                       "registeredPopulation":  {
+                                                                    "label":  "Registered population",
+                                                                    "value":  null,
+                                                                    "unit":  "万人",
+                                                                    "dt":  "2024YY",
+                                                                    "indicatorId":  "3825c2d7a32b4cf6b3d72fc5ed9e62c6",
+                                                                    "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                                },
+                                       "retailSales":  {
+                                                           "label":  "Retail sales of consumer goods",
+                                                           "value":  1463.6,
+                                                           "unit":  "亿元",
+                                                           "dt":  "2024YY",
+                                                           "indicatorId":  "06eac78eee1c4eac9fcaeb0e8b5b108d",
+                                                           "cid":  "e4703d312cd44d498c168a10d2337f4a"
+                                                       },
+                                       "students":  {
+                                                        "label":  "College students enrolled",
+                                                        "value":  45.2283,
+                                                        "unit":  "万人",
+                                                        "dt":  "2024YY",
+                                                        "indicatorId":  "991b24f307ce4cbeb3fba62db4fa79c9",
+                                                        "cid":  "b5590334491d4247af1313190d960fe4"
+                                                    },
+                                       "hospitals":  {
+                                                         "label":  "Hospitals",
+                                                         "value":  120,
+                                                         "unit":  "个",
+                                                         "dt":  "2024YY",
+                                                         "indicatorId":  "a3ebd177379e4f59a4fde46c7e17b3d2",
+                                                         "cid":  "b5590334491d4247af1313190d960fe4"
+                                                     },
+                                       "doctors":  {
+                                                       "label":  "Doctors",
+                                                       "value":  1.94,
+                                                       "unit":  "万人",
+                                                       "dt":  "2024YY",
+                                                       "indicatorId":  "4e21cb7e40b2412fa60b45c2a64f0f4d",
+                                                       "cid":  "b5590334491d4247af1313190d960fe4"
+                                                   }
+                                   },
+                       "sourceRefs":  [
+                                          "nbs-api-major-city-annual-2024"
+                                      ],
+                       "qualityFlags":  [
+                                            "major_city_official_layer"
+                                        ]
+                   },
+                   {
+                       "code":  "630100000000",
+                       "name":  "西宁",
+                       "fullName":  "西宁市",
+                       "metrics":  {
+                                       "gdp":  {
+                                                   "label":  "GDP",
+                                                   "value":  1862.09,
+                                                   "unit":  "亿元",
+                                                   "dt":  "2024YY",
+                                                   "indicatorId":  "35613910b9ad47e19cf79ae041ccb7ed",
+                                                   "cid":  "75a85abe58c749e0ad1d85be343e9056"
+                                               },
+                                       "wageAnnual":  {
+                                                          "label":  "Average wage in urban non-private units",
+                                                          "value":  null,
+                                                          "unit":  "元",
+                                                          "dt":  "2024YY",
+                                                          "indicatorId":  "38ab34487419483b9e826c5d80a9c3ce",
+                                                          "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                      },
+                                       "registeredPopulation":  {
+                                                                    "label":  "Registered population",
+                                                                    "value":  null,
+                                                                    "unit":  "万人",
+                                                                    "dt":  "2024YY",
+                                                                    "indicatorId":  "3825c2d7a32b4cf6b3d72fc5ed9e62c6",
+                                                                    "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                                },
+                                       "retailSales":  {
+                                                           "label":  "Retail sales of consumer goods",
+                                                           "value":  618.7,
+                                                           "unit":  "亿元",
+                                                           "dt":  "2024YY",
+                                                           "indicatorId":  "06eac78eee1c4eac9fcaeb0e8b5b108d",
+                                                           "cid":  "e4703d312cd44d498c168a10d2337f4a"
+                                                       },
+                                       "students":  {
+                                                        "label":  "College students enrolled",
+                                                        "value":  7.8619,
+                                                        "unit":  "万人",
+                                                        "dt":  "2024YY",
+                                                        "indicatorId":  "991b24f307ce4cbeb3fba62db4fa79c9",
+                                                        "cid":  "b5590334491d4247af1313190d960fe4"
+                                                    },
+                                       "hospitals":  {
+                                                         "label":  "Hospitals",
+                                                         "value":  81,
+                                                         "unit":  "个",
+                                                         "dt":  "2024YY",
+                                                         "indicatorId":  "a3ebd177379e4f59a4fde46c7e17b3d2",
+                                                         "cid":  "b5590334491d4247af1313190d960fe4"
+                                                     },
+                                       "doctors":  {
+                                                       "label":  "Doctors",
+                                                       "value":  1.23,
+                                                       "unit":  "万人",
+                                                       "dt":  "2024YY",
+                                                       "indicatorId":  "4e21cb7e40b2412fa60b45c2a64f0f4d",
+                                                       "cid":  "b5590334491d4247af1313190d960fe4"
+                                                   }
+                                   },
+                       "sourceRefs":  [
+                                          "nbs-api-major-city-annual-2024"
+                                      ],
+                       "qualityFlags":  [
+                                            "major_city_official_layer"
+                                        ]
+                   },
+                   {
+                       "code":  "640100000000",
+                       "name":  "银川",
+                       "fullName":  "银川市",
+                       "metrics":  {
+                                       "gdp":  {
+                                                   "label":  "GDP",
+                                                   "value":  2939.53,
+                                                   "unit":  "亿元",
+                                                   "dt":  "2024YY",
+                                                   "indicatorId":  "35613910b9ad47e19cf79ae041ccb7ed",
+                                                   "cid":  "75a85abe58c749e0ad1d85be343e9056"
+                                               },
+                                       "wageAnnual":  {
+                                                          "label":  "Average wage in urban non-private units",
+                                                          "value":  null,
+                                                          "unit":  "元",
+                                                          "dt":  "2024YY",
+                                                          "indicatorId":  "38ab34487419483b9e826c5d80a9c3ce",
+                                                          "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                      },
+                                       "registeredPopulation":  {
+                                                                    "label":  "Registered population",
+                                                                    "value":  null,
+                                                                    "unit":  "万人",
+                                                                    "dt":  "2024YY",
+                                                                    "indicatorId":  "3825c2d7a32b4cf6b3d72fc5ed9e62c6",
+                                                                    "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                                },
+                                       "retailSales":  {
+                                                           "label":  "Retail sales of consumer goods",
+                                                           "value":  839.8,
+                                                           "unit":  "亿元",
+                                                           "dt":  "2024YY",
+                                                           "indicatorId":  "06eac78eee1c4eac9fcaeb0e8b5b108d",
+                                                           "cid":  "e4703d312cd44d498c168a10d2337f4a"
+                                                       },
+                                       "students":  {
+                                                        "label":  "College students enrolled",
+                                                        "value":  14.0729,
+                                                        "unit":  "万人",
+                                                        "dt":  "2024YY",
+                                                        "indicatorId":  "991b24f307ce4cbeb3fba62db4fa79c9",
+                                                        "cid":  "b5590334491d4247af1313190d960fe4"
+                                                    },
+                                       "hospitals":  {
+                                                         "label":  "Hospitals",
+                                                         "value":  86,
+                                                         "unit":  "个",
+                                                         "dt":  "2024YY",
+                                                         "indicatorId":  "a3ebd177379e4f59a4fde46c7e17b3d2",
+                                                         "cid":  "b5590334491d4247af1313190d960fe4"
+                                                     },
+                                       "doctors":  {
+                                                       "label":  "Doctors",
+                                                       "value":  1.3,
+                                                       "unit":  "万人",
+                                                       "dt":  "2024YY",
+                                                       "indicatorId":  "4e21cb7e40b2412fa60b45c2a64f0f4d",
+                                                       "cid":  "b5590334491d4247af1313190d960fe4"
+                                                   }
+                                   },
+                       "sourceRefs":  [
+                                          "nbs-api-major-city-annual-2024"
+                                      ],
+                       "qualityFlags":  [
+                                            "major_city_official_layer"
+                                        ]
+                   },
+                   {
+                       "code":  "650100000000",
+                       "name":  "乌鲁木齐",
+                       "fullName":  "乌鲁木齐市",
+                       "metrics":  {
+                                       "gdp":  {
+                                                   "label":  "GDP",
+                                                   "value":  4502.16,
+                                                   "unit":  "亿元",
+                                                   "dt":  "2024YY",
+                                                   "indicatorId":  "35613910b9ad47e19cf79ae041ccb7ed",
+                                                   "cid":  "75a85abe58c749e0ad1d85be343e9056"
+                                               },
+                                       "wageAnnual":  {
+                                                          "label":  "Average wage in urban non-private units",
+                                                          "value":  null,
+                                                          "unit":  "元",
+                                                          "dt":  "2024YY",
+                                                          "indicatorId":  "38ab34487419483b9e826c5d80a9c3ce",
+                                                          "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                      },
+                                       "registeredPopulation":  {
+                                                                    "label":  "Registered population",
+                                                                    "value":  null,
+                                                                    "unit":  "万人",
+                                                                    "dt":  "2024YY",
+                                                                    "indicatorId":  "3825c2d7a32b4cf6b3d72fc5ed9e62c6",
+                                                                    "cid":  "b13e73d4a4734a46bf358aa1baff2649"
+                                                                },
+                                       "retailSales":  {
+                                                           "label":  "Retail sales of consumer goods",
+                                                           "value":  1232.3,
+                                                           "unit":  "亿元",
+                                                           "dt":  "2024YY",
+                                                           "indicatorId":  "06eac78eee1c4eac9fcaeb0e8b5b108d",
+                                                           "cid":  "e4703d312cd44d498c168a10d2337f4a"
+                                                       },
+                                       "students":  {
+                                                        "label":  "College students enrolled",
+                                                        "value":  24.2994,
+                                                        "unit":  "万人",
+                                                        "dt":  "2024YY",
+                                                        "indicatorId":  "991b24f307ce4cbeb3fba62db4fa79c9",
+                                                        "cid":  "b5590334491d4247af1313190d960fe4"
+                                                    },
+                                       "hospitals":  {
+                                                         "label":  "Hospitals",
+                                                         "value":  130,
+                                                         "unit":  "个",
+                                                         "dt":  "2024YY",
+                                                         "indicatorId":  "a3ebd177379e4f59a4fde46c7e17b3d2",
+                                                         "cid":  "b5590334491d4247af1313190d960fe4"
+                                                     },
+                                       "doctors":  {
+                                                       "label":  "Doctors",
+                                                       "value":  1.92,
+                                                       "unit":  "万人",
+                                                       "dt":  "2024YY",
+                                                       "indicatorId":  "4e21cb7e40b2412fa60b45c2a64f0f4d",
+                                                       "cid":  "b5590334491d4247af1313190d960fe4"
+                                                   }
+                                   },
+                       "sourceRefs":  [
+                                          "nbs-api-major-city-annual-2024"
+                                      ],
+                       "qualityFlags":  [
+                                            "major_city_official_layer"
+                                        ]
+                   }
+               ]
+}

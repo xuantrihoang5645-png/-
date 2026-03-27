@@ -1,0 +1,95 @@
+{
+  "cityMeta": {
+    "id": "template-city-id",
+    "name": "示例城市",
+    "pinyin": "shilichengshi",
+    "province": "示例省",
+    "region": "华中",
+    "tier": "强二线",
+    "coordinates": [114.0000, 30.0000],
+    "adminLevel": "prefecture-level",
+    "cityRole": "ordinary-prefecture",
+    "isProvincialCapital": false,
+    "shortDescription": "一句话城市摘要。",
+    "longDescription": "面向城市生活决策的较长描述。",
+    "tags": ["标签一", "标签二"],
+    "suitableFor": ["适合人群一"],
+    "notIdealFor": ["不太适合人群一"],
+    "sourceRefs": ["source-id-1"],
+    "qualityFlags": [],
+    "lastUpdated": "2026-03-27"
+  },
+  "annual2024": {
+    "population": {
+      "value": 0,
+      "unit": "万人"
+    },
+    "income": {
+      "disposableIncome": 0,
+      "wageReferenceMonthly": null,
+      "wageReferenceAnnual": null,
+      "sourceRefs": ["source-id-1"],
+      "qualityFlags": []
+    },
+    "costOfLiving": {
+      "annualConsumptionPerCapita": 0,
+      "sourceRefs": ["source-id-1"],
+      "qualityFlags": []
+    },
+    "mobility": {
+      "railTransitLength": 0,
+      "utilityCoverage": null,
+      "greenPublicSpaceProxy": null,
+      "sourceRefs": ["source-id-1"],
+      "qualityFlags": []
+    },
+    "environment": {
+      "pm25Reference": null,
+      "goodAirDaysRatio": null,
+      "sourceRefs": ["source-id-1"],
+      "qualityFlags": []
+    }
+  },
+  "latestSnapshot": {
+    "costOfLiving": {
+      "period": "YYYY-MM",
+      "rentMedianPerSqm": null,
+      "assumedDwellingSizeSqm": 30,
+      "sourceRefs": ["source-id-2"],
+      "qualityFlags": ["rent_estimate_30sqm"]
+    },
+    "environment": {
+      "period": "YYYY",
+      "goodAirDaysRatio": null,
+      "sourceRefs": ["source-id-3"],
+      "qualityFlags": []
+    }
+  },
+  "supportingReport": {
+    "mobility": {
+      "period": "YYYY / published in YYYY",
+      "avgCommuteTime": null,
+      "commuteWithin45": null,
+      "extremeCommute60": null,
+      "avgCommuteDistance": null,
+      "railCoverageCommute": null,
+      "bus45Service": null,
+      "reportRailTransitLength": null,
+      "sourceRefs": ["source-id-4"],
+      "qualityFlags": []
+    }
+  },
+  "fieldSources": {
+    "annual2024.population.value": ["source-id-1"],
+    "annual2024.income.disposableIncome": ["source-id-1"],
+    "annual2024.income.wageReferenceMonthly": ["source-id-5"],
+    "annual2024.costOfLiving.annualConsumptionPerCapita": ["source-id-1"],
+    "annual2024.mobility.railTransitLength": ["source-id-1"],
+    "annual2024.environment.pm25Reference": ["source-id-1"],
+    "annual2024.environment.goodAirDaysRatio": ["source-id-3"],
+    "latestSnapshot.costOfLiving.rentMedianPerSqm": ["source-id-2"],
+    "supportingReport.mobility.avgCommuteTime": ["source-id-4"]
+  },
+  "qualityFlags": [],
+  "sourceRefs": ["source-id-1", "source-id-2", "source-id-3", "source-id-4", "source-id-5"]
+}

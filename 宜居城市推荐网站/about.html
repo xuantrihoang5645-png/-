@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>关于｜城市生活成本与宜居地图</title>
+  <meta name="description" content="了解项目背景、指标定义、数据更新策略与 AI 推荐逻辑。" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <script src="./data/bootstrap.js" defer></script>
+  <script src="./js/about.js" defer></script>
+</head>
+<body>
+  <div class="page-shell narrow-shell">
+    <header class="topbar">
+      <a class="brand" href="./index.html" aria-label="返回首页">
+        <span class="brand-badge">CN</span>
+        <div>
+          <strong>城市生活成本与宜居地图</strong>
+          <small>方法说明与诚实披露</small>
+        </div>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="展开导航" aria-expanded="false" data-nav-toggle>菜单</button>
+      <nav class="topnav" data-nav>
+        <a href="./index.html">首页</a>
+        <a href="#method">方法</a>
+        <a href="#sources">来源</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+    </header>
+
+    <main>
+      <div id="about-banner" class="status-banner status-banner-hidden" role="status"></div>
+
+      <section class="card section-block">
+        <p class="eyebrow">项目定位</p>
+        <h1>全国省级概览 + 城市层决策 + 可解释 AI</h1>
+        <p class="hero-subtitle">这是一个适合 GitHub Pages 的纯前端静态产品：先用省级官方口径看全局，再进入城市层做更细的生活成本和宜居比较，最后用规则引擎生成推荐解释。</p>
+        <div class="about-stats">
+          <div class="mini-stat"><strong id="about-city-count">0</strong><span>省级 / 城市覆盖</span></div>
+          <div class="mini-stat"><strong id="about-source-count">0</strong><span>来源条目</span></div>
+          <div class="mini-stat"><strong id="about-generated-at">—</strong><span>数据生成时间</span></div>
+        </div>
+      </section>
+
+      <section id="method" class="section-block two-column">
+        <article class="card">
+          <div class="section-header"><div><p class="section-kicker">指标体系</p><h2>核心指标如何计算</h2></div></div>
+          <ul class="bullet-list">
+            <li><strong>综合生活成本：</strong>站内快照指数，由房租压力、消费、租金水平和交通负担代理组成。</li>
+            <li><strong>房租压力：</strong>房租中位数 ÷ 收入参考，缺口会标出代理或部分口径。</li>
+            <li><strong>通勤便利：</strong>45 分钟覆盖、平均通勤时长、轨道支撑和公交服务组合。</li>
+            <li><strong>环境宜居：</strong>优良天数与 PM2.5 标准化组合；省级环境可含代理值。</li>
+            <li><strong>攒钱友好 / 刚毕业友好：</strong>由收入、成本、通勤和基础服务加权得到。</li>
+            <li><strong>AI 推荐得分：</strong>只基于用户偏好和现有指标，不允许绕开底层数据。</li>
+          </ul>
+        </article>
+        <article class="card">
+          <div class="section-header"><div><p class="section-kicker">AI 边界</p><h2>AI 在这里负责什么</h2></div></div>
+          <ul class="bullet-list">
+            <li>AI 负责解释推荐理由、潜在代价、适合谁和下一步比较方向。</li>
+            <li>AI 不负责提供数据来源，不会生成不存在的事实。</li>
+            <li>覆盖度低于阈值的城市不会进入完整推荐。</li>
+            <li>如果未来接入大模型，也只允许润色文案，不允许重算结论。</li>
+          </ul>
+        </article>
+      </section>
+
+      <section id="sources" class="section-block">
+        <div class="section-header"><div><p class="section-kicker">数据研究</p><h2>数据研究摘要表</h2></div></div>
+        <article class="card"><div class="table-wrap"><table><thead><tr><th>数据源名称</th><th>来源类型</th><th>可提供字段</th><th>覆盖范围</th><th>更新频率</th><th>适合首版</th><th>适合静态站点</th><th>适合横向比较</th><th>局限性</th></tr></thead><tbody id="about-research-table"></tbody></table></div></article>
+      </section>
+
+      <section class="section-block two-column">
+        <article class="card"><div class="section-header"><div><p class="section-kicker">更新策略</p><h2>数据如何维护</h2></div></div><ul id="about-update-strategy" class="bullet-list"></ul></article>
+        <article class="card"><div class="section-header"><div><p class="section-kicker">局限性</p><h2>需要诚实说明的部分</h2></div></div><ul id="about-limitations" class="bullet-list"></ul></article>
+      </section>
+
+      <section class="section-block about-span-2">
+        <div class="section-header"><div><p class="section-kicker">来源列表</p><h2>全部来源</h2></div></div>
+        <div id="about-source-list" class="source-grid"></div>
+      </section>
+
+      <section id="faq" class="section-block">
+        <div class="section-header"><div><p class="section-kicker">常见问题</p><h2>FAQ</h2></div></div>
+        <div class="faq-list">
+          <details><summary>为什么要同时提供统一年度和最新快照？</summary><p>统一年度更适合横向比较，最新快照更适合看当前变化，两者不能混为同一口径。</p></details>
+          <details><summary>为什么有些城市只有基础官方层？</summary><p>因为租金、通勤、空气等高频或深度字段还没有完全补齐，所以只做降级展示。</p></details>
+          <details><summary>为什么 AI 推荐不直接给一个总分就结束？</summary><p>因为这个产品强调可解释和可追溯，推荐必须说明理由、代价和数据覆盖等级。</p></details>
+          <details><summary>下一步会继续做什么？</summary><p>继续补齐更多城市 profile、完善省内层级体验，并在不破坏底层规则的前提下升级解释层。</p></details>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer card">
+      <div><strong>城市生活成本与宜居地图</strong><p>以真实快照支撑的城市生活决策工具。</p></div>
+      <div class="footer-meta"><a href="./index.html">返回首页</a><span>仅供参考，不构成迁移或投资建议。</span></div>
+    </footer>
+  </div>
+</body>
+</html>

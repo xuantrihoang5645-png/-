@@ -1,0 +1,111 @@
+{
+  "cityMeta": {
+    "id": "wuhan",
+    "name": "武汉",
+    "pinyin": "wuhan",
+    "province": "湖北省",
+    "region": "华中",
+    "tier": "新一线",
+    "coordinates": [114.3054, 30.5931],
+    "adminLevel": "prefecture-level",
+    "cityRole": "sub-provincial",
+    "isProvincialCapital": true,
+    "shortDescription": "租金压力相对更低，轨道网络与中部机会兼顾，适合低预算起步。",
+    "longDescription": "武汉在中部城市中兼具产业机会、轨道扩张和相对可控的租房成本，适合刚毕业、低预算起步和希望提高存钱效率的人，但空气质量仍需要结合具体片区做进一步比较。",
+    "tags": ["低预算友好", "轨道交通扩张", "中部机会", "房租较低"],
+    "suitableFor": ["刚毕业", "低预算起步", "想提高存钱效率"],
+    "notIdealFor": ["只接受最优空气质量", "极端依赖超一线资源"],
+    "sourceRefs": ["wuhan-bulletin-2024"],
+    "qualityFlags": [],
+    "lastUpdated": "2026-03-27"
+  },
+  "annual2024": {
+    "population": {
+      "value": 1380.91,
+      "unit": "万人"
+    },
+    "income": {
+      "disposableIncome": 59732,
+      "wageReferenceMonthly": 9409.75,
+      "wageReferenceAnnual": 112917,
+      "sourceRefs": ["wuhan-bulletin-2024", "wuhan-wage-2024"],
+      "qualityFlags": ["wage_scope_urban_units"]
+    },
+    "costOfLiving": {
+      "annualConsumptionPerCapita": 39625,
+      "sourceRefs": ["wuhan-bulletin-2024"],
+      "qualityFlags": []
+    },
+    "mobility": {
+      "railTransitLength": 577.52,
+      "utilityCoverage": 100,
+      "greenPublicSpaceProxy": 15.03,
+      "sourceRefs": ["wuhan-bulletin-2024"],
+      "qualityFlags": []
+    },
+    "environment": {
+      "pm25Reference": 36,
+      "goodAirDaysRatio": 77.9,
+      "sourceRefs": ["wuhan-environment-2024"],
+      "qualityFlags": []
+    }
+  },
+  "latestSnapshot": {
+    "costOfLiving": {
+      "period": "2026-02",
+      "rentMedianPerSqm": 25.69,
+      "assumedDwellingSizeSqm": 30,
+      "sourceRefs": ["rent-wuhan-2026-02"],
+      "qualityFlags": ["rent_estimate_30sqm"]
+    },
+    "environment": {
+      "period": "2025",
+      "goodAirDaysRatio": 85.8,
+      "sourceRefs": ["wuhan-air-quality-2025-summary"],
+      "qualityFlags": ["latest_signal_not_in_aligned_annual"]
+    }
+  },
+  "supportingReport": {
+    "mobility": {
+      "period": "2023 / published in 2024",
+      "avgCommuteTime": 37,
+      "commuteWithin45": 73,
+      "extremeCommute60": 15,
+      "avgCommuteDistance": 8.6,
+      "railCoverageCommute": 33,
+      "bus45Service": 46,
+      "reportRailTransitLength": 556,
+      "sourceRefs": ["commute-report-2024"],
+      "qualityFlags": []
+    }
+  },
+  "fieldSources": {
+    "annual2024.population.value": ["wuhan-bulletin-2024"],
+    "annual2024.income.disposableIncome": ["wuhan-bulletin-2024"],
+    "annual2024.income.wageReferenceMonthly": ["wuhan-wage-2024"],
+    "annual2024.costOfLiving.annualConsumptionPerCapita": ["wuhan-bulletin-2024"],
+    "annual2024.mobility.railTransitLength": ["wuhan-bulletin-2024"],
+    "annual2024.mobility.utilityCoverage": ["wuhan-bulletin-2024"],
+    "annual2024.mobility.greenPublicSpaceProxy": ["wuhan-bulletin-2024"],
+    "annual2024.environment.pm25Reference": ["wuhan-environment-2024"],
+    "annual2024.environment.goodAirDaysRatio": ["wuhan-environment-2024"],
+    "latestSnapshot.costOfLiving.rentMedianPerSqm": ["rent-wuhan-2026-02"],
+    "latestSnapshot.environment.goodAirDaysRatio": ["wuhan-air-quality-2025-summary"],
+    "supportingReport.mobility.avgCommuteTime": ["commute-report-2024"],
+    "supportingReport.mobility.commuteWithin45": ["commute-report-2024"],
+    "supportingReport.mobility.extremeCommute60": ["commute-report-2024"],
+    "supportingReport.mobility.avgCommuteDistance": ["commute-report-2024"],
+    "supportingReport.mobility.railCoverageCommute": ["commute-report-2024"],
+    "supportingReport.mobility.bus45Service": ["commute-report-2024"],
+    "supportingReport.mobility.reportRailTransitLength": ["commute-report-2024"]
+  },
+  "qualityFlags": ["rent_estimate_30sqm", "wage_scope_urban_units"],
+  "sourceRefs": [
+    "wuhan-bulletin-2024",
+    "wuhan-wage-2024",
+    "wuhan-environment-2024",
+    "wuhan-air-quality-2025-summary",
+    "commute-report-2024",
+    "rent-wuhan-2026-02"
+  ]
+}

@@ -1,0 +1,137 @@
+﻿[
+    {
+        "cityId":  "beijing",
+        "suitableForGraduates":  22.6,
+        "suitableForCouples":  43.2,
+        "suitableForBudget":  17.5,
+        "suitableForSavingMoney":  43.2,
+        "suitableForTransit":  55.8,
+        "suitableForAirQuality":  null,
+        "explanation":  "Generated from income, rent, mobility, environment and service signals for the local rule engine.",
+        "source":  "rule-engine-local",
+        "sourceRefs":  [
+                           "ai-config-rule-engine"
+                       ],
+        "lastUpdated":  "2026-03-27"
+    },
+    {
+        "cityId":  "shanghai",
+        "suitableForGraduates":  null,
+        "suitableForCouples":  53.2,
+        "suitableForBudget":  5.8,
+        "suitableForSavingMoney":  44.5,
+        "suitableForTransit":  null,
+        "suitableForAirQuality":  62.0,
+        "explanation":  "Generated from income, rent, mobility, environment and service signals for the local rule engine.",
+        "source":  "rule-engine-local",
+        "sourceRefs":  [
+                           "ai-config-rule-engine"
+                       ],
+        "lastUpdated":  "2026-03-27"
+    },
+    {
+        "cityId":  "shenzhen",
+        "suitableForGraduates":  33.7,
+        "suitableForCouples":  60.6,
+        "suitableForBudget":  11.7,
+        "suitableForSavingMoney":  36.1,
+        "suitableForTransit":  75.7,
+        "suitableForAirQuality":  79,
+        "explanation":  "Generated from income, rent, mobility, environment and service signals for the local rule engine.",
+        "source":  "rule-engine-local",
+        "sourceRefs":  [
+                           "ai-config-rule-engine"
+                       ],
+        "lastUpdated":  "2026-03-27"
+    },
+    {
+        "cityId":  "guangzhou",
+        "suitableForGraduates":  null,
+        "suitableForCouples":  62.8,
+        "suitableForBudget":  39.8,
+        "suitableForSavingMoney":  62.8,
+        "suitableForTransit":  null,
+        "suitableForAirQuality":  null,
+        "explanation":  "Generated from income, rent, mobility, environment and service signals for the local rule engine.",
+        "source":  "rule-engine-local",
+        "sourceRefs":  [
+                           "ai-config-rule-engine"
+                       ],
+        "lastUpdated":  "2026-03-27"
+    },
+    {
+        "cityId":  "hangzhou",
+        "suitableForGraduates":  47.3,
+        "suitableForCouples":  52.9,
+        "suitableForBudget":  34.6,
+        "suitableForSavingMoney":  51.1,
+        "suitableForTransit":  65,
+        "suitableForAirQuality":  55.7,
+        "explanation":  "Generated from income, rent, mobility, environment and service signals for the local rule engine.",
+        "source":  "rule-engine-local",
+        "sourceRefs":  [
+                           "ai-config-rule-engine"
+                       ],
+        "lastUpdated":  "2026-03-27"
+    },
+    {
+        "cityId":  "nanjing",
+        "suitableForGraduates":  null,
+        "suitableForCouples":  60.6,
+        "suitableForBudget":  62.8,
+        "suitableForSavingMoney":  60.8,
+        "suitableForTransit":  null,
+        "suitableForAirQuality":  60.4,
+        "explanation":  "Generated from income, rent, mobility, environment and service signals for the local rule engine.",
+        "source":  "rule-engine-local",
+        "sourceRefs":  [
+                           "ai-config-rule-engine"
+                       ],
+        "lastUpdated":  "2026-03-27"
+    },
+    {
+        "cityId":  "wuhan",
+        "suitableForGraduates":  87.1,
+        "suitableForCouples":  58.8,
+        "suitableForBudget":  96.1,
+        "suitableForSavingMoney":  60.3,
+        "suitableForTransit":  61.1,
+        "suitableForAirQuality":  46.7,
+        "explanation":  "Generated from income, rent, mobility, environment and service signals for the local rule engine.",
+        "source":  "rule-engine-local",
+        "sourceRefs":  [
+                           "ai-config-rule-engine"
+                       ],
+        "lastUpdated":  "2026-03-27"
+    },
+    {
+        "cityId":  "suzhou",
+        "suitableForGraduates":  null,
+        "suitableForCouples":  62.2,
+        "suitableForBudget":  61.1,
+        "suitableForSavingMoney":  66.2,
+        "suitableForTransit":  null,
+        "suitableForAirQuality":  58.3,
+        "explanation":  "Generated from income, rent, mobility, environment and service signals for the local rule engine.",
+        "source":  "rule-engine-local",
+        "sourceRefs":  [
+                           "ai-config-rule-engine"
+                       ],
+        "lastUpdated":  "2026-03-27"
+    },
+    {
+        "cityId":  "xiamen",
+        "suitableForGraduates":  null,
+        "suitableForCouples":  55,
+        "suitableForBudget":  49.6,
+        "suitableForSavingMoney":  55,
+        "suitableForTransit":  null,
+        "suitableForAirQuality":  null,
+        "explanation":  "Generated from income, rent, mobility, environment and service signals for the local rule engine.",
+        "source":  "rule-engine-local",
+        "sourceRefs":  [
+                           "ai-config-rule-engine"
+                       ],
+        "lastUpdated":  "2026-03-27"
+    }
+]

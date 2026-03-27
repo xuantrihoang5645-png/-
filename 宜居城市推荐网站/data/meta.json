@@ -1,0 +1,29 @@
+﻿{
+    "siteGeneratedAt":  "2026-03-27",
+    "majorDataPeriods":  [
+                             "省级模式优先使用国家数据 API 的 2024 年度分省官方数据。",
+                             "城市模式结合 2024 主要城市年度官方层与现有深度快照城市层。",
+                             "租金快照仍只作用于深度覆盖城市。",
+                             "通勤和空气质量仍按覆盖度分层展示。"
+                         ],
+    "updateStrategy":  [
+                           "先运行 scripts/fetch-official-national-data.ps1 刷新官方省级与主要城市年度快照。",
+                           "再运行 scripts/build-derived.ps1 生成 province-view-model、view-model 与 bootstrap。",
+                           "发布前运行 scripts/validate-data.ps1。"
+                       ],
+    "aiMode":  "rule-engine-local-dual-layer",
+    "coverageSummary":  {
+                            "includedProvinces":  34,
+                            "comparableMainlandProvinces":  31,
+                            "includedCities":  37,
+                            "aiEligibleCities":  9,
+                            "nationalMapMode":  "dual-layer-province-choropleth-and-city-layer",
+                            "cityLayerScope":  "official-major-cities-plus-deep-snapshots"
+                        },
+    "disclaimer":  [
+                       "省级层已覆盖 31 个大陆省级地区；港澳台因口径差异标记为有限比较。",
+                       "城市层当前是 36 个主要城市官方年度层 + 站内深度快照城市，不是完整全国所有地级市。",
+                       "省级环境目前使用绿地代理，不等同于省级空气质量事实。",
+                       "AI 只解释已有数据与覆盖等级，不补造缺失事实。"
+                   ]
+}

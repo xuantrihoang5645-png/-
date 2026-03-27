@@ -1,0 +1,100 @@
+{
+  "factorWeights": {
+    "budget": 0.18,
+    "lifeStage": 0.12,
+    "household": 0.08,
+    "saving": 0.16,
+    "comfort": 0.08,
+    "commute": 0.12,
+    "air": 0.08,
+    "tier": 0.08,
+    "rentTolerance": 0.08,
+    "opportunity": 0.1
+  },
+  "personaProfiles": {
+    "graduates": {
+      "description": "优先考虑房租压力、刚毕业友好度与通勤便利。",
+      "defaults": {
+        "budgetBand": "moderate",
+        "lifeStage": "graduate",
+        "savingPriority": 55,
+        "commutePriority": 70,
+        "airPriority": 45,
+        "tierPreference": "balanced",
+        "rentTolerance": "medium",
+        "opportunityPriority": 55
+      }
+    },
+    "couples": {
+      "description": "兼顾空气质量、综合平衡和双人稳定生活。",
+      "defaults": {
+        "budgetBand": "moderate",
+        "lifeStage": "stable",
+        "household": "couple",
+        "savingPriority": 45,
+        "commutePriority": 55,
+        "airPriority": 70,
+        "tierPreference": "balanced",
+        "rentTolerance": "medium",
+        "opportunityPriority": 45
+      }
+    },
+    "budget": {
+      "description": "偏重低成本与存钱，不把大城市机会放在首位。",
+      "defaults": {
+        "budgetBand": "tight",
+        "savingPriority": 85,
+        "commutePriority": 50,
+        "airPriority": 35,
+        "tierPreference": "calm",
+        "rentTolerance": "low",
+        "opportunityPriority": 25
+      }
+    }
+  },
+  "templateBlocks": {
+    "positiveIntro": [
+      "这次排位靠前，主要因为",
+      "从当前偏好看，最加分的是",
+      "系统把它放进候选前列，关键原因在于"
+    ],
+    "tradeoffIntro": [
+      "需要接受的现实代价是",
+      "如果你选它，最常见的代价在于",
+      "但它并不是没有代价，主要要注意"
+    ],
+    "nextStep": [
+      "下一步建议重点核对岗位分布与租住片区。",
+      "下一步建议继续看真实到手薪资和地铁沿线房源。",
+      "下一步建议把工作地、房租、通勤线路放到同一张表里复核。"
+    ]
+  },
+  "explanationRules": {
+    "positiveFactors": 3,
+    "tradeoffFactors": 2,
+    "requireCoverageMultiplier": true,
+    "coverageThresholds": {
+      "full": 0.8,
+      "degraded": 0.6
+    }
+  },
+  "recommendationThresholds": {
+    "showInAiTop": 0.6,
+    "showAsFull": 0.8,
+    "highlightScore": 70
+  },
+  "tradeoffRules": [
+    {
+      "if": "opportunityScore high && totalCostIndex high",
+      "message": "机会更多，但房租与生活成本压力也明显更高。"
+    },
+    {
+      "if": "savingScore high && opportunityScore mid",
+      "message": "更适合攒钱和稳健生活，但岗位密度未必是一线级别。"
+    },
+    {
+      "if": "airQualityScore high && mobility coverage partial",
+      "message": "生活舒适度更突出，但通勤结论需要结合片区进一步核实。"
+    }
+  ]
+}

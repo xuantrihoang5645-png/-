@@ -1,0 +1,1999 @@
+﻿{
+    "generatedAt":  "2026-03-27",
+    "summary":  {
+                    "totalProvinces":  34,
+                    "comparableMainlandProvinces":  31,
+                    "limitedProvinces":  3,
+                    "coreMetricCount":  5
+                },
+    "enums":  {
+                  "regions":  [
+                                  "northChina",
+                                  "northEast",
+                                  "eastChina",
+                                  "centralChina",
+                                  "southChina",
+                                  "southWest",
+                                  "northWest",
+                                  "greaterChinaLimited"
+                              ],
+                  "mapMetrics":  [
+                                     {
+                                         "key":  "incomeSupportScore",
+                                         "label":  "收入支撑力",
+                                         "direction":  "higherBetter"
+                                     },
+                                     {
+                                         "key":  "consumptionBurdenScore",
+                                         "label":  "消费负担",
+                                         "direction":  "higherBetter"
+                                     },
+                                     {
+                                         "key":  "environmentScore",
+                                         "label":  "环境宜居",
+                                         "direction":  "higherBetter"
+                                     },
+                                     {
+                                         "key":  "publicServiceScore",
+                                         "label":  "基础公共服务",
+                                         "direction":  "higherBetter"
+                                     },
+                                     {
+                                         "key":  "overviewScore",
+                                         "label":  "综合省级概览",
+                                         "direction":  "higherBetter"
+                                     }
+                                 ]
+              },
+    "provinces":  [
+                      {
+                          "id":  "110000000000",
+                          "code":  "110000000000",
+                          "name":  "北京市",
+                          "region":  "northChina",
+                          "adminLevel":  "province-level",
+                          "provinceCapital":  "北京",
+                          "representativeCities":  [
+                                                       {
+                                                           "code":  "110000000000",
+                                                           "name":  "北京"
+                                                       }
+                                                   ],
+                          "population":  2183,
+                          "populationUnit":  "万人",
+                          "disposableIncome":  85415,
+                          "annualConsumptionPerCapita":  49748,
+                          "parkGreenPerCapita":  17.09,
+                          "gasCoverage":  100,
+                          "railwayLength":  0.16,
+                          "highwayLength":  2.26,
+                          "incomeSupportScore":  95.2,
+                          "consumptionBurden":  0.5824,
+                          "consumptionBurdenScore":  100,
+                          "environmentScore":  53.9,
+                          "publicServiceScore":  59.9,
+                          "overviewScore":  81.1,
+                          "coverageScore":  1,
+                          "coverageLevel":  "full",
+                          "sourceRefs":  "nbs-api-province-annual-2024",
+                          "qualityFlags":  "environment_green_proxy",
+                          "periods":  {
+                                          "latest":  {
+                                                         "label":  "2024 official annual province data",
+                                                         "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                                         "aligned":  true
+                                                     },
+                                          "alignedAnnual":  {
+                                                                "label":  "2024 aligned annual province data",
+                                                                "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                                                "aligned":  true
+                                                            }
+                                      },
+                          "periodValues":  {
+                                               "latest":  {
+                                                              "population":  2183,
+                                                              "disposableIncome":  85415,
+                                                              "annualConsumptionPerCapita":  49748,
+                                                              "parkGreenPerCapita":  17.09,
+                                                              "gasCoverage":  100,
+                                                              "railwayLength":  0.16,
+                                                              "highwayLength":  2.26
+                                                          }
+                                           },
+                          "hasComparableProxyFields":  true,
+                          "lastUpdated":  "2026-03-27"
+                      },
+                      {
+                          "id":  "120000000000",
+                          "code":  "120000000000",
+                          "name":  "天津市",
+                          "region":  "northChina",
+                          "adminLevel":  "province-level",
+                          "provinceCapital":  "天津",
+                          "representativeCities":  [
+                                                       {
+                                                           "code":  "120000000000",
+                                                           "name":  "天津"
+                                                       }
+                                                   ],
+                          "population":  1364,
+                          "populationUnit":  "万人",
+                          "disposableIncome":  53581,
+                          "annualConsumptionPerCapita":  35804,
+                          "parkGreenPerCapita":  10.02,
+                          "gasCoverage":  99.98,
+                          "railwayLength":  0.13,
+                          "highwayLength":  1.5,
+                          "incomeSupportScore":  43.7,
+                          "consumptionBurden":  0.6682,
+                          "consumptionBurdenScore":  50.2,
+                          "environmentScore":  2.5,
+                          "publicServiceScore":  46.5,
+                          "overviewScore":  37.6,
+                          "coverageScore":  1,
+                          "coverageLevel":  "full",
+                          "sourceRefs":  "nbs-api-province-annual-2024",
+                          "qualityFlags":  "environment_green_proxy",
+                          "periods":  {
+                                          "latest":  {
+                                                         "label":  "2024 official annual province data",
+                                                         "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                                         "aligned":  true
+                                                     },
+                                          "alignedAnnual":  {
+                                                                "label":  "2024 aligned annual province data",
+                                                                "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                                                "aligned":  true
+                                                            }
+                                      },
+                          "periodValues":  {
+                                               "latest":  {
+                                                              "population":  1364,
+                                                              "disposableIncome":  53581,
+                                                              "annualConsumptionPerCapita":  35804,
+                                                              "parkGreenPerCapita":  10.02,
+                                                              "gasCoverage":  99.98,
+                                                              "railwayLength":  0.13,
+                                                              "highwayLength":  1.5
+                                                          }
+                                           },
+                          "hasComparableProxyFields":  true,
+                          "lastUpdated":  "2026-03-27"
+                      },
+                      {
+                          "id":  "130000000000",
+                          "code":  "130000000000",
+                          "name":  "河北省",
+                          "region":  "northChina",
+                          "adminLevel":  "province-level",
+                          "provinceCapital":  "石家庄",
+                          "representativeCities":  [
+                                                       {
+                                                           "code":  "130100000000",
+                                                           "name":  "石家庄"
+                                                       }
+                                                   ],
+                          "population":  7378,
+                          "populationUnit":  "万人",
+                          "disposableIncome":  34665,
+                          "annualConsumptionPerCapita":  24253,
+                          "parkGreenPerCapita":  14.74,
+                          "gasCoverage":  99.67,
+                          "railwayLength":  0.85,
+                          "highwayLength":  21.52,
+                          "incomeSupportScore":  13,
+                          "consumptionBurden":  0.6996,
+                          "consumptionBurdenScore":  32,
+                          "environmentScore":  36.8,
+                          "publicServiceScore":  70.1,
+                          "overviewScore":  33.9,
+                          "coverageScore":  1,
+                          "coverageLevel":  "full",
+                          "sourceRefs":  "nbs-api-province-annual-2024",
+                          "qualityFlags":  "environment_green_proxy",
+                          "periods":  {
+                                          "latest":  {
+                                                         "label":  "2024 official annual province data",
+                                                         "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                                         "aligned":  true
+                                                     },
+                                          "alignedAnnual":  {
+                                                                "label":  "2024 aligned annual province data",
+                                                                "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                                                "aligned":  true
+                                                            }
+                                      },
+                          "periodValues":  {
+                                               "latest":  {
+                                                              "population":  7378,
+                                                              "disposableIncome":  34665,
+                                                              "annualConsumptionPerCapita":  24253,
+                                                              "parkGreenPerCapita":  14.74,
+                                                              "gasCoverage":  99.67,
+                                                              "railwayLength":  0.85,
+                                                              "highwayLength":  21.52
+                                                          }
+                                           },
+                          "hasComparableProxyFields":  true,
+                          "lastUpdated":  "2026-03-27"
+                      },
+                      {
+                          "id":  "140000000000",
+                          "code":  "140000000000",
+                          "name":  "山西省",
+                          "region":  "northChina",
+                          "adminLevel":  "province-level",
+                          "provinceCapital":  "太原",
+                          "representativeCities":  [
+                                                       {
+                                                           "code":  "140100000000",
+                                                           "name":  "太原"
+                                                       }
+                                                   ],
+                          "population":  3446,
+                          "populationUnit":  "万人",
+                          "disposableIncome":  32441,
+                          "annualConsumptionPerCapita":  21090,
+                          "parkGreenPerCapita":  14.24,
+                          "gasCoverage":  98.34,
+                          "railwayLength":  0.65,
+                          "highwayLength":  14.77,
+                          "incomeSupportScore":  9.4,
+                          "consumptionBurden":  0.6501,
+                          "consumptionBurdenScore":  60.7,
+                          "environmentScore":  33.1,
+                          "publicServiceScore":  63.9,
+                          "overviewScore":  37.9,
+                          "coverageScore":  1,
+                          "coverageLevel":  "full",
+                          "sourceRefs":  "nbs-api-province-annual-2024",
+                          "qualityFlags":  "environment_green_proxy",
+                          "periods":  {
+                                          "latest":  {
+                                                         "label":  "2024 official annual province data",
+                                                         "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                                         "aligned":  true
+                                                     },
+                                          "alignedAnnual":  {
+                                                                "label":  "2024 aligned annual province data",
+                                                                "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                                                "aligned":  true
+                                                            }
+                                      },
+                          "periodValues":  {
+                                               "latest":  {
+                                                              "population":  3446,
+                                                              "disposableIncome":  32441,
+                                                              "annualConsumptionPerCapita":  21090,
+                                                              "parkGreenPerCapita":  14.24,
+                                                              "gasCoverage":  98.34,
+                                                              "railwayLength":  0.65,
+                                                              "highwayLength":  14.77
+                                                          }
+                                           },
+                          "hasComparableProxyFields":  true,
+                          "lastUpdated":  "2026-03-27"
+                      },
+                      {
+                          "id":  "150000000000",
+                          "code":  "150000000000",
+                          "name":  "内蒙古自治区",
+                          "region":  "northChina",
+                          "adminLevel":  "province-level",
+                          "provinceCapital":  "呼和浩特",
+                          "representativeCities":  [
+                                                       {
+                                                           "code":  "150100000000",
+                                                           "name":  "呼和浩特"
+                                                       }
+                                                   ],
+                          "population":  2388,
+                          "populationUnit":  "万人",
+                          "disposableIncome":  40077,
+                          "annualConsumptionPerCapita":  28113,
+                          "parkGreenPerCapita":  20.04,
+                          "gasCoverage":  98.31,
+                          "railwayLength":  1.43,
+                          "highwayLength":  22.27,
+                          "incomeSupportScore":  21.8,
+                          "consumptionBurden":  0.7015,
+                          "consumptionBurdenScore":  30.9,
+                          "environmentScore":  75.3,
+                          "publicServiceScore":  85.7,
+                          "overviewScore":  47.6,
+                          "coverageScore":  1,
+                          "coverageLevel":  "full",
+                          "sourceRefs":  "nbs-api-province-annual-2024",
+                          "qualityFlags":  "environment_green_proxy",
+                          "periods":  {
+                                          "latest":  {
+                                                         "label":  "2024 official annual province data",
+                                                         "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                                         "aligned":  true
+                                                     },
+                                          "alignedAnnual":  {
+                                                                "label":  "2024 aligned annual province data",
+                                                                "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                                                "aligned":  true
+                                                            }
+                                      },
+                          "periodValues":  {
+                                               "latest":  {
+                                                              "population":  2388,
+                                                              "disposableIncome":  40077,
+                                                              "annualConsumptionPerCapita":  28113,
+                                                              "parkGreenPerCapita":  20.04,
+                                                              "gasCoverage":  98.31,
+                                                              "railwayLength":  1.43,
+                                                              "highwayLength":  22.27
+                                                          }
+                                           },
+                          "hasComparableProxyFields":  true,
+                          "lastUpdated":  "2026-03-27"
+                      },
+                      {
+                          "id":  "210000000000",
+                          "code":  "210000000000",
+                          "name":  "辽宁省",
+                          "region":  "northEast",
+                          "adminLevel":  "province-level",
+                          "provinceCapital":  "沈阳",
+                          "representativeCities":  [
+                                                       {
+                                                           "code":  "210100000000",
+                                                           "name":  "沈阳"
+                                                       },
+                                                       {
+                                                           "code":  "210200000000",
+                                                           "name":  "大连"
+                                                       }
+                                                   ],
+                          "population":  4155,
+                          "populationUnit":  "万人",
+                          "disposableIncome":  39844,
+                          "annualConsumptionPerCapita":  25963,
+                          "parkGreenPerCapita":  14.56,
+                          "gasCoverage":  98.74,
+                          "railwayLength":  0.69,
+                          "highwayLength":  13.24,
+                          "incomeSupportScore":  21.4,
+                          "consumptionBurden":  0.6516,
+                          "consumptionBurdenScore":  59.9,
+                          "environmentScore":  35.5,
+                          "publicServiceScore":  64.6,
+                          "overviewScore":  42.5,
+                          "coverageScore":  1,
+                          "coverageLevel":  "full",
+                          "sourceRefs":  "nbs-api-province-annual-2024",
+                          "qualityFlags":  "environment_green_proxy",
+                          "periods":  {
+                                          "latest":  {
+                                                         "label":  "2024 official annual province data",
+                                                         "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                                         "aligned":  true
+                                                     },
+                                          "alignedAnnual":  {
+                                                                "label":  "2024 aligned annual province data",
+                                                                "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                                                "aligned":  true
+                                                            }
+                                      },
+                          "periodValues":  {
+                                               "latest":  {
+                                                              "population":  4155,
+                                                              "disposableIncome":  39844,
+                                                              "annualConsumptionPerCapita":  25963,
+                                                              "parkGreenPerCapita":  14.56,
+                                                              "gasCoverage":  98.74,
+                                                              "railwayLength":  0.69,
+                                                              "highwayLength":  13.24
+                                                          }
+                                           },
+                          "hasComparableProxyFields":  true,
+                          "lastUpdated":  "2026-03-27"
+                      },
+                      {
+                          "id":  "220000000000",
+                          "code":  "220000000000",
+                          "name":  "吉林省",
+                          "region":  "northEast",
+                          "adminLevel":  "province-level",
+                          "provinceCapital":  "长春",
+                          "representativeCities":  [
+                                                       {
+                                                           "code":  "220100000000",
+                                                           "name":  "长春"
+                                                       }
+                                                   ],
+                          "population":  2317,
+                          "populationUnit":  "万人",
+                          "disposableIncome":  31318,
+                          "annualConsumptionPerCapita":  23118,
+                          "parkGreenPerCapita":  15.04,
+                          "gasCoverage":  96.84,
+                          "railwayLength":  0.52,
+                          "highwayLength":  11.15,
+                          "incomeSupportScore":  7.6,
+                          "consumptionBurden":  0.7382,
+                          "consumptionBurdenScore":  9.6,
+                          "environmentScore":  39,
+                          "publicServiceScore":  62,
+                          "overviewScore":  25.3,
+                          "coverageScore":  1,
+                          "coverageLevel":  "full",
+                          "sourceRefs":  "nbs-api-province-annual-2024",
+                          "qualityFlags":  "environment_green_proxy",
+                          "periods":  {
+                                          "latest":  {
+                                                         "label":  "2024 official annual province data",
+                                                         "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                                         "aligned":  true
+                                                     },
+                                          "alignedAnnual":  {
+                                                                "label":  "2024 aligned annual province data",
+                                                                "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                                                "aligned":  true
+                                                            }
+                                      },
+                          "periodValues":  {
+                                               "latest":  {
+                                                              "population":  2317,
+                                                              "disposableIncome":  31318,
+                                                              "annualConsumptionPerCapita":  23118,
+                                                              "parkGreenPerCapita":  15.04,
+                                                              "gasCoverage":  96.84,
+                                                              "railwayLength":  0.52,
+                                                              "highwayLength":  11.15
+                                                          }
+                                           },
+                          "hasComparableProxyFields":  true,
+                          "lastUpdated":  "2026-03-27"
+                      },
+                      {
+                          "id":  "230000000000",
+                          "code":  "230000000000",
+                          "name":  "黑龙江省",
+                          "region":  "northEast",
+                          "adminLevel":  "province-level",
+                          "provinceCapital":  "哈尔滨",
+                          "representativeCities":  [
+                                                       {
+                                                           "code":  "230100000000",
+                                                           "name":  "哈尔滨"
+                                                       }
+                                                   ],
+                          "population":  3029,
+                          "populationUnit":  "万人",
+                          "disposableIncome":  31269,
+                          "annualConsumptionPerCapita":  23467,
+                          "parkGreenPerCapita":  15.54,
+                          "gasCoverage":  95.81,
+                          "railwayLength":  0.72,
+                          "highwayLength":  16.93,
+                          "incomeSupportScore":  7.5,
+                          "consumptionBurden":  0.7505,
+                          "consumptionBurdenScore":  2.5,
+                          "environmentScore":  42.6,
+                          "publicServiceScore":  66.7,
+                          "overviewScore":  25.1,
+                          "coverageScore":  1,
+                          "coverageLevel":  "full",
+                          "sourceRefs":  "nbs-api-province-annual-2024",
+                          "qualityFlags":  "environment_green_proxy",
+                          "periods":  {
+                                          "latest":  {
+                                                         "label":  "2024 official annual province data",
+                                                         "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                                         "aligned":  true
+                                                     },
+                                          "alignedAnnual":  {
+                                                                "label":  "2024 aligned annual province data",
+                                                                "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                                                "aligned":  true
+                                                            }
+                                      },
+                          "periodValues":  {
+                                               "latest":  {
+                                                              "population":  3029,
+                                                              "disposableIncome":  31269,
+                                                              "annualConsumptionPerCapita":  23467,
+                                                              "parkGreenPerCapita":  15.54,
+                                                              "gasCoverage":  95.81,
+                                                              "railwayLength":  0.72,
+                                                              "highwayLength":  16.93
+                                                          }
+                                           },
+                          "hasComparableProxyFields":  true,
+                          "lastUpdated":  "2026-03-27"
+                      },
+                      {
+                          "id":  "310000000000",
+                          "code":  "310000000000",
+                          "name":  "上海市",
+                          "region":  "eastChina",
+                          "adminLevel":  "province-level",
+                          "provinceCapital":  "上海",
+                          "representativeCities":  [
+                                                       {
+                                                           "code":  "310000000000",
+                                                           "name":  "上海"
+                                                       }
+                                                   ],
+                          "population":  2480,
+                          "populationUnit":  "万人",
+                          "disposableIncome":  88366,
+                          "annualConsumptionPerCapita":  52722,
+                          "parkGreenPerCapita":  9.68,
+                          "gasCoverage":  100,
+                          "railwayLength":  0.06,
+                          "highwayLength":  1.3,
+                          "incomeSupportScore":  100,
+                          "consumptionBurden":  0.5966,
+                          "consumptionBurdenScore":  91.8,
+                          "environmentScore":  0,
+                          "publicServiceScore":  45,
+                          "overviewScore":  67,
+                          "coverageScore":  1,
+                          "coverageLevel":  "full",
+                          "sourceRefs":  "nbs-api-province-annual-2024",
+                          "qualityFlags":  "environment_green_proxy",
+                          "periods":  {
+                                          "latest":  {
+                                                         "label":  "2024 official annual province data",
+                                                         "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                                         "aligned":  true
+                                                     },
+                                          "alignedAnnual":  {
+                                                                "label":  "2024 aligned annual province data",
+                                                                "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                                                "aligned":  true
+                                                            }
+                                      },
+                          "periodValues":  {
+                                               "latest":  {
+                                                              "population":  2480,
+                                                              "disposableIncome":  88366,
+                                                              "annualConsumptionPerCapita":  52722,
+                                                              "parkGreenPerCapita":  9.68,
+                                                              "gasCoverage":  100,
+                                                              "railwayLength":  0.06,
+                                                              "highwayLength":  1.3
+                                                          }
+                                           },
+                          "hasComparableProxyFields":  true,
+                          "lastUpdated":  "2026-03-27"
+                      },
+                      {
+                          "id":  "320000000000",
+                          "code":  "320000000000",
+                          "name":  "江苏省",
+                          "region":  "eastChina",
+                          "adminLevel":  "province-level",
+                          "provinceCapital":  "南京",
+                          "representativeCities":  [
+                                                       {
+                                                           "code":  "320100000000",
+                                                           "name":  "南京"
+                                                       }
+                                                   ],
+                          "population":  8526,
+                          "populationUnit":  "万人",
+                          "disposableIncome":  55415,
+                          "annualConsumptionPerCapita":  37346,
+                          "parkGreenPerCapita":  16.43,
+                          "gasCoverage":  100,
+                          "railwayLength":  0.48,
+                          "highwayLength":  15.88,
+                          "incomeSupportScore":  46.6,
+                          "consumptionBurden":  0.6739,
+                          "consumptionBurdenScore":  46.9,
+                          "environmentScore":  49.1,
+                          "publicServiceScore":  67.2,
+                          "overviewScore":  51.3,
+                          "coverageScore":  1,
+                          "coverageLevel":  "full",
+                          "sourceRefs":  "nbs-api-province-annual-2024",
+                          "qualityFlags":  "environment_green_proxy",
+                          "periods":  {
+                                          "latest":  {
+                                                         "label":  "2024 official annual province data",
+                                                         "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                                         "aligned":  true
+                                                     },
+                                          "alignedAnnual":  {
+                                                                "label":  "2024 aligned annual province data",
+                                                                "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                                                "aligned":  true
+                                                            }
+                                      },
+                          "periodValues":  {
+                                               "latest":  {
+                                                              "population":  8526,
+                                                              "disposableIncome":  55415,
+                                                              "annualConsumptionPerCapita":  37346,
+                                                              "parkGreenPerCapita":  16.43,
+                                                              "gasCoverage":  100,
+                                                              "railwayLength":  0.48,
+                                                              "highwayLength":  15.88
+                                                          }
+                                           },
+                          "hasComparableProxyFields":  true,
+                          "lastUpdated":  "2026-03-27"
+                      },
+                      {
+                          "id":  "330000000000",
+                          "code":  "330000000000",
+                          "name":  "浙江省",
+                          "region":  "eastChina",
+                          "adminLevel":  "province-level",
+                          "provinceCapital":  "杭州",
+                          "representativeCities":  [
+                                                       {
+                                                           "code":  "330100000000",
+                                                           "name":  "杭州"
+                                                       },
+                                                       {
+                                                           "code":  "330200000000",
+                                                           "name":  "宁波"
+                                                       }
+                                                   ],
+                          "population":  6670,
+                          "populationUnit":  "万人",
+                          "disposableIncome":  67013,
+                          "annualConsumptionPerCapita":  45107,
+                          "parkGreenPerCapita":  15.51,
+                          "gasCoverage":  100,
+                          "railwayLength":  0.42,
+                          "highwayLength":  12.14,
+                          "incomeSupportScore":  65.4,
+                          "consumptionBurden":  0.6731,
+                          "consumptionBurdenScore":  47.4,
+                          "environmentScore":  42.4,
+                          "publicServiceScore":  63.5,
+                          "overviewScore":  55.9,
+                          "coverageScore":  1,
+                          "coverageLevel":  "full",
+                          "sourceRefs":  "nbs-api-province-annual-2024",
+                          "qualityFlags":  "environment_green_proxy",
+                          "periods":  {
+                                          "latest":  {
+                                                         "label":  "2024 official annual province data",
+                                                         "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                                         "aligned":  true
+                                                     },
+                                          "alignedAnnual":  {
+                                                                "label":  "2024 aligned annual province data",
+                                                                "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                                                "aligned":  true
+                                                            }
+                                      },
+                          "periodValues":  {
+                                               "latest":  {
+                                                              "population":  6670,
+                                                              "disposableIncome":  67013,
+                                                              "annualConsumptionPerCapita":  45107,
+                                                              "parkGreenPerCapita":  15.51,
+                                                              "gasCoverage":  100,
+                                                              "railwayLength":  0.42,
+                                                              "highwayLength":  12.14
+                                                          }
+                                           },
+                          "hasComparableProxyFields":  true,
+                          "lastUpdated":  "2026-03-27"
+                      },
+                      {
+                          "id":  "340000000000",
+                          "code":  "340000000000",
+                          "name":  "安徽省",
+                          "region":  "eastChina",
+                          "adminLevel":  "province-level",
+                          "provinceCapital":  "合肥",
+                          "representativeCities":  [
+                                                       {
+                                                           "code":  "340100000000",
+                                                           "name":  "合肥"
+                                                       }
+                                                   ],
+                          "population":  6123,
+                          "populationUnit":  "万人",
+                          "disposableIncome":  36782,
+                          "annualConsumptionPerCapita":  24996,
+                          "parkGreenPerCapita":  17.74,
+                          "gasCoverage":  99.95,
+                          "railwayLength":  0.58,
+                          "highwayLength":  24.05,
+                          "incomeSupportScore":  16.5,
+                          "consumptionBurden":  0.6796,
+                          "consumptionBurdenScore":  43.6,
+                          "environmentScore":  58.6,
+                          "publicServiceScore":  73.6,
+                          "overviewScore":  43.1,
+                          "coverageScore":  1,
+                          "coverageLevel":  "full",
+                          "sourceRefs":  "nbs-api-province-annual-2024",
+                          "qualityFlags":  "environment_green_proxy",
+                          "periods":  {
+                                          "latest":  {
+                                                         "label":  "2024 official annual province data",
+                                                         "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                                         "aligned":  true
+                                                     },
+                                          "alignedAnnual":  {
+                                                                "label":  "2024 aligned annual province data",
+                                                                "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                                                "aligned":  true
+                                                            }
+                                      },
+                          "periodValues":  {
+                                               "latest":  {
+                                                              "population":  6123,
+                                                              "disposableIncome":  36782,
+                                                              "annualConsumptionPerCapita":  24996,
+                                                              "parkGreenPerCapita":  17.74,
+                                                              "gasCoverage":  99.95,
+                                                              "railwayLength":  0.58,
+                                                              "highwayLength":  24.05
+                                                          }
+                                           },
+                          "hasComparableProxyFields":  true,
+                          "lastUpdated":  "2026-03-27"
+                      },
+                      {
+                          "id":  "350000000000",
+                          "code":  "350000000000",
+                          "name":  "福建省",
+                          "region":  "eastChina",
+                          "adminLevel":  "province-level",
+                          "provinceCapital":  "福州",
+                          "representativeCities":  [
+                                                       {
+                                                           "code":  "350100000000",
+                                                           "name":  "福州"
+                                                       },
+                                                       {
+                                                           "code":  "350200000000",
+                                                           "name":  "厦门"
+                                                       }
+                                                   ],
+                          "population":  4193,
+                          "populationUnit":  "万人",
+                          "disposableIncome":  47857,
+                          "annualConsumptionPerCapita":  33876,
+                          "parkGreenPerCapita":  16.03,
+                          "gasCoverage":  99.85,
+                          "railwayLength":  0.46,
+                          "highwayLength":  11.64,
+                          "incomeSupportScore":  34.4,
+                          "consumptionBurden":  0.7079,
+                          "consumptionBurdenScore":  27.2,
+                          "environmentScore":  46.1,
+                          "publicServiceScore":  64.6,
+                          "overviewScore":  41,
+                          "coverageScore":  1,
+                          "coverageLevel":  "full",
+                          "sourceRefs":  "nbs-api-province-annual-2024",
+                          "qualityFlags":  "environment_green_proxy",
+                          "periods":  {
+                                          "latest":  {
+                                                         "label":  "2024 official annual province data",
+                                                         "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                                         "aligned":  true
+                                                     },
+                                          "alignedAnnual":  {
+                                                                "label":  "2024 aligned annual province data",
+                                                                "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                                                "aligned":  true
+                                                            }
+                                      },
+                          "periodValues":  {
+                                               "latest":  {
+                                                              "population":  4193,
+                                                              "disposableIncome":  47857,
+                                                              "annualConsumptionPerCapita":  33876,
+                                                              "parkGreenPerCapita":  16.03,
+                                                              "gasCoverage":  99.85,
+                                                              "railwayLength":  0.46,
+                                                              "highwayLength":  11.64
+                                                          }
+                                           },
+                          "hasComparableProxyFields":  true,
+                          "lastUpdated":  "2026-03-27"
+                      },
+                      {
+                          "id":  "360000000000",
+                          "code":  "360000000000",
+                          "name":  "江西省",
+                          "region":  "eastChina",
+                          "adminLevel":  "province-level",
+                          "provinceCapital":  "南昌",
+                          "representativeCities":  [
+                                                       {
+                                                           "code":  "360100000000",
+                                                           "name":  "南昌"
+                                                       }
+                                                   ],
+                          "population":  4502,
+                          "populationUnit":  "万人",
+                          "disposableIncome":  36007,
+                          "annualConsumptionPerCapita":  24726,
+                          "parkGreenPerCapita":  18.59,
+                          "gasCoverage":  99.45,
+                          "railwayLength":  0.53,
+                          "highwayLength":  20.95,
+                          "incomeSupportScore":  15.2,
+                          "consumptionBurden":  0.6867,
+                          "consumptionBurdenScore":  39.5,
+                          "environmentScore":  64.8,
+                          "publicServiceScore":  73.3,
+                          "overviewScore":  42.8,
+                          "coverageScore":  1,
+                          "coverageLevel":  "full",
+                          "sourceRefs":  "nbs-api-province-annual-2024",
+                          "qualityFlags":  "environment_green_proxy",
+                          "periods":  {
+                                          "latest":  {
+                                                         "label":  "2024 official annual province data",
+                                                         "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                                         "aligned":  true
+                                                     },
+                                          "alignedAnnual":  {
+                                                                "label":  "2024 aligned annual province data",
+                                                                "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                                                "aligned":  true
+                                                            }
+                                      },
+                          "periodValues":  {
+                                               "latest":  {
+                                                              "population":  4502,
+                                                              "disposableIncome":  36007,
+                                                              "annualConsumptionPerCapita":  24726,
+                                                              "parkGreenPerCapita":  18.59,
+                                                              "gasCoverage":  99.45,
+                                                              "railwayLength":  0.53,
+                                                              "highwayLength":  20.95
+                                                          }
+                                           },
+                          "hasComparableProxyFields":  true,
+                          "lastUpdated":  "2026-03-27"
+                      },
+                      {
+                          "id":  "370000000000",
+                          "code":  "370000000000",
+                          "name":  "山东省",
+                          "region":  "eastChina",
+                          "adminLevel":  "province-level",
+                          "provinceCapital":  "济南",
+                          "representativeCities":  [
+                                                       {
+                                                           "code":  "370100000000",
+                                                           "name":  "济南"
+                                                       },
+                                                       {
+                                                           "code":  "370200000000",
+                                                           "name":  "青岛"
+                                                       }
+                                                   ],
+                          "population":  10080,
+                          "populationUnit":  "万人",
+                          "disposableIncome":  42077,
+                          "annualConsumptionPerCapita":  25645,
+                          "parkGreenPerCapita":  18.84,
+                          "gasCoverage":  99.85,
+                          "railwayLength":  0.79,
+                          "highwayLength":  29.58,
+                          "incomeSupportScore":  25,
+                          "consumptionBurden":  0.6095,
+                          "consumptionBurdenScore":  84.3,
+                          "environmentScore":  66.6,
+                          "publicServiceScore":  79.9,
+                          "overviewScore":  59.1,
+                          "coverageScore":  1,
+                          "coverageLevel":  "full",
+                          "sourceRefs":  "nbs-api-province-annual-2024",
+                          "qualityFlags":  "environment_green_proxy",
+                          "periods":  {
+                                          "latest":  {
+                                                         "label":  "2024 official annual province data",
+                                                         "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                                         "aligned":  true
+                                                     },
+                                          "alignedAnnual":  {
+                                                                "label":  "2024 aligned annual province data",
+                                                                "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                                                "aligned":  true
+                                                            }
+                                      },
+                          "periodValues":  {
+                                               "latest":  {
+                                                              "population":  10080,
+                                                              "disposableIncome":  42077,
+                                                              "annualConsumptionPerCapita":  25645,
+                                                              "parkGreenPerCapita":  18.84,
+                                                              "gasCoverage":  99.85,
+                                                              "railwayLength":  0.79,
+                                                              "highwayLength":  29.58
+                                                          }
+                                           },
+                          "hasComparableProxyFields":  true,
+                          "lastUpdated":  "2026-03-27"
+                      },
+                      {
+                          "id":  "410000000000",
+                          "code":  "410000000000",
+                          "name":  "河南省",
+                          "region":  "centralChina",
+                          "adminLevel":  "province-level",
+                          "provinceCapital":  "郑州",
+                          "representativeCities":  [
+                                                       {
+                                                           "code":  "410100000000",
+                                                           "name":  "郑州"
+                                                       }
+                                                   ],
+                          "population":  9785,
+                          "populationUnit":  "万人",
+                          "disposableIncome":  31552,
+                          "annualConsumptionPerCapita":  21956,
+                          "parkGreenPerCapita":  15.88,
+                          "gasCoverage":  99.76,
+                          "railwayLength":  0.68,
+                          "highwayLength":  28.31,
+                          "incomeSupportScore":  8,
+                          "consumptionBurden":  0.6959,
+                          "consumptionBurdenScore":  34.2,
+                          "environmentScore":  45.1,
+                          "publicServiceScore":  72.8,
+                          "overviewScore":  34.9,
+                          "coverageScore":  1,
+                          "coverageLevel":  "full",
+                          "sourceRefs":  "nbs-api-province-annual-2024",
+                          "qualityFlags":  "environment_green_proxy",
+                          "periods":  {
+                                          "latest":  {
+                                                         "label":  "2024 official annual province data",
+                                                         "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                                         "aligned":  true
+                                                     },
+                                          "alignedAnnual":  {
+                                                                "label":  "2024 aligned annual province data",
+                                                                "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                                                "aligned":  true
+                                                            }
+                                      },
+                          "periodValues":  {
+                                               "latest":  {
+                                                              "population":  9785,
+                                                              "disposableIncome":  31552,
+                                                              "annualConsumptionPerCapita":  21956,
+                                                              "parkGreenPerCapita":  15.88,
+                                                              "gasCoverage":  99.76,
+                                                              "railwayLength":  0.68,
+                                                              "highwayLength":  28.31
+                                                          }
+                                           },
+                          "hasComparableProxyFields":  true,
+                          "lastUpdated":  "2026-03-27"
+                      },
+                      {
+                          "id":  "420000000000",
+                          "code":  "420000000000",
+                          "name":  "湖北省",
+                          "region":  "centralChina",
+                          "adminLevel":  "province-level",
+                          "provinceCapital":  "武汉",
+                          "representativeCities":  [
+                                                       {
+                                                           "code":  "420100000000",
+                                                           "name":  "武汉"
+                                                       }
+                                                   ],
+                          "population":  5834,
+                          "populationUnit":  "万人",
+                          "disposableIncome":  36947,
+                          "annualConsumptionPerCapita":  27888,
+                          "parkGreenPerCapita":  16.02,
+                          "gasCoverage":  99.54,
+                          "railwayLength":  0.58,
+                          "highwayLength":  31.07,
+                          "incomeSupportScore":  16.7,
+                          "consumptionBurden":  0.7548,
+                          "consumptionBurdenScore":  0,
+                          "environmentScore":  46.1,
+                          "publicServiceScore":  72.9,
+                          "overviewScore":  29.6,
+                          "coverageScore":  1,
+                          "coverageLevel":  "full",
+                          "sourceRefs":  "nbs-api-province-annual-2024",
+                          "qualityFlags":  "environment_green_proxy",
+                          "periods":  {
+                                          "latest":  {
+                                                         "label":  "2024 official annual province data",
+                                                         "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                                         "aligned":  true
+                                                     },
+                                          "alignedAnnual":  {
+                                                                "label":  "2024 aligned annual province data",
+                                                                "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                                                "aligned":  true
+                                                            }
+                                      },
+                          "periodValues":  {
+                                               "latest":  {
+                                                              "population":  5834,
+                                                              "disposableIncome":  36947,
+                                                              "annualConsumptionPerCapita":  27888,
+                                                              "parkGreenPerCapita":  16.02,
+                                                              "gasCoverage":  99.54,
+                                                              "railwayLength":  0.58,
+                                                              "highwayLength":  31.07
+                                                          }
+                                           },
+                          "hasComparableProxyFields":  true,
+                          "lastUpdated":  "2026-03-27"
+                      },
+                      {
+                          "id":  "430000000000",
+                          "code":  "430000000000",
+                          "name":  "湖南省",
+                          "region":  "centralChina",
+                          "adminLevel":  "province-level",
+                          "provinceCapital":  "长沙",
+                          "representativeCities":  [
+                                                       {
+                                                           "code":  "430100000000",
+                                                           "name":  "长沙"
+                                                       }
+                                                   ],
+                          "population":  6539,
+                          "populationUnit":  "万人",
+                          "disposableIncome":  37679,
+                          "annualConsumptionPerCapita":  26760,
+                          "parkGreenPerCapita":  14.07,
+                          "gasCoverage":  98.61,
+                          "railwayLength":  0.61,
+                          "highwayLength":  24.35,
+                          "incomeSupportScore":  17.9,
+                          "consumptionBurden":  0.7102,
+                          "consumptionBurdenScore":  25.9,
+                          "environmentScore":  31.9,
+                          "publicServiceScore":  66.7,
+                          "overviewScore":  32.5,
+                          "coverageScore":  1,
+                          "coverageLevel":  "full",
+                          "sourceRefs":  "nbs-api-province-annual-2024",
+                          "qualityFlags":  "environment_green_proxy",
+                          "periods":  {
+                                          "latest":  {
+                                                         "label":  "2024 official annual province data",
+                                                         "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                                         "aligned":  true
+                                                     },
+                                          "alignedAnnual":  {
+                                                                "label":  "2024 aligned annual province data",
+                                                                "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                                                "aligned":  true
+                                                            }
+                                      },
+                          "periodValues":  {
+                                               "latest":  {
+                                                              "population":  6539,
+                                                              "disposableIncome":  37679,
+                                                              "annualConsumptionPerCapita":  26760,
+                                                              "parkGreenPerCapita":  14.07,
+                                                              "gasCoverage":  98.61,
+                                                              "railwayLength":  0.61,
+                                                              "highwayLength":  24.35
+                                                          }
+                                           },
+                          "hasComparableProxyFields":  true,
+                          "lastUpdated":  "2026-03-27"
+                      },
+                      {
+                          "id":  "440000000000",
+                          "code":  "440000000000",
+                          "name":  "广东省",
+                          "region":  "southChina",
+                          "adminLevel":  "province-level",
+                          "provinceCapital":  "广州",
+                          "representativeCities":  [
+                                                       {
+                                                           "code":  "440100000000",
+                                                           "name":  "广州"
+                                                       },
+                                                       {
+                                                           "code":  "440300000000",
+                                                           "name":  "深圳"
+                                                       }
+                                                   ],
+                          "population":  12780,
+                          "populationUnit":  "万人",
+                          "disposableIncome":  51474,
+                          "annualConsumptionPerCapita":  35818,
+                          "parkGreenPerCapita":  17.92,
+                          "gasCoverage":  97.24,
+                          "railwayLength":  0.6,
+                          "highwayLength":  22.44,
+                          "incomeSupportScore":  40.3,
+                          "consumptionBurden":  0.6958,
+                          "consumptionBurdenScore":  34.2,
+                          "environmentScore":  59.9,
+                          "publicServiceScore":  72.3,
+                          "overviewScore":  49.1,
+                          "coverageScore":  1,
+                          "coverageLevel":  "full",
+                          "sourceRefs":  "nbs-api-province-annual-2024",
+                          "qualityFlags":  "environment_green_proxy",
+                          "periods":  {
+                                          "latest":  {
+                                                         "label":  "2024 official annual province data",
+                                                         "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                                         "aligned":  true
+                                                     },
+                                          "alignedAnnual":  {
+                                                                "label":  "2024 aligned annual province data",
+                                                                "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                                                "aligned":  true
+                                                            }
+                                      },
+                          "periodValues":  {
+                                               "latest":  {
+                                                              "population":  12780,
+                                                              "disposableIncome":  51474,
+                                                              "annualConsumptionPerCapita":  35818,
+                                                              "parkGreenPerCapita":  17.92,
+                                                              "gasCoverage":  97.24,
+                                                              "railwayLength":  0.6,
+                                                              "highwayLength":  22.44
+                                                          }
+                                           },
+                          "hasComparableProxyFields":  true,
+                          "lastUpdated":  "2026-03-27"
+                      },
+                      {
+                          "id":  "450000000000",
+                          "code":  "450000000000",
+                          "name":  "广西壮族自治区",
+                          "region":  "southChina",
+                          "adminLevel":  "province-level",
+                          "provinceCapital":  "南宁",
+                          "representativeCities":  [
+                                                       {
+                                                           "code":  "450100000000",
+                                                           "name":  "南宁"
+                                                       }
+                                                   ],
+                          "population":  5013,
+                          "populationUnit":  "万人",
+                          "disposableIncome":  31125,
+                          "annualConsumptionPerCapita":  21150,
+                          "parkGreenPerCapita":  12.96,
+                          "gasCoverage":  99.44,
+                          "railwayLength":  0.59,
+                          "highwayLength":  18.7,
+                          "incomeSupportScore":  7.3,
+                          "consumptionBurden":  0.6795,
+                          "consumptionBurdenScore":  43.7,
+                          "environmentScore":  23.8,
+                          "publicServiceScore":  62.8,
+                          "overviewScore":  30.8,
+                          "coverageScore":  1,
+                          "coverageLevel":  "full",
+                          "sourceRefs":  "nbs-api-province-annual-2024",
+                          "qualityFlags":  "environment_green_proxy",
+                          "periods":  {
+                                          "latest":  {
+                                                         "label":  "2024 official annual province data",
+                                                         "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                                         "aligned":  true
+                                                     },
+                                          "alignedAnnual":  {
+                                                                "label":  "2024 aligned annual province data",
+                                                                "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                                                "aligned":  true
+                                                            }
+                                      },
+                          "periodValues":  {
+                                               "latest":  {
+                                                              "population":  5013,
+                                                              "disposableIncome":  31125,
+                                                              "annualConsumptionPerCapita":  21150,
+                                                              "parkGreenPerCapita":  12.96,
+                                                              "gasCoverage":  99.44,
+                                                              "railwayLength":  0.59,
+                                                              "highwayLength":  18.7
+                                                          }
+                                           },
+                          "hasComparableProxyFields":  true,
+                          "lastUpdated":  "2026-03-27"
+                      },
+                      {
+                          "id":  "460000000000",
+                          "code":  "460000000000",
+                          "name":  "海南省",
+                          "region":  "southChina",
+                          "adminLevel":  "province-level",
+                          "provinceCapital":  "海口",
+                          "representativeCities":  [
+                                                       {
+                                                           "code":  "460100000000",
+                                                           "name":  "海口"
+                                                       }
+                                                   ],
+                          "population":  1048,
+                          "populationUnit":  "万人",
+                          "disposableIncome":  34829,
+                          "annualConsumptionPerCapita":  25908,
+                          "parkGreenPerCapita":  12.52,
+                          "gasCoverage":  99.99,
+                          "railwayLength":  0.1,
+                          "highwayLength":  4.21,
+                          "incomeSupportScore":  13.3,
+                          "consumptionBurden":  0.7439,
+                          "consumptionBurdenScore":  6.3,
+                          "environmentScore":  20.6,
+                          "publicServiceScore":  51.6,
+                          "overviewScore":  20.7,
+                          "coverageScore":  1,
+                          "coverageLevel":  "full",
+                          "sourceRefs":  "nbs-api-province-annual-2024",
+                          "qualityFlags":  "environment_green_proxy",
+                          "periods":  {
+                                          "latest":  {
+                                                         "label":  "2024 official annual province data",
+                                                         "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                                         "aligned":  true
+                                                     },
+                                          "alignedAnnual":  {
+                                                                "label":  "2024 aligned annual province data",
+                                                                "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                                                "aligned":  true
+                                                            }
+                                      },
+                          "periodValues":  {
+                                               "latest":  {
+                                                              "population":  1048,
+                                                              "disposableIncome":  34829,
+                                                              "annualConsumptionPerCapita":  25908,
+                                                              "parkGreenPerCapita":  12.52,
+                                                              "gasCoverage":  99.99,
+                                                              "railwayLength":  0.1,
+                                                              "highwayLength":  4.21
+                                                          }
+                                           },
+                          "hasComparableProxyFields":  true,
+                          "lastUpdated":  "2026-03-27"
+                      },
+                      {
+                          "id":  "500000000000",
+                          "code":  "500000000000",
+                          "name":  "重庆市",
+                          "region":  "southWest",
+                          "adminLevel":  "province-level",
+                          "provinceCapital":  "重庆",
+                          "representativeCities":  [
+                                                       {
+                                                           "code":  "500000000000",
+                                                           "name":  "重庆"
+                                                       }
+                                                   ],
+                          "population":  3190,
+                          "populationUnit":  "万人",
+                          "disposableIncome":  39713,
+                          "annualConsumptionPerCapita":  27451,
+                          "parkGreenPerCapita":  20.93,
+                          "gasCoverage":  99.77,
+                          "railwayLength":  0.29,
+                          "highwayLength":  18.71,
+                          "incomeSupportScore":  21.2,
+                          "consumptionBurden":  0.6912,
+                          "consumptionBurdenScore":  36.9,
+                          "environmentScore":  81.8,
+                          "publicServiceScore":  74.2,
+                          "overviewScore":  47.8,
+                          "coverageScore":  1,
+                          "coverageLevel":  "full",
+                          "sourceRefs":  "nbs-api-province-annual-2024",
+                          "qualityFlags":  "environment_green_proxy",
+                          "periods":  {
+                                          "latest":  {
+                                                         "label":  "2024 official annual province data",
+                                                         "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                                         "aligned":  true
+                                                     },
+                                          "alignedAnnual":  {
+                                                                "label":  "2024 aligned annual province data",
+                                                                "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                                                "aligned":  true
+                                                            }
+                                      },
+                          "periodValues":  {
+                                               "latest":  {
+                                                              "population":  3190,
+                                                              "disposableIncome":  39713,
+                                                              "annualConsumptionPerCapita":  27451,
+                                                              "parkGreenPerCapita":  20.93,
+                                                              "gasCoverage":  99.77,
+                                                              "railwayLength":  0.29,
+                                                              "highwayLength":  18.71
+                                                          }
+                                           },
+                          "hasComparableProxyFields":  true,
+                          "lastUpdated":  "2026-03-27"
+                      },
+                      {
+                          "id":  "510000000000",
+                          "code":  "510000000000",
+                          "name":  "四川省",
+                          "region":  "southWest",
+                          "adminLevel":  "province-level",
+                          "provinceCapital":  "成都",
+                          "representativeCities":  [
+                                                       {
+                                                           "code":  "510100000000",
+                                                           "name":  "成都"
+                                                       }
+                                                   ],
+                          "population":  8364,
+                          "populationUnit":  "万人",
+                          "disposableIncome":  34325,
+                          "annualConsumptionPerCapita":  24878,
+                          "parkGreenPerCapita":  14.69,
+                          "gasCoverage":  98.2,
+                          "railwayLength":  0.68,
+                          "highwayLength":  42.5,
+                          "incomeSupportScore":  12.5,
+                          "consumptionBurden":  0.7248,
+                          "consumptionBurdenScore":  17.4,
+                          "environmentScore":  36.4,
+                          "publicServiceScore":  75.1,
+                          "overviewScore":  31,
+                          "coverageScore":  1,
+                          "coverageLevel":  "full",
+                          "sourceRefs":  "nbs-api-province-annual-2024",
+                          "qualityFlags":  "environment_green_proxy",
+                          "periods":  {
+                                          "latest":  {
+                                                         "label":  "2024 official annual province data",
+                                                         "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                                         "aligned":  true
+                                                     },
+                                          "alignedAnnual":  {
+                                                                "label":  "2024 aligned annual province data",
+                                                                "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                                                "aligned":  true
+                                                            }
+                                      },
+                          "periodValues":  {
+                                               "latest":  {
+                                                              "population":  8364,
+                                                              "disposableIncome":  34325,
+                                                              "annualConsumptionPerCapita":  24878,
+                                                              "parkGreenPerCapita":  14.69,
+                                                              "gasCoverage":  98.2,
+                                                              "railwayLength":  0.68,
+                                                              "highwayLength":  42.5
+                                                          }
+                                           },
+                          "hasComparableProxyFields":  true,
+                          "lastUpdated":  "2026-03-27"
+                      },
+                      {
+                          "id":  "520000000000",
+                          "code":  "520000000000",
+                          "name":  "贵州省",
+                          "region":  "southWest",
+                          "adminLevel":  "province-level",
+                          "provinceCapital":  "贵阳",
+                          "representativeCities":  [
+                                                       {
+                                                           "code":  "520100000000",
+                                                           "name":  "贵阳"
+                                                       }
+                                                   ],
+                          "population":  3860,
+                          "populationUnit":  "万人",
+                          "disposableIncome":  28561,
+                          "annualConsumptionPerCapita":  20871,
+                          "parkGreenPerCapita":  17.39,
+                          "gasCoverage":  95.64,
+                          "railwayLength":  0.43,
+                          "highwayLength":  22.03,
+                          "incomeSupportScore":  3.2,
+                          "consumptionBurden":  0.7308,
+                          "consumptionBurdenScore":  13.9,
+                          "environmentScore":  56,
+                          "publicServiceScore":  68.6,
+                          "overviewScore":  29.5,
+                          "coverageScore":  1,
+                          "coverageLevel":  "full",
+                          "sourceRefs":  "nbs-api-province-annual-2024",
+                          "qualityFlags":  "environment_green_proxy",
+                          "periods":  {
+                                          "latest":  {
+                                                         "label":  "2024 official annual province data",
+                                                         "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                                         "aligned":  true
+                                                     },
+                                          "alignedAnnual":  {
+                                                                "label":  "2024 aligned annual province data",
+                                                                "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                                                "aligned":  true
+                                                            }
+                                      },
+                          "periodValues":  {
+                                               "latest":  {
+                                                              "population":  3860,
+                                                              "disposableIncome":  28561,
+                                                              "annualConsumptionPerCapita":  20871,
+                                                              "parkGreenPerCapita":  17.39,
+                                                              "gasCoverage":  95.64,
+                                                              "railwayLength":  0.43,
+                                                              "highwayLength":  22.03
+                                                          }
+                                           },
+                          "hasComparableProxyFields":  true,
+                          "lastUpdated":  "2026-03-27"
+                      },
+                      {
+                          "id":  "530000000000",
+                          "code":  "530000000000",
+                          "name":  "云南省",
+                          "region":  "southWest",
+                          "adminLevel":  "province-level",
+                          "provinceCapital":  "昆明",
+                          "representativeCities":  [
+                                                       {
+                                                           "code":  "530100000000",
+                                                           "name":  "昆明"
+                                                       }
+                                                   ],
+                          "population":  4655,
+                          "populationUnit":  "万人",
+                          "disposableIncome":  29932,
+                          "annualConsumptionPerCapita":  22280,
+                          "parkGreenPerCapita":  14.35,
+                          "gasCoverage":  83.5,
+                          "railwayLength":  0.52,
+                          "highwayLength":  34,
+                          "incomeSupportScore":  5.4,
+                          "consumptionBurden":  0.7444,
+                          "consumptionBurdenScore":  6,
+                          "environmentScore":  33.9,
+                          "publicServiceScore":  63,
+                          "overviewScore":  22.8,
+                          "coverageScore":  1,
+                          "coverageLevel":  "full",
+                          "sourceRefs":  "nbs-api-province-annual-2024",
+                          "qualityFlags":  "environment_green_proxy",
+                          "periods":  {
+                                          "latest":  {
+                                                         "label":  "2024 official annual province data",
+                                                         "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                                         "aligned":  true
+                                                     },
+                                          "alignedAnnual":  {
+                                                                "label":  "2024 aligned annual province data",
+                                                                "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                                                "aligned":  true
+                                                            }
+                                      },
+                          "periodValues":  {
+                                               "latest":  {
+                                                              "population":  4655,
+                                                              "disposableIncome":  29932,
+                                                              "annualConsumptionPerCapita":  22280,
+                                                              "parkGreenPerCapita":  14.35,
+                                                              "gasCoverage":  83.5,
+                                                              "railwayLength":  0.52,
+                                                              "highwayLength":  34
+                                                          }
+                                           },
+                          "hasComparableProxyFields":  true,
+                          "lastUpdated":  "2026-03-27"
+                      },
+                      {
+                          "id":  "540000000000",
+                          "code":  "540000000000",
+                          "name":  "西藏自治区",
+                          "region":  "southWest",
+                          "adminLevel":  "province-level",
+                          "provinceCapital":  "拉萨",
+                          "representativeCities":  [
+                                                       {
+                                                           "code":  "540100000000",
+                                                           "name":  "拉萨"
+                                                       }
+                                                   ],
+                          "population":  370,
+                          "populationUnit":  "万人",
+                          "disposableIncome":  31358,
+                          "annualConsumptionPerCapita":  18983,
+                          "parkGreenPerCapita":  17.48,
+                          "gasCoverage":  89.42,
+                          "railwayLength":  0.12,
+                          "highwayLength":  12.38,
+                          "incomeSupportScore":  7.7,
+                          "consumptionBurden":  0.6054,
+                          "consumptionBurdenScore":  86.7,
+                          "environmentScore":  56.7,
+                          "publicServiceScore":  59.1,
+                          "overviewScore":  47.5,
+                          "coverageScore":  1,
+                          "coverageLevel":  "full",
+                          "sourceRefs":  "nbs-api-province-annual-2024",
+                          "qualityFlags":  "environment_green_proxy",
+                          "periods":  {
+                                          "latest":  {
+                                                         "label":  "2024 official annual province data",
+                                                         "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                                         "aligned":  true
+                                                     },
+                                          "alignedAnnual":  {
+                                                                "label":  "2024 aligned annual province data",
+                                                                "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                                                "aligned":  true
+                                                            }
+                                      },
+                          "periodValues":  {
+                                               "latest":  {
+                                                              "population":  370,
+                                                              "disposableIncome":  31358,
+                                                              "annualConsumptionPerCapita":  18983,
+                                                              "parkGreenPerCapita":  17.48,
+                                                              "gasCoverage":  89.42,
+                                                              "railwayLength":  0.12,
+                                                              "highwayLength":  12.38
+                                                          }
+                                           },
+                          "hasComparableProxyFields":  true,
+                          "lastUpdated":  "2026-03-27"
+                      },
+                      {
+                          "id":  "610000000000",
+                          "code":  "610000000000",
+                          "name":  "陕西省",
+                          "region":  "northWest",
+                          "adminLevel":  "province-level",
+                          "provinceCapital":  "西安",
+                          "representativeCities":  [
+                                                       {
+                                                           "code":  "610100000000",
+                                                           "name":  "西安"
+                                                       }
+                                                   ],
+                          "population":  3953,
+                          "populationUnit":  "万人",
+                          "disposableIncome":  33905,
+                          "annualConsumptionPerCapita":  23213,
+                          "parkGreenPerCapita":  13.11,
+                          "gasCoverage":  98.88,
+                          "railwayLength":  0.56,
+                          "highwayLength":  19.01,
+                          "incomeSupportScore":  11.8,
+                          "consumptionBurden":  0.6846,
+                          "consumptionBurdenScore":  40.7,
+                          "environmentScore":  24.9,
+                          "publicServiceScore":  62.6,
+                          "overviewScore":  31.8,
+                          "coverageScore":  1,
+                          "coverageLevel":  "full",
+                          "sourceRefs":  "nbs-api-province-annual-2024",
+                          "qualityFlags":  "environment_green_proxy",
+                          "periods":  {
+                                          "latest":  {
+                                                         "label":  "2024 official annual province data",
+                                                         "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                                         "aligned":  true
+                                                     },
+                                          "alignedAnnual":  {
+                                                                "label":  "2024 aligned annual province data",
+                                                                "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                                                "aligned":  true
+                                                            }
+                                      },
+                          "periodValues":  {
+                                               "latest":  {
+                                                              "population":  3953,
+                                                              "disposableIncome":  33905,
+                                                              "annualConsumptionPerCapita":  23213,
+                                                              "parkGreenPerCapita":  13.11,
+                                                              "gasCoverage":  98.88,
+                                                              "railwayLength":  0.56,
+                                                              "highwayLength":  19.01
+                                                          }
+                                           },
+                          "hasComparableProxyFields":  true,
+                          "lastUpdated":  "2026-03-27"
+                      },
+                      {
+                          "id":  "620000000000",
+                          "code":  "620000000000",
+                          "name":  "甘肃省",
+                          "region":  "northWest",
+                          "adminLevel":  "province-level",
+                          "provinceCapital":  "兰州",
+                          "representativeCities":  [
+                                                       {
+                                                           "code":  "620100000000",
+                                                           "name":  "兰州"
+                                                       }
+                                                   ],
+                          "population":  2458,
+                          "populationUnit":  "万人",
+                          "disposableIncome":  26612,
+                          "annualConsumptionPerCapita":  19829,
+                          "parkGreenPerCapita":  15.39,
+                          "gasCoverage":  98.32,
+                          "railwayLength":  0.58,
+                          "highwayLength":  15.93,
+                          "incomeSupportScore":  0,
+                          "consumptionBurden":  0.7451,
+                          "consumptionBurdenScore":  5.6,
+                          "environmentScore":  41.5,
+                          "publicServiceScore":  65.6,
+                          "overviewScore":  22.8,
+                          "coverageScore":  1,
+                          "coverageLevel":  "full",
+                          "sourceRefs":  "nbs-api-province-annual-2024",
+                          "qualityFlags":  "environment_green_proxy",
+                          "periods":  {
+                                          "latest":  {
+                                                         "label":  "2024 official annual province data",
+                                                         "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                                         "aligned":  true
+                                                     },
+                                          "alignedAnnual":  {
+                                                                "label":  "2024 aligned annual province data",
+                                                                "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                                                "aligned":  true
+                                                            }
+                                      },
+                          "periodValues":  {
+                                               "latest":  {
+                                                              "population":  2458,
+                                                              "disposableIncome":  26612,
+                                                              "annualConsumptionPerCapita":  19829,
+                                                              "parkGreenPerCapita":  15.39,
+                                                              "gasCoverage":  98.32,
+                                                              "railwayLength":  0.58,
+                                                              "highwayLength":  15.93
+                                                          }
+                                           },
+                          "hasComparableProxyFields":  true,
+                          "lastUpdated":  "2026-03-27"
+                      },
+                      {
+                          "id":  "630000000000",
+                          "code":  "630000000000",
+                          "name":  "青海省",
+                          "region":  "northWest",
+                          "adminLevel":  "province-level",
+                          "provinceCapital":  "西宁",
+                          "representativeCities":  [
+                                                       {
+                                                           "code":  "630100000000",
+                                                           "name":  "西宁"
+                                                       }
+                                                   ],
+                          "population":  593,
+                          "populationUnit":  "万人",
+                          "disposableIncome":  30117,
+                          "annualConsumptionPerCapita":  21204,
+                          "parkGreenPerCapita":  12.95,
+                          "gasCoverage":  97.45,
+                          "railwayLength":  0.3,
+                          "highwayLength":  9.12,
+                          "incomeSupportScore":  5.7,
+                          "consumptionBurden":  0.7041,
+                          "consumptionBurdenScore":  29.4,
+                          "environmentScore":  23.8,
+                          "publicServiceScore":  55.3,
+                          "overviewScore":  25.2,
+                          "coverageScore":  1,
+                          "coverageLevel":  "full",
+                          "sourceRefs":  "nbs-api-province-annual-2024",
+                          "qualityFlags":  "environment_green_proxy",
+                          "periods":  {
+                                          "latest":  {
+                                                         "label":  "2024 official annual province data",
+                                                         "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                                         "aligned":  true
+                                                     },
+                                          "alignedAnnual":  {
+                                                                "label":  "2024 aligned annual province data",
+                                                                "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                                                "aligned":  true
+                                                            }
+                                      },
+                          "periodValues":  {
+                                               "latest":  {
+                                                              "population":  593,
+                                                              "disposableIncome":  30117,
+                                                              "annualConsumptionPerCapita":  21204,
+                                                              "parkGreenPerCapita":  12.95,
+                                                              "gasCoverage":  97.45,
+                                                              "railwayLength":  0.3,
+                                                              "highwayLength":  9.12
+                                                          }
+                                           },
+                          "hasComparableProxyFields":  true,
+                          "lastUpdated":  "2026-03-27"
+                      },
+                      {
+                          "id":  "640000000000",
+                          "code":  "640000000000",
+                          "name":  "宁夏回族自治区",
+                          "region":  "northWest",
+                          "adminLevel":  "province-level",
+                          "provinceCapital":  "银川",
+                          "representativeCities":  [
+                                                       {
+                                                           "code":  "640100000000",
+                                                           "name":  "银川"
+                                                       }
+                                                   ],
+                          "population":  729,
+                          "populationUnit":  "万人",
+                          "disposableIncome":  33355,
+                          "annualConsumptionPerCapita":  22865,
+                          "parkGreenPerCapita":  23.44,
+                          "gasCoverage":  98.44,
+                          "railwayLength":  0.18,
+                          "highwayLength":  3.9,
+                          "incomeSupportScore":  10.9,
+                          "consumptionBurden":  0.6855,
+                          "consumptionBurdenScore":  40.2,
+                          "environmentScore":  100,
+                          "publicServiceScore":  71.6,
+                          "overviewScore":  48.2,
+                          "coverageScore":  1,
+                          "coverageLevel":  "full",
+                          "sourceRefs":  "nbs-api-province-annual-2024",
+                          "qualityFlags":  "environment_green_proxy",
+                          "periods":  {
+                                          "latest":  {
+                                                         "label":  "2024 official annual province data",
+                                                         "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                                         "aligned":  true
+                                                     },
+                                          "alignedAnnual":  {
+                                                                "label":  "2024 aligned annual province data",
+                                                                "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                                                "aligned":  true
+                                                            }
+                                      },
+                          "periodValues":  {
+                                               "latest":  {
+                                                              "population":  729,
+                                                              "disposableIncome":  33355,
+                                                              "annualConsumptionPerCapita":  22865,
+                                                              "parkGreenPerCapita":  23.44,
+                                                              "gasCoverage":  98.44,
+                                                              "railwayLength":  0.18,
+                                                              "highwayLength":  3.9
+                                                          }
+                                           },
+                          "hasComparableProxyFields":  true,
+                          "lastUpdated":  "2026-03-27"
+                      },
+                      {
+                          "id":  "650000000000",
+                          "code":  "650000000000",
+                          "name":  "新疆维吾尔自治区",
+                          "region":  "northWest",
+                          "adminLevel":  "province-level",
+                          "provinceCapital":  "乌鲁木齐",
+                          "representativeCities":  [
+                                                       {
+                                                           "code":  "650100000000",
+                                                           "name":  "乌鲁木齐"
+                                                       }
+                                                   ],
+                          "population":  2623,
+                          "populationUnit":  "万人",
+                          "disposableIncome":  30899,
+                          "annualConsumptionPerCapita":  21364,
+                          "parkGreenPerCapita":  16.67,
+                          "gasCoverage":  98.86,
+                          "railwayLength":  0.92,
+                          "highwayLength":  23.19,
+                          "incomeSupportScore":  6.9,
+                          "consumptionBurden":  0.6914,
+                          "consumptionBurdenScore":  36.8,
+                          "environmentScore":  50.8,
+                          "publicServiceScore":  74.6,
+                          "overviewScore":  36.7,
+                          "coverageScore":  1,
+                          "coverageLevel":  "full",
+                          "sourceRefs":  "nbs-api-province-annual-2024",
+                          "qualityFlags":  "environment_green_proxy",
+                          "periods":  {
+                                          "latest":  {
+                                                         "label":  "2024 official annual province data",
+                                                         "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                                         "aligned":  true
+                                                     },
+                                          "alignedAnnual":  {
+                                                                "label":  "2024 aligned annual province data",
+                                                                "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                                                "aligned":  true
+                                                            }
+                                      },
+                          "periodValues":  {
+                                               "latest":  {
+                                                              "population":  2623,
+                                                              "disposableIncome":  30899,
+                                                              "annualConsumptionPerCapita":  21364,
+                                                              "parkGreenPerCapita":  16.67,
+                                                              "gasCoverage":  98.86,
+                                                              "railwayLength":  0.92,
+                                                              "highwayLength":  23.19
+                                                          }
+                                           },
+                          "hasComparableProxyFields":  true,
+                          "lastUpdated":  "2026-03-27"
+                      },
+                      {
+                          "id":  "710000000000",
+                          "code":  "710000000000",
+                          "name":  "台湾省",
+                          "region":  "greaterChinaLimited",
+                          "adminLevel":  "province-level",
+                          "provinceCapital":  "台湾省",
+                          "representativeCities":  [
+
+                                                   ],
+                          "population":  null,
+                          "populationUnit":  "万人",
+                          "disposableIncome":  null,
+                          "annualConsumptionPerCapita":  null,
+                          "parkGreenPerCapita":  null,
+                          "gasCoverage":  null,
+                          "railwayLength":  null,
+                          "highwayLength":  null,
+                          "incomeSupportScore":  null,
+                          "consumptionBurden":  null,
+                          "consumptionBurdenScore":  null,
+                          "environmentScore":  null,
+                          "publicServiceScore":  null,
+                          "overviewScore":  null,
+                          "coverageScore":  0.35,
+                          "coverageLevel":  "limited",
+                          "sourceRefs":  "nbs-api-province-annual-2024",
+                          "qualityFlags":  "limited_comparability",
+                          "periods":  {
+                                          "latest":  {
+                                                         "label":  "2024 official annual province data",
+                                                         "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                                         "aligned":  true
+                                                     },
+                                          "alignedAnnual":  {
+                                                                "label":  "2024 aligned annual province data",
+                                                                "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                                                "aligned":  true
+                                                            }
+                                      },
+                          "periodValues":  {
+                                               "latest":  {
+                                                              "population":  null,
+                                                              "disposableIncome":  null,
+                                                              "annualConsumptionPerCapita":  null,
+                                                              "parkGreenPerCapita":  null,
+                                                              "gasCoverage":  null,
+                                                              "railwayLength":  null,
+                                                              "highwayLength":  null
+                                                          }
+                                           },
+                          "hasComparableProxyFields":  true,
+                          "lastUpdated":  "2026-03-27"
+                      },
+                      {
+                          "id":  "810000000000",
+                          "code":  "810000000000",
+                          "name":  "香港特别行政区",
+                          "region":  "greaterChinaLimited",
+                          "adminLevel":  "province-level",
+                          "provinceCapital":  "香港特别行政区",
+                          "representativeCities":  [
+
+                                                   ],
+                          "population":  null,
+                          "populationUnit":  "万人",
+                          "disposableIncome":  null,
+                          "annualConsumptionPerCapita":  null,
+                          "parkGreenPerCapita":  null,
+                          "gasCoverage":  null,
+                          "railwayLength":  null,
+                          "highwayLength":  null,
+                          "incomeSupportScore":  null,
+                          "consumptionBurden":  null,
+                          "consumptionBurdenScore":  null,
+                          "environmentScore":  null,
+                          "publicServiceScore":  null,
+                          "overviewScore":  null,
+                          "coverageScore":  0.35,
+                          "coverageLevel":  "limited",
+                          "sourceRefs":  "nbs-api-province-annual-2024",
+                          "qualityFlags":  "limited_comparability",
+                          "periods":  {
+                                          "latest":  {
+                                                         "label":  "2024 official annual province data",
+                                                         "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                                         "aligned":  true
+                                                     },
+                                          "alignedAnnual":  {
+                                                                "label":  "2024 aligned annual province data",
+                                                                "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                                                "aligned":  true
+                                                            }
+                                      },
+                          "periodValues":  {
+                                               "latest":  {
+                                                              "population":  null,
+                                                              "disposableIncome":  null,
+                                                              "annualConsumptionPerCapita":  null,
+                                                              "parkGreenPerCapita":  null,
+                                                              "gasCoverage":  null,
+                                                              "railwayLength":  null,
+                                                              "highwayLength":  null
+                                                          }
+                                           },
+                          "hasComparableProxyFields":  true,
+                          "lastUpdated":  "2026-03-27"
+                      },
+                      {
+                          "id":  "820000000000",
+                          "code":  "820000000000",
+                          "name":  "澳门特别行政区",
+                          "region":  "greaterChinaLimited",
+                          "adminLevel":  "province-level",
+                          "provinceCapital":  "澳门特别行政区",
+                          "representativeCities":  [
+
+                                                   ],
+                          "population":  null,
+                          "populationUnit":  "万人",
+                          "disposableIncome":  null,
+                          "annualConsumptionPerCapita":  null,
+                          "parkGreenPerCapita":  null,
+                          "gasCoverage":  null,
+                          "railwayLength":  null,
+                          "highwayLength":  null,
+                          "incomeSupportScore":  null,
+                          "consumptionBurden":  null,
+                          "consumptionBurdenScore":  null,
+                          "environmentScore":  null,
+                          "publicServiceScore":  null,
+                          "overviewScore":  null,
+                          "coverageScore":  0.35,
+                          "coverageLevel":  "limited",
+                          "sourceRefs":  "nbs-api-province-annual-2024",
+                          "qualityFlags":  "limited_comparability",
+                          "periods":  {
+                                          "latest":  {
+                                                         "label":  "2024 official annual province data",
+                                                         "note":  "Province mode currently uses official annual 2024 fields. Environment is represented by green-space proxy, not province-level air quality.",
+                                                         "aligned":  true
+                                                     },
+                                          "alignedAnnual":  {
+                                                                "label":  "2024 aligned annual province data",
+                                                                "note":  "Province metrics are already aligned to the 2024 annual window.",
+                                                                "aligned":  true
+                                                            }
+                                      },
+                          "periodValues":  {
+                                               "latest":  {
+                                                              "population":  null,
+                                                              "disposableIncome":  null,
+                                                              "annualConsumptionPerCapita":  null,
+                                                              "parkGreenPerCapita":  null,
+                                                              "gasCoverage":  null,
+                                                              "railwayLength":  null,
+                                                              "highwayLength":  null
+                                                          }
+                                           },
+                          "hasComparableProxyFields":  true,
+                          "lastUpdated":  "2026-03-27"
+                      }
+                  ]
+}
