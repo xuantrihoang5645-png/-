@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>关于与方法 · 城市生活成本与宜居地图</title>
+  <meta
+    name="description"
+    content="查看项目背景、数据研究摘要、指标定义、AI 推荐逻辑、更新策略与局限性说明。"
+  />
+  <link rel="stylesheet" href="./css/style.css" />
+  <script src="./data/bootstrap.js" defer></script>
+  <script src="./js/about.js" defer></script>
+</head>
+<body>
+  <div class="page-shell narrow-shell">
+    <header class="topbar">
+      <a class="brand" href="./index.html">
+        <span class="brand-badge">CN</span>
+        <div>
+          <strong>城市生活成本与宜居地图</strong>
+          <small>关于与方法</small>
+        </div>
+      </a>
+      <nav class="topnav">
+        <a href="./index.html">返回首页</a>
+      </nav>
+    </header>
+
+    <main class="about-layout">
+      <div id="about-banner" class="status-banner status-banner-hidden" role="status"></div>
+
+      <section class="card about-span-2">
+        <p class="eyebrow">项目背景</p>
+        <h1>这是一个城市生活决策工具</h1>
+        <p>
+          它用真实快照比较房租压力、收入支撑、通勤便利和生活质量。
+        </p>
+        <p>
+          首版是纯前端静态站：没有后端，没有实时 API，推荐逻辑也能本地运行。
+        </p>
+        <div class="about-stats">
+          <div class="mini-stat">
+            <strong id="about-city-count">0</strong>
+            <span>当前内置城市</span>
+          </div>
+          <div class="mini-stat">
+            <strong id="about-source-count">0</strong>
+            <span>登记来源条目</span>
+          </div>
+          <div class="mini-stat">
+            <strong id="about-generated-at">—</strong>
+            <span>派生数据生成时间</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="card about-span-2">
+        <p class="eyebrow">数据研究摘要</p>
+        <h2>首版数据源</h2>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>数据源名称</th>
+                <th>来源类型</th>
+                <th>可提供字段</th>
+                <th>覆盖范围</th>
+                <th>更新频率</th>
+                <th>适合首版</th>
+                <th>适合静态站点</th>
+                <th>适合横向比较</th>
+                <th>局限性说明</th>
+              </tr>
+            </thead>
+            <tbody id="about-research-table"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="card">
+        <p class="eyebrow">指标定义</p>
+        <h2>指标怎么来</h2>
+        <div class="rich-text">
+          <p><strong>综合生活成本</strong>：由房租压力、消费支出、租金水平和通勤负担代理加权得到，是站内快照指数，不是官方 CPI。</p>
+          <p><strong>房租压力代理</strong>：优先用租金快照 ÷ 月收入参考；缺工资时退回 `disposableIncome / 12`。</p>
+          <p><strong>通勤便利</strong>：优先用 45 分钟可达性、通勤时长、轨道交通和公共交通 proxy。</p>
+          <p><strong>环境分</strong>：只在优良天数比例与 PM2.5 同时可用时生成。</p>
+          <p><strong>AI 得分</strong>：由偏好匹配和覆盖置信度共同决定，公式为 `finalAiScore = rawAiScore × (0.70 + 0.30 × coverageScore)`。</p>
+        </div>
+      </section>
+
+      <section class="card">
+        <p class="eyebrow">AI 推荐逻辑</p>
+        <h2>AI 的角色</h2>
+        <div class="rich-text">
+          <p>AI 不是数据源，也不替代指标体系。</p>
+          <p>首版采用 <strong>规则引擎 + 模板解释</strong>：先算候选城市，再生成理由、代价和下一步建议。</p>
+          <p>覆盖分低于阈值时，只会降级推荐或直接排除。</p>
+          <p>二期如果接模型，也只负责改写解释，不负责补事实或改分数。</p>
+        </div>
+      </section>
+
+      <section class="card">
+        <p class="eyebrow">更新策略</p>
+        <h2>如何更新</h2>
+        <ul id="about-update-strategy" class="bullet-list">
+          <li>加载中…</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <p class="eyebrow">局限性说明</p>
+        <h2>局限性</h2>
+        <ul id="about-limitations" class="bullet-list">
+          <li>加载中…</li>
+        </ul>
+      </section>
+
+      <section class="card about-span-2">
+        <p class="eyebrow">来源登记</p>
+        <h2>来源列表</h2>
+        <div id="about-source-list" class="source-grid"></div>
+      </section>
+
+      <section class="card">
+        <p class="eyebrow">部署说明</p>
+        <h2>部署</h2>
+        <div class="rich-text">
+          <p>页面、图表依赖和数据包都已本地化，不依赖后端。</p>
+          <p>默认使用相对路径，推送到 GitHub 后开启 Pages 即可。</p>
+          <p>前端直接消费 `bootstrap.js`，原始 JSON 仍保留在 `data/` 目录中。</p>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

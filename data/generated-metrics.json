@@ -1,0 +1,459 @@
+﻿[
+    {
+        "cityId":  "beijing",
+        "rentBurdenProxy":  0.341,
+        "rentIndex":  98.4,
+        "rentBurdenIndex":  89.3,
+        "consumptionIndex":  75.7,
+        "commuteIndex":  55.8,
+        "basicServices":  null,
+        "airQualityScore":  null,
+        "transportCostIndex":  44.2,
+        "totalCostIndex":  81.4,
+        "costFriendliness":  18.6,
+        "savingScore":  44.4,
+        "graduateScore":  24.1,
+        "balancedScore":  null,
+        "coupleScore":  44.4,
+        "coverageScore":  0.8,
+        "coverageLevel":  "full",
+        "sourceRefs":  [
+                           "beijing-bulletin-2024",
+                           "rent-beijing-2026-01",
+                           "commute-report-2024"
+                       ],
+        "qualityFlags":  [
+                             "rent_estimate_30sqm",
+                             "income_proxy",
+                             "mixed_periods",
+                             "mobility_proxy_subset",
+                             "missing_good_air_days_ratio"
+                         ],
+        "confidence":  0.8,
+        "periods":  {
+                        "latest":  {
+                                       "label":  "收入与消费为 2024，租金为 2026-01 快照",
+                                       "note":  "Latest mode shows the most recent verifiable snapshot for each metric.",
+                                       "aligned":  false,
+                                       "flags":  [
+
+                                                 ]
+                                   },
+                        "alignedAnnual":  {
+                                              "label":  "Aligned annual mode targets 2024, but this city still contains newer or mixed snapshots.",
+                                              "note":  "Aligned annual mode prefers 2024, but may retain newer snapshots where 2024 city-level values are unavailable.",
+                                              "aligned":  false,
+                                              "flags":  [
+                                                            "rent_not_aligned_2024",
+                                                            "mobility_not_fully_aligned_2024"
+                                                        ]
+                                          }
+                    },
+        "generatedAt":  "2026-03-27"
+    },
+    {
+        "cityId":  "shanghai",
+        "rentBurdenProxy":  0.332,
+        "rentIndex":  99.4,
+        "rentBurdenIndex":  85,
+        "consumptionIndex":  98,
+        "commuteIndex":  null,
+        "basicServices":  null,
+        "airQualityScore":  62.0,
+        "transportCostIndex":  null,
+        "totalCostIndex":  92.5,
+        "costFriendliness":  7.5,
+        "savingScore":  46.4,
+        "graduateScore":  null,
+        "balancedScore":  null,
+        "coupleScore":  54.2,
+        "coverageScore":  0.7,
+        "coverageLevel":  "degraded",
+        "sourceRefs":  [
+                           "shanghai-bulletin-2024",
+                           "rent-shanghai-2026-01"
+                       ],
+        "qualityFlags":  [
+                             "rent_estimate_30sqm",
+                             "income_proxy",
+                             "missing_commute_detail"
+                         ],
+        "confidence":  0.82,
+        "periods":  {
+                        "latest":  {
+                                       "label":  "收入与消费为 2024，租金为 2026-01 快照",
+                                       "note":  "Latest mode shows the most recent verifiable snapshot for each metric.",
+                                       "aligned":  false,
+                                       "flags":  [
+
+                                                 ]
+                                   },
+                        "alignedAnnual":  {
+                                              "label":  "Aligned annual mode targets 2024, but this city still contains newer or mixed snapshots.",
+                                              "note":  "Aligned annual mode prefers 2024, but may retain newer snapshots where 2024 city-level values are unavailable.",
+                                              "aligned":  false,
+                                              "flags":  [
+                                                            "rent_not_aligned_2024"
+                                                        ]
+                                          }
+                    },
+        "generatedAt":  "2026-03-27"
+    },
+    {
+        "cityId":  "shenzhen",
+        "rentBurdenProxy":  0.363,
+        "rentIndex":  100,
+        "rentBurdenIndex":  99.9,
+        "consumptionIndex":  88.2,
+        "commuteIndex":  75.7,
+        "basicServices":  100,
+        "airQualityScore":  79,
+        "transportCostIndex":  24.3,
+        "totalCostIndex":  88.3,
+        "costFriendliness":  11.7,
+        "savingScore":  36.1,
+        "graduateScore":  33.7,
+        "balancedScore":  66.6,
+        "coupleScore":  60.6,
+        "coverageScore":  1,
+        "coverageLevel":  "full",
+        "sourceRefs":  [
+                           "shenzhen-bulletin-2024",
+                           "rent-shenzhen-2026-02",
+                           "commute-report-2025-news"
+                       ],
+        "qualityFlags":  [
+                             "rent_estimate_30sqm",
+                             "income_proxy",
+                             "mixed_periods"
+                         ],
+        "confidence":  0.87,
+        "periods":  {
+                        "latest":  {
+                                       "label":  "收入与消费为 2024，租金为 2026-02 快照",
+                                       "note":  "Latest mode shows the most recent verifiable snapshot for each metric.",
+                                       "aligned":  false,
+                                       "flags":  [
+
+                                                 ]
+                                   },
+                        "alignedAnnual":  {
+                                              "label":  "Aligned annual mode targets 2024, but this city still contains newer or mixed snapshots.",
+                                              "note":  "Aligned annual mode prefers 2024, but may retain newer snapshots where 2024 city-level values are unavailable.",
+                                              "aligned":  false,
+                                              "flags":  [
+                                                            "rent_not_aligned_2024",
+                                                            "mobility_not_fully_aligned_2024"
+                                                        ]
+                                          }
+                    },
+        "generatedAt":  "2026-03-27"
+    },
+    {
+        "cityId":  "guangzhou",
+        "rentBurdenProxy":  0.206,
+        "rentIndex":  39.3,
+        "rentBurdenIndex":  24.5,
+        "consumptionIndex":  81.3,
+        "commuteIndex":  null,
+        "basicServices":  null,
+        "airQualityScore":  null,
+        "transportCostIndex":  82.1,
+        "totalCostIndex":  52.4,
+        "costFriendliness":  47.6,
+        "savingScore":  72.1,
+        "graduateScore":  null,
+        "balancedScore":  null,
+        "coupleScore":  72.1,
+        "coverageScore":  0.6,
+        "coverageLevel":  "degraded",
+        "sourceRefs":  [
+                           "guangzhou-bulletin-2024",
+                           "rent-guangzhou-2026-01",
+                           "guangzhou-transport-summary"
+                       ],
+        "qualityFlags":  [
+                             "income_scope_mismatch",
+                             "rent_estimate_30sqm",
+                             "scope_mismatch",
+                             "income_proxy",
+                             "missing_rail_detail",
+                             "missing_45min_share",
+                             "missing_good_air_days_ratio"
+                         ],
+        "confidence":  0.68,
+        "periods":  {
+                        "latest":  {
+                                       "label":  "消费为 2024 城镇居民口径，租金为 2026-01 快照",
+                                       "note":  "Latest mode shows the most recent verifiable snapshot for each metric.",
+                                       "aligned":  false,
+                                       "flags":  [
+
+                                                 ]
+                                   },
+                        "alignedAnnual":  {
+                                              "label":  "Aligned annual mode targets 2024, but this city still contains newer or mixed snapshots.",
+                                              "note":  "Aligned annual mode prefers 2024, but may retain newer snapshots where 2024 city-level values are unavailable.",
+                                              "aligned":  false,
+                                              "flags":  [
+                                                            "rent_not_aligned_2024"
+                                                        ]
+                                          }
+                    },
+        "generatedAt":  "2026-03-27"
+    },
+    {
+        "cityId":  "hangzhou",
+        "rentBurdenProxy":  0.228,
+        "rentIndex":  40.7,
+        "rentBurdenIndex":  35.1,
+        "consumptionIndex":  100,
+        "commuteIndex":  65,
+        "basicServices":  null,
+        "airQualityScore":  55.7,
+        "transportCostIndex":  35,
+        "totalCostIndex":  58.6,
+        "costFriendliness":  41.4,
+        "savingScore":  58.3,
+        "graduateScore":  56.6,
+        "balancedScore":  54.0,
+        "coupleScore":  56,
+        "coverageScore":  0.8,
+        "coverageLevel":  "full",
+        "sourceRefs":  [
+                           "hangzhou-bulletin-2024",
+                           "rent-hangzhou-2026-02",
+                           "commute-report-2024"
+                       ],
+        "qualityFlags":  [
+                             "rent_estimate_30sqm",
+                             "income_proxy",
+                             "mixed_periods",
+                             "missing_public_transport_score"
+                         ],
+        "confidence":  0.84,
+        "periods":  {
+                        "latest":  {
+                                       "label":  "收入与消费为 2024，租金为 2026-02 快照",
+                                       "note":  "Latest mode shows the most recent verifiable snapshot for each metric.",
+                                       "aligned":  false,
+                                       "flags":  [
+
+                                                 ]
+                                   },
+                        "alignedAnnual":  {
+                                              "label":  "Aligned annual mode targets 2024, but this city still contains newer or mixed snapshots.",
+                                              "note":  "Aligned annual mode prefers 2024, but may retain newer snapshots where 2024 city-level values are unavailable.",
+                                              "aligned":  false,
+                                              "flags":  [
+                                                            "rent_not_aligned_2024",
+                                                            "mobility_not_fully_aligned_2024"
+                                                        ]
+                                          }
+                    },
+        "generatedAt":  "2026-03-27"
+    },
+    {
+        "cityId":  "nanjing",
+        "rentBurdenProxy":  0.176,
+        "rentIndex":  19.8,
+        "rentBurdenIndex":  10.1,
+        "consumptionIndex":  37,
+        "commuteIndex":  null,
+        "basicServices":  null,
+        "airQualityScore":  60.4,
+        "transportCostIndex":  78.7,
+        "totalCostIndex":  27.8,
+        "costFriendliness":  72.2,
+        "savingScore":  72,
+        "graduateScore":  null,
+        "balancedScore":  null,
+        "coupleScore":  66.2,
+        "coverageScore":  0.75,
+        "coverageLevel":  "degraded",
+        "sourceRefs":  [
+                           "nanjing-bulletin-2024",
+                           "rent-nanjing-2026-01",
+                           "commute-report-2024"
+                       ],
+        "qualityFlags":  [
+                             "rent_estimate_30sqm",
+                             "income_proxy",
+                             "missing_45min_share",
+                             "missing_public_transport_score"
+                         ],
+        "confidence":  0.81,
+        "periods":  {
+                        "latest":  {
+                                       "label":  "收入与消费为 2024，租金为 2026-01 快照",
+                                       "note":  "Latest mode shows the most recent verifiable snapshot for each metric.",
+                                       "aligned":  false,
+                                       "flags":  [
+
+                                                 ]
+                                   },
+                        "alignedAnnual":  {
+                                              "label":  "Aligned annual mode targets 2024, but this city still contains newer or mixed snapshots.",
+                                              "note":  "Aligned annual mode prefers 2024, but may retain newer snapshots where 2024 city-level values are unavailable.",
+                                              "aligned":  false,
+                                              "flags":  [
+                                                            "rent_not_aligned_2024",
+                                                            "mobility_not_fully_aligned_2024"
+                                                        ]
+                                          }
+                    },
+        "generatedAt":  "2026-03-27"
+    },
+    {
+        "cityId":  "wuhan",
+        "rentBurdenProxy":  0.155,
+        "rentIndex":  0,
+        "rentBurdenIndex":  0,
+        "consumptionIndex":  0,
+        "commuteIndex":  null,
+        "basicServices":  73.9,
+        "airQualityScore":  null,
+        "transportCostIndex":  78.7,
+        "totalCostIndex":  7.9,
+        "costFriendliness":  92.1,
+        "savingScore":  59.4,
+        "graduateScore":  92.1,
+        "balancedScore":  null,
+        "coupleScore":  59.4,
+        "coverageScore":  0.85,
+        "coverageLevel":  "full",
+        "sourceRefs":  [
+                           "wuhan-bulletin-2024",
+                           "rent-wuhan-2026-02",
+                           "commute-report-2024"
+                       ],
+        "qualityFlags":  [
+                             "rent_estimate_30sqm",
+                             "income_proxy",
+                             "missing_45min_share",
+                             "missing_good_air_days_ratio"
+                         ],
+        "confidence":  0.8,
+        "periods":  {
+                        "latest":  {
+                                       "label":  "收入与消费为 2024，租金为 2026-02 快照",
+                                       "note":  "Latest mode shows the most recent verifiable snapshot for each metric.",
+                                       "aligned":  false,
+                                       "flags":  [
+
+                                                 ]
+                                   },
+                        "alignedAnnual":  {
+                                              "label":  "Aligned annual mode targets 2024, but this city still contains newer or mixed snapshots.",
+                                              "note":  "Aligned annual mode prefers 2024, but may retain newer snapshots where 2024 city-level values are unavailable.",
+                                              "aligned":  false,
+                                              "flags":  [
+                                                            "rent_not_aligned_2024",
+                                                            "mobility_not_fully_aligned_2024"
+                                                        ]
+                                          }
+                    },
+        "generatedAt":  "2026-03-27"
+    },
+    {
+        "cityId":  "suzhou",
+        "rentBurdenProxy":  0.157,
+        "rentIndex":  14.3,
+        "rentBurdenIndex":  1,
+        "consumptionIndex":  63.4,
+        "commuteIndex":  null,
+        "basicServices":  null,
+        "airQualityScore":  58.3,
+        "transportCostIndex":  null,
+        "totalCostIndex":  27.5,
+        "costFriendliness":  72.5,
+        "savingScore":  78.8,
+        "graduateScore":  null,
+        "balancedScore":  null,
+        "coupleScore":  68.6,
+        "coverageScore":  0.8,
+        "coverageLevel":  "full",
+        "sourceRefs":  [
+                           "suzhou-bulletin-2024",
+                           "rent-suzhou-2026-01"
+                       ],
+        "qualityFlags":  [
+                             "rent_estimate_30sqm",
+                             "income_proxy",
+                             "missing_commute_detail"
+                         ],
+        "confidence":  0.82,
+        "periods":  {
+                        "latest":  {
+                                       "label":  "收入与消费为 2024，租金为 2026-01 快照",
+                                       "note":  "Latest mode shows the most recent verifiable snapshot for each metric.",
+                                       "aligned":  false,
+                                       "flags":  [
+
+                                                 ]
+                                   },
+                        "alignedAnnual":  {
+                                              "label":  "Aligned annual mode targets 2024, but this city still contains newer or mixed snapshots.",
+                                              "note":  "Aligned annual mode prefers 2024, but may retain newer snapshots where 2024 city-level values are unavailable.",
+                                              "aligned":  false,
+                                              "flags":  [
+                                                            "rent_not_aligned_2024"
+                                                        ]
+                                          }
+                    },
+        "generatedAt":  "2026-03-27"
+    },
+    {
+        "cityId":  "xiamen",
+        "rentBurdenProxy":  0.188,
+        "rentIndex":  23.3,
+        "rentBurdenIndex":  15.9,
+        "consumptionIndex":  70.8,
+        "commuteIndex":  null,
+        "basicServices":  null,
+        "airQualityScore":  null,
+        "transportCostIndex":  70.2,
+        "totalCostIndex":  41.7,
+        "costFriendliness":  58.3,
+        "savingScore":  65.4,
+        "graduateScore":  null,
+        "balancedScore":  null,
+        "coupleScore":  65.4,
+        "coverageScore":  0.75,
+        "coverageLevel":  "degraded",
+        "sourceRefs":  [
+                           "xiamen-bulletin-2024",
+                           "rent-xiamen-2026-01",
+                           "mobility-public-summary"
+                       ],
+        "qualityFlags":  [
+                             "environment_partial",
+                             "mobility_partial",
+                             "rent_estimate_30sqm",
+                             "income_proxy",
+                             "missing_rail_detail",
+                             "missing_45min_share",
+                             "missing_pm25_reference"
+                         ],
+        "confidence":  0.74,
+        "periods":  {
+                        "latest":  {
+                                       "label":  "收入与消费为 2024，租金为 2026-01 快照",
+                                       "note":  "Latest mode shows the most recent verifiable snapshot for each metric.",
+                                       "aligned":  false,
+                                       "flags":  [
+
+                                                 ]
+                                   },
+                        "alignedAnnual":  {
+                                              "label":  "Aligned annual mode targets 2024, but this city still contains newer or mixed snapshots.",
+                                              "note":  "Aligned annual mode prefers 2024, but may retain newer snapshots where 2024 city-level values are unavailable.",
+                                              "aligned":  false,
+                                              "flags":  [
+                                                            "rent_not_aligned_2024"
+                                                        ]
+                                          }
+                    },
+        "generatedAt":  "2026-03-27"
+    }
+]

@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>城市生活成本与宜居地图</title>
+  <meta
+    name="description"
+    content="用真实城市快照和可解释推荐逻辑，比较中国城市的生活成本、房租压力、通勤便利与生活质量。"
+  />
+  <link rel="stylesheet" href="./css/style.css" />
+  <script src="./assets/vendor/echarts.min.js" defer></script>
+  <script src="./assets/vendor/china.js" defer></script>
+  <script src="./data/bootstrap.js" defer></script>
+  <script src="./js/charts.js" defer></script>
+  <script src="./js/recommendation.js" defer></script>
+  <script src="./js/app.js" defer></script>
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <a class="brand" href="./index.html" aria-label="返回首页">
+        <span class="brand-badge">CN</span>
+        <div>
+          <strong>城市生活成本与宜居地图</strong>
+          <small>真实快照 + 可解释 AI 推荐</small>
+        </div>
+      </a>
+      <nav class="topnav">
+        <a href="#map-section">城市地图</a>
+        <a href="#ranking-section">城市榜单</a>
+        <a href="#compare-section">城市对比</a>
+        <a href="#ai-section">AI 推荐</a>
+        <a href="./about.html">关于与方法</a>
+      </nav>
+    </header>
+
+    <main>
+      <div id="global-banner" class="status-banner status-banner-hidden" role="status"></div>
+
+      <section class="hero card">
+        <div class="hero-copy">
+          <p class="eyebrow">中国城市数据快照</p>
+          <h1>城市生活成本与宜居地图</h1>
+          <p class="hero-subtitle">
+            用真实快照和可解释推荐，快速比较成本、房租、通勤和空气质量。
+          </p>
+          <div class="hero-search">
+            <input id="hero-search" type="search" placeholder="搜索城市，例如：武汉、深圳、杭州" />
+            <button id="search-button" class="btn btn-primary" type="button">搜索城市</button>
+            <a class="btn btn-secondary" href="#map-section">浏览城市地图</a>
+            <a class="btn btn-accent" href="#ai-section">立即获取 AI 推荐</a>
+          </div>
+          <p id="search-feedback" class="helper-text">支持中文名和拼音。</p>
+          <div class="hero-meta">
+            <span id="coverage-pill" class="pill">加载中…</span>
+            <span id="period-pill" class="pill pill-muted">当前模式：最新可用</span>
+            <span id="freshness-pill" class="pill pill-muted">数据包加载中</span>
+          </div>
+        </div>
+        <aside class="hero-side">
+          <div class="mini-stat">
+            <strong id="hero-city-count">0</strong>
+            <span>当前内置城市快照</span>
+          </div>
+          <div class="mini-stat">
+            <strong id="hero-deep-count">0</strong>
+            <span>可进入 AI 推荐</span>
+          </div>
+          <div class="mini-stat">
+            <strong id="hero-source-count">0</strong>
+            <span>已登记来源条目</span>
+          </div>
+          <p class="hero-note">先筛选，再深挖。</p>
+        </aside>
+      </section>
+
+      <section class="section-block">
+        <div class="section-header">
+          <div>
+            <p class="section-kicker">快捷入口</p>
+            <h2>按人群开始</h2>
+          </div>
+        </div>
+        <div id="persona-pills" class="chip-grid">
+          <button class="chip" type="button" data-preset="graduates">适合刚毕业</button>
+          <button class="chip" type="button" data-preset="couples">适合情侣</button>
+          <button class="chip" type="button" data-preset="budget">适合低预算</button>
+          <button class="chip" type="button" data-preset="saving">适合想攒钱</button>
+          <button class="chip" type="button" data-preset="transit">适合通勤便利</button>
+          <button class="chip" type="button" data-preset="air">适合重视空气质量</button>
+          <button class="chip" type="button" data-preset="balanced">适合追求平衡生活</button>
+        </div>
+      </section>
+
+      <section class="card filter-panel">
+        <div class="section-header">
+          <div>
+            <p class="section-kicker">筛选与排序</p>
+            <h2>先筛选</h2>
+          </div>
+          <div class="period-toggle" aria-label="统计周期模式">
+            <button class="toggle-btn is-active" type="button" data-period-mode="latest">最新可用</button>
+            <button class="toggle-btn" type="button" data-period-mode="alignedAnnual">统一年度</button>
+          </div>
+        </div>
+        <div class="filter-grid">
+          <label>
+            城市等级
+            <select id="filter-tier">
+              <option value="all">全部</option>
+            </select>
+          </label>
+          <label>
+            区域
+            <select id="filter-region">
+              <option value="all">全部</option>
+            </select>
+          </label>
+          <label>
+            房租水平
+            <select id="filter-rent">
+              <option value="all">全部</option>
+              <option value="low">低房租</option>
+              <option value="mid">中等</option>
+              <option value="high">高房租</option>
+            </select>
+          </label>
+          <label>
+            收入水平
+            <select id="filter-income">
+              <option value="all">全部</option>
+              <option value="low">较低</option>
+              <option value="mid">中等</option>
+              <option value="high">较高</option>
+            </select>
+          </label>
+          <label>
+            通勤便利
+            <select id="filter-commute">
+              <option value="all">全部</option>
+              <option value="good">更便利</option>
+              <option value="limited">通勤数据有限</option>
+            </select>
+          </label>
+          <label>
+            空气质量
+            <select id="filter-air">
+              <option value="all">全部</option>
+              <option value="good">更优</option>
+              <option value="limited">环境数据有限</option>
+            </select>
+          </label>
+          <label>
+            生活成本
+            <select id="filter-cost">
+              <option value="all">全部</option>
+              <option value="friendly">更友好</option>
+              <option value="balanced">中间区间</option>
+              <option value="pressured">压力较高</option>
+            </select>
+          </label>
+          <label>
+            人群标签
+            <select id="filter-persona">
+              <option value="all">全部</option>
+              <option value="graduates">刚毕业友好</option>
+              <option value="couples">情侣友好</option>
+              <option value="budget">低预算友好</option>
+              <option value="saving">攒钱友好</option>
+            </select>
+          </label>
+          <label>
+            排序方式
+            <select id="sort-mode">
+              <option value="balancedScore">综合平衡优先</option>
+              <option value="savingScore">攒钱友好优先</option>
+              <option value="graduateScore">刚毕业友好优先</option>
+              <option value="airQualityScore">空气质量优先</option>
+              <option value="commuteIndex">通勤便利优先</option>
+              <option value="totalCostIndexAsc">生活成本更低优先</option>
+            </select>
+          </label>
+        </div>
+        <p id="filter-summary" class="helper-text">正在载入筛选范围…</p>
+      </section>
+
+      <section class="kpi-grid" aria-label="概览指标">
+        <article class="card kpi-card">
+          <span class="kpi-label">当前收录城市数</span>
+          <strong id="kpi-city-count">0</strong>
+          <small>筛选后</small>
+        </article>
+        <article class="card kpi-card">
+          <span class="kpi-label">覆盖核心指标数</span>
+          <strong id="kpi-metric-count">0</strong>
+          <small>核心维度</small>
+        </article>
+        <article class="card kpi-card">
+          <span class="kpi-label">房租压力较低代表</span>
+          <strong id="kpi-rent-friendly">—</strong>
+          <small id="kpi-rent-friendly-note">等待数据</small>
+        </article>
+        <article class="card kpi-card">
+          <span class="kpi-label">攒钱友好代表</span>
+          <strong id="kpi-saving-friendly">—</strong>
+          <small id="kpi-saving-friendly-note">等待数据</small>
+        </article>
+        <article class="card kpi-card">
+          <span class="kpi-label">通勤便利代表</span>
+          <strong id="kpi-transit-friendly">—</strong>
+          <small id="kpi-transit-friendly-note">等待数据</small>
+        </article>
+        <article class="card kpi-card">
+          <span class="kpi-label">当前数据更新时间</span>
+          <strong id="kpi-updated-at">—</strong>
+          <small>站内派生数据包生成时间</small>
+        </article>
+      </section>
+
+      <section id="map-section" class="section-block">
+        <div class="section-header">
+          <div>
+            <p class="section-kicker">核心图表</p>
+            <h2>城市地图</h2>
+          </div>
+          <div class="chart-controls">
+            <label class="inline-select">
+              指标切换
+              <select id="map-metric">
+                <option value="totalCostIndex">综合生活成本</option>
+                <option value="rentBurdenProxy">房租压力</option>
+                <option value="commuteIndex">通勤便利</option>
+                <option value="airQualityScore">空气质量</option>
+                <option value="balancedScore">综合平衡型</option>
+                <option value="savingScore">攒钱友好度</option>
+              </select>
+            </label>
+          </div>
+        </div>
+        <div class="map-layout">
+          <article class="card">
+            <div class="chart-shell">
+              <div id="map-state" class="module-state module-state-loading">地图加载中…</div>
+              <div id="city-map" class="chart chart-map" aria-label="城市地图"></div>
+            </div>
+          </article>
+          <aside class="side-stack">
+            <article class="card side-panel">
+              <h3>说明</h3>
+              <p id="map-description">加载中…</p>
+              <ul id="map-coverage-list" class="meta-list"></ul>
+            </article>
+            <article class="card side-panel">
+              <h3>周期</h3>
+              <ul id="map-source-list" class="meta-list"></ul>
+            </article>
+          </aside>
+        </div>
+      </section>
+
+      <section id="ranking-section" class="section-block">
+        <div class="section-header">
+          <div>
+            <p class="section-kicker">快速扫榜</p>
+            <h2>城市榜单</h2>
+          </div>
+        </div>
+        <div class="ranking-grid">
+          <article class="card">
+            <h3>房租压力较低城市榜</h3>
+            <ol id="ranking-rent" class="ranking-list"></ol>
+          </article>
+          <article class="card">
+            <h3>攒钱友好城市榜</h3>
+            <ol id="ranking-saving" class="ranking-list"></ol>
+          </article>
+          <article class="card">
+            <h3>通勤便利城市榜</h3>
+            <ol id="ranking-transit" class="ranking-list"></ol>
+          </article>
+          <article class="card">
+            <h3>空气质量较优城市榜</h3>
+            <ol id="ranking-air" class="ranking-list"></ol>
+          </article>
+          <article class="card card-span-2">
+            <h3>综合平衡型城市榜</h3>
+            <ol id="ranking-balanced" class="ranking-list"></ol>
+          </article>
+        </div>
+      </section>
+
+      <section id="compare-section" class="section-block">
+        <div class="section-header">
+          <div>
+            <p class="section-kicker">对比模式</p>
+            <h2>城市对比</h2>
+          </div>
+        </div>
+        <div class="compare-layout">
+          <article class="card compare-picker-card">
+            <h3>选择 2–4 个城市</h3>
+            <p class="helper-text">勾选后自动刷新。</p>
+            <div id="compare-city-list" class="picker-list"></div>
+          </article>
+          <div class="compare-charts">
+            <article class="card">
+              <div class="chart-shell">
+                <div id="compare-state" class="module-state module-state-loading">等待选择城市…</div>
+                <div id="compare-chart" class="chart chart-medium" aria-label="城市雷达对比"></div>
+              </div>
+            </article>
+            <article class="card compare-summary">
+              <h3>AI 城市对比总结</h3>
+              <div id="compare-summary-content" class="rich-text">
+                <p class="empty-state">至少选择两个城市后，系统才会生成对比总结。</p>
+              </div>
+            </article>
+            <article class="card">
+              <h3>收入 vs 房租压力散点图</h3>
+              <div class="chart-shell">
+                <div id="scatter-state" class="module-state module-state-loading">散点图加载中…</div>
+                <div id="income-rent-scatter" class="chart chart-medium" aria-label="收入与房租压力散点图"></div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="two-column section-block">
+        <article class="card">
+          <div class="section-header">
+            <div>
+              <p class="section-kicker">指标拆解</p>
+              <h2>宜居拆解</h2>
+            </div>
+          </div>
+          <div class="dimension-grid">
+            <div>
+              <h3>居住成本</h3>
+              <p>看租金、房租收入比和成本指数。</p>
+            </div>
+            <div>
+              <h3>通勤效率</h3>
+              <p>看通勤时长、45 分钟可达性和轨道交通。</p>
+            </div>
+            <div>
+              <h3>环境质量</h3>
+              <p>优先看优良天数和 PM2.5。</p>
+            </div>
+            <div>
+              <h3>基础服务</h3>
+              <p>看公共交通、设施覆盖和绿地。</p>
+            </div>
+            <div>
+              <h3>收入支撑力</h3>
+              <p>看收入能否覆盖日常成本。</p>
+            </div>
+            <div>
+              <h3>攒钱空间</h3>
+              <p>同时看收入、成本和房租压力。</p>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="section-header">
+            <div>
+              <p class="section-kicker">决策提醒</p>
+              <h2>使用提醒</h2>
+            </div>
+          </div>
+          <ul class="bullet-list">
+            <li>AI 只做解释，不替代数据。</li>
+            <li>覆盖不足会降级或排除。</li>
+            <li>租金适合横向参考，不替代看房。</li>
+            <li>统一年度模式仍可能混入最近快照。</li>
+            <li>迁移前仍要核对岗位和片区。</li>
+          </ul>
+        </article>
+      </section>
+
+      <section id="ai-section" class="section-block">
+        <div class="section-header">
+          <div>
+            <p class="section-kicker">核心功能</p>
+            <h2>AI 城市推荐官</h2>
+          </div>
+        </div>
+        <div class="ai-layout">
+          <article class="card ai-form-card">
+            <form id="ai-form" class="ai-form">
+              <label>
+                月预算范围
+                <select name="budgetBand">
+                  <option value="tight">偏紧</option>
+                  <option value="moderate" selected>中等</option>
+                  <option value="comfortable">更宽松</option>
+                </select>
+              </label>
+              <label>
+                生活阶段
+                <select name="lifeStage">
+                  <option value="graduate">刚毕业</option>
+                  <option value="earlyCareer" selected>工作 1–3 年</option>
+                  <option value="stable">稳定期</option>
+                </select>
+              </label>
+              <label>
+                家庭状态
+                <select name="household">
+                  <option value="solo" selected>单人</option>
+                  <option value="couple">情侣</option>
+                  <option value="family">小家庭</option>
+                </select>
+              </label>
+              <label>
+                区域偏好
+                <select name="regionPreference" id="ai-region">
+                  <option value="all">不限</option>
+                </select>
+              </label>
+              <label>
+                城市级别偏好
+                <select name="tierPreference">
+                  <option value="balanced" selected>平衡一点</option>
+                  <option value="big">机会更多</option>
+                  <option value="calm">压力更低</option>
+                  <option value="flex">都可以</option>
+                </select>
+              </label>
+              <label>
+                可接受房租压力
+                <select name="rentTolerance">
+                  <option value="low">低</option>
+                  <option value="medium" selected>中</option>
+                  <option value="high">高</option>
+                </select>
+              </label>
+              <label>
+                攒钱优先
+                <span class="range-meta" data-range-output="savingPriority">55</span>
+                <input type="range" name="savingPriority" min="0" max="100" value="55" />
+              </label>
+              <label>
+                通勤重要性
+                <span class="range-meta" data-range-output="commutePriority">65</span>
+                <input type="range" name="commutePriority" min="0" max="100" value="65" />
+              </label>
+              <label>
+                空气质量重要性
+                <span class="range-meta" data-range-output="airPriority">55</span>
+                <input type="range" name="airPriority" min="0" max="100" value="55" />
+              </label>
+              <label>
+                更偏好机会还是低压力
+                <span class="range-meta" data-range-output="opportunityPriority">50</span>
+                <input type="range" name="opportunityPriority" min="0" max="100" value="50" />
+              </label>
+              <button class="btn btn-primary" type="submit">生成 AI 推荐</button>
+            </form>
+          </article>
+          <div class="ai-results">
+            <article class="card">
+              <h3>推荐逻辑摘要</h3>
+              <div id="ai-weight-summary" class="rich-text">
+                <p class="empty-state">提交后显示权重摘要。</p>
+              </div>
+            </article>
+            <article class="card">
+              <div class="section-header">
+                <div>
+                  <h3>推荐城市 Top 3–5</h3>
+                  <p class="section-note">每张卡片都给出理由和代价。</p>
+                </div>
+              </div>
+              <div id="ai-results-list" class="recommendation-list">
+                <p class="empty-state">先选预设，或直接提交偏好。</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="two-column section-block">
+        <article class="card">
+          <div class="section-header">
+            <div>
+              <p class="section-kicker">人群建议</p>
+              <h2>人群建议</h2>
+            </div>
+          </div>
+          <div id="persona-advice" class="rich-text">
+            <p class="empty-state">等待城市数据加载。</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="section-header">
+            <div>
+              <p class="section-kicker">来源说明</p>
+              <h2>数据边界</h2>
+            </div>
+          </div>
+          <ul id="data-disclaimer-list" class="bullet-list">
+            <li>加载中…</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="section-block">
+        <div class="section-header">
+          <div>
+            <p class="section-kicker">数据研究摘要</p>
+            <h2>数据摘要</h2>
+          </div>
+        </div>
+        <article class="card">
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>数据源名称</th>
+                  <th>来源类型</th>
+                  <th>可提供字段</th>
+                  <th>覆盖范围</th>
+                  <th>更新频率</th>
+                  <th>适合首版</th>
+                  <th>适合静态站点</th>
+                  <th>适合横向比较</th>
+                  <th>局限性说明</th>
+                </tr>
+              </thead>
+              <tbody id="research-table-body"></tbody>
+            </table>
+          </div>
+        </article>
+      </section>
+
+      <section class="section-block">
+        <div class="section-header">
+          <div>
+            <p class="section-kicker">常见问题</p>
+            <h2>FAQ</h2>
+          </div>
+        </div>
+        <div class="faq-list">
+          <details>
+            <summary>数据是实时的吗？</summary>
+            <p>不是，是人工核实后的静态快照。</p>
+          </details>
+          <details>
+            <summary>AI 推荐是怎么来的？</summary>
+            <p>先算分，再生成解释。</p>
+          </details>
+          <details>
+            <summary>AI 推荐会不会出错？</summary>
+            <p>会，只适合第一轮筛选。</p>
+          </details>
+          <details>
+            <summary>推荐结果是绝对正确的吗？</summary>
+            <p>不是，只是当前偏好的排序结果。</p>
+          </details>
+          <details>
+            <summary>为什么不同城市数据更新时间不同？</summary>
+            <p>因为不同指标来自不同渠道。</p>
+          </details>
+          <details>
+            <summary>为什么有些城市没有完整指标？</summary>
+            <p>公开口径不完整，缺项只会降级展示。</p>
+          </details>
+          <details>
+            <summary>这个网站能替代真实租房、求职或迁移决策吗？</summary>
+            <p>不能，它只负责前置筛选。</p>
+          </details>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer card">
+      <div>
+        <strong>城市生活成本与宜居地图</strong>
+        <p>中国城市生活快照工具。</p>
+      </div>
+      <div class="footer-meta">
+        <a href="./about.html">关于与方法</a>
+        <span id="footer-generated-at">生成时间：—</span>
+      </div>
+    </footer>
+  </div>
+
+  <aside id="city-drawer" class="drawer" aria-hidden="true">
+    <div class="drawer-backdrop" data-close-drawer="true"></div>
+    <div class="drawer-panel">
+      <button class="drawer-close" type="button" data-close-drawer="true" aria-label="关闭">×</button>
+      <div id="drawer-content" class="drawer-content"></div>
+    </div>
+  </aside>
+</body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "siteGeneratedAt": "2026-03-27",
+  "majorDataPeriods": [
+    "人口、收入、消费、轨道、绿地等基础字段优先来自 2024 年城市统计公报。",
+    "空气质量优先使用 2024 年年度公报口径；个别城市缺项时不强行生成综合环境分。",
+    "租金快照优先使用 2026 年 1-2 月公开城市月报/站内摘要，属于商业平台快照。",
+    "通勤字段优先引用 2024 年度中国主要城市通勤监测报告及 2025 年公开报道摘要。"
+  ],
+  "updateStrategy": [
+    "先更新官方年度公报，再更新空气质量与租金快照，最后补通勤报告。",
+    "每次更新后运行 scripts/build-derived.ps1 与 scripts/validate-data.ps1。",
+    "核对来源、周期和缺失标签后再发布到 GitHub Pages。"
+  ],
+  "aiMode": "rule-engine-local",
+  "coverageSummary": {
+    "includedCities": 9,
+    "deepCoverageCities": 7,
+    "degradedCoverageCities": 2,
+    "nationalMapMode": "china-basemap-with-city-points"
+  },
+  "disclaimer": [
+    "本站是静态快照站点，不是实时数据库。",
+    "商业平台租金数据不等于官方统计口径。",
+    "AI 推荐只做解释层和决策辅助，不替代真实迁移、租房或求职决策。"
+  ]
+}
